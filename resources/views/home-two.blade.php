@@ -1,1136 +1,144 @@
-<!DOCTYPE html>
-<html lang="en">
-    
-<!-- Mirrored from quomodothemes.website/html/shopus/home-three.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Dec 2024 13:16:19 GMT -->
-<head>
-        <meta charset="utf-8" />
-        <meta
-            name="keywords"
-            content="ShopUS, bootstrap-5, bootstrap, sass, css, HTML Template, HTML,html, bootstrap template, free template, figma, web design, web development,front end, bootstrap datepicker, bootstrap timepicker, javascript, ecommerce template"
-        />
-
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        <link rel="icon" href="assets/images/homepage-one/icon.png" />
-
-        <!--title  -->
-        <title>Shopus: Your One-Stop Destination for Fashion and Style</title>
-
-        <!--------------- swiper-css ---------------->
-        <link rel="stylesheet" href="css/swiper10-bundle.min.css" />
-
-        <!--------------- bootstrap-css ---------------->
-        <link rel="stylesheet" href="css/bootstrap-5.3.2.min.css" />
-
-        <!---------------------- Range Slider ------------------->
-        <link rel="stylesheet" href="css/nouislider.min.css" />
-
-        <!---------------------- Scroll ------------------->
-        <link rel="stylesheet" href="css/aos-3.0.0.css" />
-
-        <!--------------- additional-css ---------------->
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
-
-    <body class="body-two">
-        <!--------------- header-section --------------->
-        <header id="header" class="header header-two header-three">
-            <div class="header-top-section">
-                <div class="container">
-                    <div class="header-top">
-                        <div class="header-profile">
-                            <a href="user-profile.html"><span>Account</span></a>
-                            <a href="order.html"><span>Track Order</span></a>
-                            <a href="faq.html"><span>Support</span></a>
-                        </div>
-                        <div class="header-contact d-none d-lg-block">
-                            <ul class="header-list">
-                                <li id="allsec">
-                                    <a href="#" onclick="selectBoxHandler('allsec')">
+@extends('layouts.main')
+@section('content')
+<!--------------- hero-section --------------->
+        <section id="hero" class="hero hero-two">
+            <div class="container">
+                <div class="hero-section-two">
+                    <div class="row g-5">
+                        <div class="col-lg-7">
+                            <div class="hero-left hero-wrapper-two">
+                                <div class="wrapper-content">
+                                    <h1 class="wrapper-title" data-aos="fade-up" data-aos-duration="500">
+                                        New <br />
+                                        Arrivals
+                                    </h1>
+                                    <h5 class="wrapper-details" data-aos="fade-up" data-aos-duration="700">Special Collection</h5>
+                                    <a href="#" class="shop-btn" data-aos="fade-up" data-aos-duration="800"
+                                        >Shop Now
                                         <span>
-                                            <img src="assets/images/homepage-one/h-1.png" alt="img" />
-                                        </span>
-                                        <span class="h-top-text item-text">United State </span>
-                                        <span>
-                                            <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <rect x="8.18359" y="0.90918" width="5.78538" height="1.28564" transform="rotate(135 8.18359 0.90918)" fill="#222222" />
-                                                <rect x="4.08984" y="5" width="5.78538" height="1.28564" transform="rotate(-135 4.08984 5)" fill="#222222" />
-                                            </svg>
-                                        </span>
-                                    </a>
-                                    <div class="slectbox-body" style="display: none">
-                                        <div class="clickAway position-fixed" onclick="selectBoxHandler('allsec')"></div>
-                                        <ul class="country-options">
-                                            <li class="all-option">
-                                                <span class="option-text item-text">United Kingdom</span>
-                                            </li>
-                                            <li class="all-option">
-                                                <span class="option-text item-text">Bangladesh</span>
-                                            </li>
-                                            <li class="all-option">
-                                                <span class="option-text item-text">Australia</span>
-                                            </li>
-                                            <li class="all-option">
-                                                <span class="option-text item-text">Canada</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li id="alltran">
-                                    <a href="#" onclick="selectBoxHandler('alltran')">
-                                        <span class="h-top-text item-text">USD</span>
-                                        <span>
-                                            <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <rect x="8.18359" y="0.90918" width="5.78538" height="1.28564" transform="rotate(135 8.18359 0.90918)" fill="#222222" />
-                                                <rect x="4.08984" y="5" width="5.78538" height="1.28564" transform="rotate(-135 4.08984 5)" fill="#222222" />
-                                            </svg>
-                                        </span>
-                                    </a>
-                                    <div class="slectbox-body" style="display: none">
-                                        <div class="clickAway position-fixed" onclick="selectBoxHandler('alltran')"></div>
-                                        <ul class="country-options">
-                                            <li class="all-option">
-                                                <span class="option-text item-text">USD</span>
-                                            </li>
-                                            <li class="all-option">
-                                                <span class="option-text item-text">BDT</span>
-                                            </li>
-                                            <li class="all-option">
-                                                <span class="option-text item-text">Pound</span>
-                                            </li>
-                                            <li class="all-option">
-                                                <span class="option-text item-text">Peso</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li id="alllang">
-                                    <a href="#" onclick="selectBoxHandler('alllang')">
-                                        <span class="h-top-text item-text">English</span>
-                                        <span>
-                                            <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <rect x="8.18359" y="0.90918" width="5.78538" height="1.28564" transform="rotate(135 8.18359 0.90918)" fill="#222222" />
-                                                <rect x="4.08984" y="5" width="5.78538" height="1.28564" transform="rotate(-135 4.08984 5)" fill="#222222" />
-                                            </svg>
-                                        </span>
-                                    </a>
-                                    <div class="slectbox-body" style="display: none">
-                                        <div class="clickAway position-fixed" onclick="selectBoxHandler('alllang')"></div>
-                                        <ul class="country-options">
-                                            <li class="all-option">
-                                                <span class="option-text item-text">English</span>
-                                            </li>
-                                            <li class="all-option">
-                                                <span class="option-text item-text">Bangali</span>
-                                            </li>
-                                            <li class="all-option">
-                                                <span class="option-text item-text">English(UK)</span>
-                                            </li>
-                                            <li class="all-option">
-                                                <span class="option-text item-text">Chinese</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="header-center-section d-none d-lg-block">
-                <div class="container">
-                    <div class="header-center">
-                        <div class="logo">
-                            <a href="index.html">
-                                <img src="assets/images/logos/logo.webp" alt="logo" />
-                            </a>
-                        </div>
-
-                        <div class="header-search-btn">
-                            <input class="header-input" type="text" placeholder="Search Product....." />
-                            <div class="divider"></div>
-                            <div id="allcat">
-                                <button class="search-btn" type="button" onclick="selectBoxHandler('allcat')">
-                                    <span class="item-text">Shoes</span>
-                                    <span>
-                                        <svg width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <rect x="9.18359" y="0.90918" width="5.78538" height="1.28564" transform="rotate(135 9.18359 0.90918)" fill="#8E8E8E"></rect>
-                                            <rect x="5.08984" y="5" width="5.78538" height="1.28564" transform="rotate(-135 5.08984 5)" fill="#8E8E8E"></rect>
-                                        </svg>
-                                    </span>
-                                </button>
-                                <div class="slectbox-body" style="display: none">
-                                    <div class="clickAway position-fixed" onclick="selectBoxHandler('allcat')"></div>
-                                    <ul class="country-options">
-                                        <li class="all-option">
-                                            <span class="option-text item-text">All Categories</span>
-                                        </li>
-                                        <li class="all-option">
-                                            <span class="option-text item-text">Dresses </span>
-                                        </li>
-                                        <li class="all-option">
-                                            <span class="option-text item-text">Mens Accesories</span>
-                                        </li>
-                                        <li class="all-option">
-                                            <span class="option-text item-text">Womens Accesories</span>
-                                        </li>
-                                        <li class="all-option">
-                                            <span class="option-text item-text">Shoes</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a href="#" class="shop-btn"><span>Search</span></a>
-                        </div>
-
-                        <div class="header-cart-items">
-                            <div class="header-compaire">
-                                <a href="compaire.html" class="cart-item">
-                                    <span>
-                                        <svg width="30" height="25" viewBox="0 0 30 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M8.41124 3.54192C8.41124 3.92942 8.39874 4.25025 8.38624 4.25025C8.37374 4.25025 8.16958 4.28775 7.94041 4.33775C3.98208 5.13775 1.02791 8.26692 0.477908 12.2419C0.348742 13.1503 0.402908 14.5336 0.598742 15.4586C1.09457 17.8253 2.63208 20.0461 4.66541 21.3461L4.90291 21.4961L5.49041 21.0544C5.81124 20.8128 6.07791 20.6044 6.07791 20.5878C6.07791 20.5753 5.97374 20.5086 5.84874 20.4419C5.21124 20.1086 4.38208 19.4419 3.81958 18.8128C2.75291 17.6169 2.06957 16.1586 1.84874 14.6253C1.76957 14.0586 1.76957 12.9336 1.84874 12.3961C2.01957 11.2586 2.41958 10.1836 3.01958 9.24192C3.76958 8.07109 4.91124 7.04609 6.16124 6.41692C6.79458 6.10025 7.67374 5.80025 8.27791 5.69192L8.41124 5.66692V6.25025C8.41124 6.57108 8.41958 6.83358 8.43208 6.83358C8.47374 6.83358 11.0779 4.86275 11.0779 4.83358C11.0779 4.80442 8.47374 2.83358 8.43208 2.83358C8.41958 2.83358 8.41124 3.15025 8.41124 3.54192Z"
-                                                fill="black"
-                                            />
-                                            <path
-                                                d="M13.9991 5.94591C13.6783 6.18758 13.42 6.40008 13.4325 6.41674C13.445 6.43758 13.57 6.51674 13.7158 6.59591C14.9366 7.28758 16.0741 8.45424 16.7783 9.75008C17.2033 10.5292 17.5616 11.6626 17.6616 12.5459C17.745 13.2417 17.695 14.4376 17.5616 15.0709C16.9866 17.7959 15.0908 19.9917 12.4741 20.9667C12.145 21.0876 11.2533 21.3334 11.1366 21.3334C11.0908 21.3334 11.0783 21.2292 11.0783 20.7501C11.0783 20.4292 11.07 20.1667 11.0575 20.1667C11.0158 20.1667 8.41162 22.1376 8.41162 22.1667C8.41162 22.1959 11.0158 24.1667 11.0575 24.1667C11.07 24.1667 11.0783 23.8501 11.0783 23.4584V22.7542L11.2366 22.7292C11.6241 22.6667 12.72 22.3709 13.0783 22.2292C16.3283 20.9584 18.5533 18.1417 19.0158 14.7084C19.1366 13.8251 19.0825 12.4417 18.8908 11.5417C18.395 9.17508 16.8575 6.95424 14.8241 5.65424L14.5866 5.50424L13.9991 5.94591Z"
-                                                fill="black"
-                                            />
-                                            <circle cx="22.0757" cy="7.83325" r="7" fill="#4C2C3B" />
-                                            <path
-                                                d="M22.0793 10.9419C21.5743 10.9398 21.1428 10.8066 20.7849 10.5424C20.4269 10.2782 20.1531 9.89362 19.9635 9.38865C19.7739 8.88368 19.6791 8.27537 19.6791 7.56372C19.6791 6.8542 19.7739 6.24802 19.9635 5.74518C20.1553 5.24234 20.4301 4.85882 20.7881 4.59462C21.1482 4.33041 21.5786 4.19831 22.0793 4.19831C22.58 4.19831 23.0093 4.33148 23.3673 4.59781C23.7252 4.86202 23.999 5.24554 24.1887 5.74838C24.3804 6.24909 24.4763 6.8542 24.4763 7.56372C24.4763 8.2775 24.3815 8.88687 24.1919 9.39185C24.0022 9.89469 23.7284 10.2793 23.3705 10.5456C23.0125 10.8098 22.5821 10.9419 22.0793 10.9419ZM22.0793 10.0886C22.5225 10.0886 22.8687 9.87231 23.118 9.43979C23.3694 9.00726 23.4951 8.3819 23.4951 7.56372C23.4951 7.0204 23.4376 6.56123 23.3225 6.18623C23.2096 5.8091 23.0466 5.52359 22.8335 5.3297C22.6226 5.13368 22.3712 5.03567 22.0793 5.03567C21.6382 5.03567 21.292 5.253 21.0406 5.68765C20.7892 6.12231 20.6624 6.74767 20.6602 7.56372C20.6602 8.10918 20.7167 8.57047 20.8296 8.9476C20.9447 9.3226 21.1077 9.60704 21.3186 9.80094C21.5296 9.9927 21.7831 10.0886 22.0793 10.0886Z"
-                                                fill="white"
-                                            />
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="header-favourite">
-                                <a href="wishlist.html" class="cart-item">
-                                    <span>
-                                        <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M5.04782 5.22612C3.79004 5.38436 2.73728 5.9026 1.84618 6.80458C1.04577 7.61161 0.56474 8.46611 0.288737 9.57776C-0.200183 11.5044 0.154678 13.4032 1.32966 15.1874C2.08276 16.3307 3.05666 17.3791 4.84279 18.9773C5.97835 19.994 9.44416 22.961 9.61371 23.0599C9.77142 23.1549 9.83057 23.1667 10.1657 23.1667C10.5009 23.1667 10.56 23.1549 10.7177 23.0599C10.8873 22.961 14.361 19.9901 15.4886 18.9773C17.2827 17.3712 18.2487 16.3268 19.0018 15.1874C20.1767 13.4032 20.5316 11.5044 20.0427 9.57776C19.7667 8.46611 19.2857 7.61161 18.4852 6.80458C17.6888 6.0015 16.8371 5.53865 15.7213 5.30128C15.1614 5.1826 14.1283 5.17073 13.6394 5.2815C12.2752 5.57821 11.2303 6.2626 10.2761 7.48106L10.1657 7.61952L10.0593 7.48106C9.1169 6.28634 8.0878 5.60194 6.77482 5.30128C6.38447 5.21029 5.48549 5.17073 5.04782 5.22612ZM6.36475 6.43271C7.48454 6.63051 8.45055 7.2793 9.21547 8.35139C9.34559 8.53732 9.50725 8.75886 9.57033 8.84985C9.86211 9.26128 10.4693 9.26128 10.7611 8.84985C10.8242 8.75886 10.9858 8.53732 11.116 8.35139C12.1608 6.88766 13.6158 6.1993 15.2008 6.41689C16.9593 6.65821 18.3315 7.89249 18.8559 9.70831C19.2699 11.1444 19.0885 12.6516 18.3354 14.0085C17.7045 15.1439 16.6518 16.3347 14.8183 17.9843C13.9312 18.7795 10.2012 21.9997 10.1657 21.9997C10.1263 21.9997 6.41207 18.7914 5.51309 17.9843C2.69391 15.4485 1.58201 13.8661 1.31389 12.0107C1.1404 10.812 1.38881 9.52238 1.99207 8.50567C2.89894 6.97469 4.66536 6.13601 6.36475 6.43271Z"
-                                                fill="black"
-                                            />
-                                            <circle cx="20.9897" cy="7.20068" r="7" fill="#4C2C3B" />
-                                            <path
-                                                d="M20.9933 10.3093C20.4884 10.3072 20.0569 10.1741 19.699 9.90985C19.341 9.64564 19.0672 9.26105 18.8776 8.75608C18.6879 8.25111 18.5931 7.6428 18.5931 6.93115C18.5931 6.22164 18.6879 5.61546 18.8776 5.11262C19.0693 4.60977 19.3442 4.22625 19.7021 3.96205C20.0622 3.69784 20.4926 3.56574 20.9933 3.56574C21.4941 3.56574 21.9234 3.69891 22.2813 3.96524C22.6393 4.22945 22.9131 4.61297 23.1027 5.11581C23.2945 5.61652 23.3904 6.22164 23.3904 6.93115C23.3904 7.64493 23.2955 8.25431 23.1059 8.75928C22.9163 9.26212 22.6425 9.64671 22.2845 9.91304C21.9266 10.1772 21.4962 10.3093 20.9933 10.3093ZM20.9933 9.45601C21.4365 9.45601 21.7828 9.23975 22.032 8.80722C22.2835 8.37469 22.4092 7.74933 22.4092 6.93115C22.4092 6.38783 22.3517 5.92867 22.2366 5.55367C22.1237 5.17654 21.9607 4.89102 21.7476 4.69713C21.5367 4.50111 21.2852 4.4031 20.9933 4.4031C20.5523 4.4031 20.2061 4.62043 19.9546 5.05509C19.7032 5.48975 19.5764 6.1151 19.5743 6.93115C19.5743 7.47661 19.6308 7.9379 19.7437 8.31503C19.8588 8.69003 20.0218 8.97448 20.2327 9.16837C20.4436 9.36013 20.6972 9.45601 20.9933 9.45601Z"
-                                                fill="white"
-                                            />
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="header-cart">
-                                <a href="cart.html" class="cart-item">
-                                    <span>
-                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M17.1465 8.34395C17.0181 8.01301 16.7241 7.98441 15.2785 7.98441H14.0773V7.46144C14.0773 6.6484 13.9613 6.08049 13.6797 5.49624C13.1702 4.43805 12.3169 3.69855 11.211 3.35535C10.6725 3.19192 9.86898 3.12247 9.38022 3.19601C8.02577 3.40846 6.87014 4.26237 6.28197 5.4799C5.99617 6.0764 5.88019 6.6484 5.88019 7.46144V7.9885H4.67486C3.22929 7.9885 2.9352 8.0171 2.8068 8.36029C2.74053 8.57683 2.11922 13.2304 1.85413 15.2365C1.62218 16.9851 1.40679 18.6357 1.24939 19.8778C0.976019 22.0187 0.984303 22.0514 0.992588 22.0881V22.0922C1.02987 22.2311 1.39851 22.5948 1.51034 22.701L1.99496 23.1667H17.9335L18.2939 22.8521C18.4554 22.7092 18.9897 22.223 18.9897 21.9819C18.9897 21.8185 17.1797 8.43792 17.1465 8.34395ZM17.6809 21.6714C17.6767 21.7 17.6436 21.7858 17.5856 21.8471L17.5028 21.937H2.45473L2.23934 21.7082L3.08846 15.453C3.38669 13.2263 3.65178 11.2856 3.80917 10.1253C3.87959 9.61868 3.91272 9.36128 3.92929 9.23462C4.48847 9.23054 6.93227 9.22645 9.97253 9.22645H16.0199L16.0282 9.27139C16.0945 9.59825 17.6519 21.3078 17.6809 21.6714ZM7.12695 7.9885V7.52273C7.12695 7.20813 7.16837 6.77505 7.21393 6.57485C7.45831 5.55344 8.29086 4.72405 9.33051 4.45848C9.76543 4.35225 10.4779 4.38902 10.9128 4.54428H10.9169C11.3725 4.69545 11.7453 4.94059 12.0891 5.31647C12.6441 5.91298 12.8305 6.4482 12.8305 7.43693V7.9885H7.12695Z"
-                                                fill="black"
-                                            />
-                                            <circle cx="17.9897" cy="7.16675" r="7" fill="#4C2C3B" />
-                                            <path
-                                                d="M17.9933 10.2754C17.4884 10.2733 17.0569 10.1401 16.699 9.87591C16.341 9.61171 16.0672 9.22712 15.8776 8.72215C15.6879 8.21717 15.5931 7.60886 15.5931 6.89722C15.5931 6.1877 15.6879 5.58152 15.8776 5.07868C16.0693 4.57584 16.3442 4.19232 16.7021 3.92811C17.0622 3.66391 17.4926 3.5318 17.9933 3.5318C18.4941 3.5318 18.9234 3.66497 19.2813 3.93131C19.6393 4.19551 19.9131 4.57903 20.1027 5.08188C20.2945 5.58259 20.3904 6.1877 20.3904 6.89722C20.3904 7.611 20.2955 8.22037 20.1059 8.72534C19.9163 9.22818 19.6425 9.61277 19.2845 9.87911C18.9266 10.1433 18.4962 10.2754 17.9933 10.2754ZM17.9933 9.42207C18.4365 9.42207 18.7828 9.20581 19.032 8.77328C19.2835 8.34075 19.4092 7.7154 19.4092 6.89722C19.4092 6.35389 19.3517 5.89473 19.2366 5.51973C19.1237 5.1426 18.9607 4.85709 18.7476 4.6632C18.5367 4.46717 18.2852 4.36916 17.9933 4.36916C17.5523 4.36916 17.2061 4.58649 16.9546 5.02115C16.7032 5.45581 16.5764 6.08117 16.5743 6.89722C16.5743 7.44267 16.6308 7.90396 16.7437 8.28109C16.8588 8.65609 17.0218 8.94054 17.2327 9.13443C17.4436 9.32619 17.6972 9.42207 17.9933 9.42207Z"
-                                                fill="white"
-                                            />
-                                        </svg>
-                                    </span>
-                                </a>
-                                <div class="cart-submenu">
-                                    <div class="cart-wrapper-item">
-                                        <div class="wrapper">
-                                            <div class="wrapper-item">
-                                                <div class="wrapper-img">
-                                                    <img src="assets/images/homepage-one/product-img/product-img-1.webp" alt="img" />
-                                                </div>
-                                                <div class="wrapper-content">
-                                                    <h5 class="wrapper-title">Classic Design Skart</h5>
-                                                    <div class="price">
-                                                        <p class="new-price">$20.00</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <span class="close-btn">
-                                                <svg viewBox="0 0 10 10" fill="none" class="fill-current" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.7 0.3C9.3 -0.1 8.7 -0.1 8.3 0.3L5 3.6L1.7 0.3C1.3 -0.1 0.7 -0.1 0.3 0.3C-0.1 0.7 -0.1 1.3 0.3 1.7L3.6 5L0.3 8.3C-0.1 8.7 -0.1 9.3 0.3 9.7C0.7 10.1 1.3 10.1 1.7 9.7L5 6.4L8.3 9.7C8.7 10.1 9.3 10.1 9.7 9.7C10.1 9.3 10.1 8.7 9.7 8.3L6.4 5L9.7 1.7C10.1 1.3 10.1 0.7 9.7 0.3Z"
-                                                    ></path>
-                                                </svg>
-                                            </span>
-                                        </div>
-                                        <div class="wrapper">
-                                            <div class="wrapper-item">
-                                                <div class="wrapper-img">
-                                                    <img src="assets/images/homepage-one/product-img/product-img-2.webp" alt="img" />
-                                                </div>
-                                                <div class="wrapper-content">
-                                                    <h5 class="wrapper-title">Black Suit</h5>
-                                                    <div class="price">
-                                                        <p class="new-price">$10.00</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <span class="close-btn">
-                                                <svg viewBox="0 0 10 10" fill="none" class="fill-current" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.7 0.3C9.3 -0.1 8.7 -0.1 8.3 0.3L5 3.6L1.7 0.3C1.3 -0.1 0.7 -0.1 0.3 0.3C-0.1 0.7 -0.1 1.3 0.3 1.7L3.6 5L0.3 8.3C-0.1 8.7 -0.1 9.3 0.3 9.7C0.7 10.1 1.3 10.1 1.7 9.7L5 6.4L8.3 9.7C8.7 10.1 9.3 10.1 9.7 9.7C10.1 9.3 10.1 8.7 9.7 8.3L6.4 5L9.7 1.7C10.1 1.3 10.1 0.7 9.7 0.3Z"
-                                                    ></path>
-                                                </svg>
-                                            </span>
-                                        </div>
-                                        <div class="wrapper">
-                                            <div class="wrapper-item">
-                                                <div class="wrapper-img">
-                                                    <img src="assets/images/homepage-one/product-img/product-img-3.webp" alt="img" />
-                                                </div>
-                                                <div class="wrapper-content">
-                                                    <h5 class="wrapper-title">Blue Party Dress</h5>
-                                                    <div class="price">
-                                                        <p class="new-price">$15.00</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <span class="close-btn">
-                                                <svg viewBox="0 0 10 10" fill="none" class="fill-current" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.7 0.3C9.3 -0.1 8.7 -0.1 8.3 0.3L5 3.6L1.7 0.3C1.3 -0.1 0.7 -0.1 0.3 0.3C-0.1 0.7 -0.1 1.3 0.3 1.7L3.6 5L0.3 8.3C-0.1 8.7 -0.1 9.3 0.3 9.7C0.7 10.1 1.3 10.1 1.7 9.7L5 6.4L8.3 9.7C8.7 10.1 9.3 10.1 9.7 9.7C10.1 9.3 10.1 8.7 9.7 8.3L6.4 5L9.7 1.7C10.1 1.3 10.1 0.7 9.7 0.3Z"
-                                                    ></path>
-                                                </svg>
-                                            </span>
-                                        </div>
-                                        <div class="wrapper">
-                                            <div class="wrapper-item">
-                                                <div class="wrapper-img">
-                                                    <img src="assets/images/homepage-one/product-img/product-img-4.webp" alt="img" />
-                                                </div>
-                                                <div class="wrapper-content">
-                                                    <h5 class="wrapper-title">Classic Red Dress</h5>
-                                                    <div class="price">
-                                                        <p class="new-price">$18.00</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <span class="close-btn">
-                                                <svg viewBox="0 0 10 10" fill="none" class="fill-current" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M9.7 0.3C9.3 -0.1 8.7 -0.1 8.3 0.3L5 3.6L1.7 0.3C1.3 -0.1 0.7 -0.1 0.3 0.3C-0.1 0.7 -0.1 1.3 0.3 1.7L3.6 5L0.3 8.3C-0.1 8.7 -0.1 9.3 0.3 9.7C0.7 10.1 1.3 10.1 1.7 9.7L5 6.4L8.3 9.7C8.7 10.1 9.3 10.1 9.7 9.7C10.1 9.3 10.1 8.7 9.7 8.3L6.4 5L9.7 1.7C10.1 1.3 10.1 0.7 9.7 0.3Z"
-                                                    ></path>
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="cart-wrapper-section">
-                                        <div class="wrapper-line"></div>
-                                        <div class="wrapper-subtotal">
-                                            <h5 class="wrapper-title">Subtotal</h5>
-                                            <h5 class="wrapper-title">$60</h5>
-                                        </div>
-                                        <div class="cart-btn">
-                                            <a href="cart.html" class="shop-btn view-btn">View Cart</a>
-                                            <a href="checkout.html" class="shop-btn checkout-btn">Checkout Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="header-user">
-                                <a href="user-profile.html">
-                                    <span>
-                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M20.66 19.729C20.5683 18.043 20.106 16.4886 19.2849 15.1176C18.2726 13.4237 16.8776 12.1244 15.1359 11.2475C14.7453 11.0522 14.546 10.9645 14.0558 10.7772L13.6014 10.6138L14.1634 10.1833C15.2156 9.38621 16.0087 8.08689 16.2798 6.70387C16.3635 6.28936 16.3714 5.22918 16.2997 4.78278C16.1323 3.77043 15.6261 2.70227 14.9446 1.92507C14.1036 0.976485 12.9119 0.30291 11.6763 0.079713C11.4651 0.0398565 10.8194 0 10.4209 0C10.2734 0 10.2216 0.00398565 10.2056 0.0079713H10.2016C10.1658 0.011957 10.094 0.0239139 10.0064 0.0358709H9.99439C9.92265 0.0438422 9.84692 0.0557991 9.7712 0.0677561C8.83457 0.195297 7.6867 0.73336 6.92146 1.41092C5.94099 2.27581 5.25944 3.50339 5.0482 4.78278C4.97247 5.22918 4.98443 6.28936 5.06813 6.70387C5.33915 8.08689 6.1323 9.38621 7.18451 10.1833L7.74649 10.6138L7.29212 10.7772C6.80189 10.9645 6.6026 11.0522 6.21201 11.2475C4.47028 12.1244 3.07132 13.4237 2.06295 15.1176C1.23792 16.4926 0.775581 18.043 0.683911 19.729L0.667969 20H0.92305H1.86366H19.4802H20.1618H20.6759L20.66 19.729ZM6.23194 4.98605C6.40731 3.92188 6.95334 2.95735 7.77439 2.25986C8.58746 1.57035 9.61576 1.19171 10.668 1.19171C10.9031 1.19171 11.1423 1.21164 11.3774 1.24751C13.8286 1.64607 15.5065 3.95775 15.112 6.39299C14.9366 7.45715 14.3906 8.42168 13.5695 9.11917C12.7565 9.80869 11.7282 10.1873 10.6759 10.1873C10.4408 10.1873 10.2016 10.1674 9.96649 10.1315C7.51532 9.72898 5.83736 7.42128 6.23194 4.98605ZM3.21081 15.5281C4.39854 13.7146 5.98084 12.4751 7.92185 11.8414C8.83855 11.5424 9.76323 11.391 10.672 11.391C11.5807 11.391 12.5054 11.5424 13.4221 11.8414C15.3631 12.4751 16.9494 13.7146 18.1331 15.5281C18.715 16.4169 19.1813 17.6963 19.3766 18.8721H1.96729C2.16259 17.6963 2.62891 16.4169 3.21081 15.5281Z"
-                                                fill="black"
-                                            />
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <nav class="mobile-menu mobile-menu-three d-block d-lg-none">
-                <div class="mobile-menu-header d-flex justify-content-between align-items-center">
-                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-                        <span>
-                            <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="14" height="1" fill="#1D1D1D" />
-                                <rect y="8" width="14" height="1" fill="#1D1D1D" />
-                                <rect y="4" width="10" height="1" fill="#1D1D1D" />
-                            </svg>
-                        </span>
-                    </button>
-                    <a href="index.html" class="mobile-header-logo">
-                        <img src="assets/images/logos/logo.webp" alt="logo" />
-                    </a>
-                    <a href="cart.html" class="header-cart cart-item">
-                        <span>
-                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M17.1465 8.34395C17.0181 8.01301 16.7241 7.98441 15.2785 7.98441H14.0773V7.46144C14.0773 6.6484 13.9613 6.08049 13.6797 5.49624C13.1702 4.43805 12.3169 3.69855 11.211 3.35535C10.6725 3.19192 9.86898 3.12247 9.38022 3.19601C8.02577 3.40846 6.87014 4.26237 6.28197 5.4799C5.99617 6.0764 5.88019 6.6484 5.88019 7.46144V7.9885H4.67486C3.22929 7.9885 2.9352 8.0171 2.8068 8.36029C2.74053 8.57683 2.11922 13.2304 1.85413 15.2365C1.62218 16.9851 1.40679 18.6357 1.24939 19.8778C0.976019 22.0187 0.984303 22.0514 0.992588 22.0881V22.0922C1.02987 22.2311 1.39851 22.5948 1.51034 22.701L1.99496 23.1667H17.9335L18.2939 22.8521C18.4554 22.7092 18.9897 22.223 18.9897 21.9819C18.9897 21.8185 17.1797 8.43792 17.1465 8.34395ZM17.6809 21.6714C17.6767 21.7 17.6436 21.7858 17.5856 21.8471L17.5028 21.937H2.45473L2.23934 21.7082L3.08846 15.453C3.38669 13.2263 3.65178 11.2856 3.80917 10.1253C3.87959 9.61868 3.91272 9.36128 3.92929 9.23462C4.48847 9.23054 6.93227 9.22645 9.97253 9.22645H16.0199L16.0282 9.27139C16.0945 9.59825 17.6519 21.3078 17.6809 21.6714ZM7.12695 7.9885V7.52273C7.12695 7.20813 7.16837 6.77505 7.21393 6.57485C7.45831 5.55344 8.29086 4.72405 9.33051 4.45848C9.76543 4.35225 10.4779 4.38902 10.9128 4.54428H10.9169C11.3725 4.69545 11.7453 4.94059 12.0891 5.31647C12.6441 5.91298 12.8305 6.4482 12.8305 7.43693V7.9885H7.12695Z"
-                                    fill="black"
-                                />
-                                <circle cx="17.9897" cy="7.16675" r="7" fill="#4C2C3B" />
-                                <path
-                                    d="M17.9933 10.2754C17.4884 10.2733 17.0569 10.1401 16.699 9.87591C16.341 9.61171 16.0672 9.22712 15.8776 8.72215C15.6879 8.21717 15.5931 7.60886 15.5931 6.89722C15.5931 6.1877 15.6879 5.58152 15.8776 5.07868C16.0693 4.57584 16.3442 4.19232 16.7021 3.92811C17.0622 3.66391 17.4926 3.5318 17.9933 3.5318C18.4941 3.5318 18.9234 3.66497 19.2813 3.93131C19.6393 4.19551 19.9131 4.57903 20.1027 5.08188C20.2945 5.58259 20.3904 6.1877 20.3904 6.89722C20.3904 7.611 20.2955 8.22037 20.1059 8.72534C19.9163 9.22818 19.6425 9.61277 19.2845 9.87911C18.9266 10.1433 18.4962 10.2754 17.9933 10.2754ZM17.9933 9.42207C18.4365 9.42207 18.7828 9.20581 19.032 8.77328C19.2835 8.34075 19.4092 7.7154 19.4092 6.89722C19.4092 6.35389 19.3517 5.89473 19.2366 5.51973C19.1237 5.1426 18.9607 4.85709 18.7476 4.6632C18.5367 4.46717 18.2852 4.36916 17.9933 4.36916C17.5523 4.36916 17.2061 4.58649 16.9546 5.02115C16.7032 5.45581 16.5764 6.08117 16.5743 6.89722C16.5743 7.44267 16.6308 7.90396 16.7437 8.28109C16.8588 8.65609 17.0218 8.94054 17.2327 9.13443C17.4436 9.32619 17.6972 9.42207 17.9933 9.42207Z"
-                                    fill="white"
-                                />
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-
-                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions">
-                    <div class="offcanvas-body">
-                        <div class="header-top">
-                            <div class="header-cart">
-                                <div class="header-compaire">
-                                    <a href="compaire.html" class="cart-item">
-                                        <span>
-                                            <svg width="30" height="25" viewBox="0 0 30 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path
-                                                    d="M8.41124 3.54192C8.41124 3.92942 8.39874 4.25025 8.38624 4.25025C8.37374 4.25025 8.16958 4.28775 7.94041 4.33775C3.98208 5.13775 1.02791 8.26692 0.477908 12.2419C0.348742 13.1503 0.402908 14.5336 0.598742 15.4586C1.09457 17.8253 2.63208 20.0461 4.66541 21.3461L4.90291 21.4961L5.49041 21.0544C5.81124 20.8128 6.07791 20.6044 6.07791 20.5878C6.07791 20.5753 5.97374 20.5086 5.84874 20.4419C5.21124 20.1086 4.38208 19.4419 3.81958 18.8128C2.75291 17.6169 2.06957 16.1586 1.84874 14.6253C1.76957 14.0586 1.76957 12.9336 1.84874 12.3961C2.01957 11.2586 2.41958 10.1836 3.01958 9.24192C3.76958 8.07109 4.91124 7.04609 6.16124 6.41692C6.79458 6.10025 7.67374 5.80025 8.27791 5.69192L8.41124 5.66692V6.25025C8.41124 6.57108 8.41958 6.83358 8.43208 6.83358C8.47374 6.83358 11.0779 4.86275 11.0779 4.83358C11.0779 4.80442 8.47374 2.83358 8.43208 2.83358C8.41958 2.83358 8.41124 3.15025 8.41124 3.54192Z"
-                                                    fill="black"
-                                                />
-                                                <path
-                                                    d="M13.9991 5.94591C13.6783 6.18758 13.42 6.40008 13.4325 6.41674C13.445 6.43758 13.57 6.51674 13.7158 6.59591C14.9366 7.28758 16.0741 8.45424 16.7783 9.75008C17.2033 10.5292 17.5616 11.6626 17.6616 12.5459C17.745 13.2417 17.695 14.4376 17.5616 15.0709C16.9866 17.7959 15.0908 19.9917 12.4741 20.9667C12.145 21.0876 11.2533 21.3334 11.1366 21.3334C11.0908 21.3334 11.0783 21.2292 11.0783 20.7501C11.0783 20.4292 11.07 20.1667 11.0575 20.1667C11.0158 20.1667 8.41162 22.1376 8.41162 22.1667C8.41162 22.1959 11.0158 24.1667 11.0575 24.1667C11.07 24.1667 11.0783 23.8501 11.0783 23.4584V22.7542L11.2366 22.7292C11.6241 22.6667 12.72 22.3709 13.0783 22.2292C16.3283 20.9584 18.5533 18.1417 19.0158 14.7084C19.1366 13.8251 19.0825 12.4417 18.8908 11.5417C18.395 9.17508 16.8575 6.95424 14.8241 5.65424L14.5866 5.50424L13.9991 5.94591Z"
-                                                    fill="black"
-                                                />
-                                                <circle cx="22.0757" cy="7.83325" r="7" fill="#4C2C3B" />
-                                                <path
-                                                    d="M22.0793 10.9419C21.5743 10.9398 21.1428 10.8066 20.7849 10.5424C20.4269 10.2782 20.1531 9.89362 19.9635 9.38865C19.7739 8.88368 19.6791 8.27537 19.6791 7.56372C19.6791 6.8542 19.7739 6.24802 19.9635 5.74518C20.1553 5.24234 20.4301 4.85882 20.7881 4.59462C21.1482 4.33041 21.5786 4.19831 22.0793 4.19831C22.58 4.19831 23.0093 4.33148 23.3673 4.59781C23.7252 4.86202 23.999 5.24554 24.1887 5.74838C24.3804 6.24909 24.4763 6.8542 24.4763 7.56372C24.4763 8.2775 24.3815 8.88687 24.1919 9.39185C24.0022 9.89469 23.7284 10.2793 23.3705 10.5456C23.0125 10.8098 22.5821 10.9419 22.0793 10.9419ZM22.0793 10.0886C22.5225 10.0886 22.8687 9.87231 23.118 9.43979C23.3694 9.00726 23.4951 8.3819 23.4951 7.56372C23.4951 7.0204 23.4376 6.56123 23.3225 6.18623C23.2096 5.8091 23.0466 5.52359 22.8335 5.3297C22.6226 5.13368 22.3712 5.03567 22.0793 5.03567C21.6382 5.03567 21.292 5.253 21.0406 5.68765C20.7892 6.12231 20.6624 6.74767 20.6602 7.56372C20.6602 8.10918 20.7167 8.57047 20.8296 8.9476C20.9447 9.3226 21.1077 9.60704 21.3186 9.80094C21.5296 9.9927 21.7831 10.0886 22.0793 10.0886Z"
-                                                    fill="white"
-                                                />
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="header-favourite">
-                                    <a href="wishlist.html" class="cart-item">
-                                        <span>
-                                            <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M5.04782 5.22612C3.79004 5.38436 2.73728 5.9026 1.84618 6.80458C1.04577 7.61161 0.56474 8.46611 0.288737 9.57776C-0.200183 11.5044 0.154678 13.4032 1.32966 15.1874C2.08276 16.3307 3.05666 17.3791 4.84279 18.9773C5.97835 19.994 9.44416 22.961 9.61371 23.0599C9.77142 23.1549 9.83057 23.1667 10.1657 23.1667C10.5009 23.1667 10.56 23.1549 10.7177 23.0599C10.8873 22.961 14.361 19.9901 15.4886 18.9773C17.2827 17.3712 18.2487 16.3268 19.0018 15.1874C20.1767 13.4032 20.5316 11.5044 20.0427 9.57776C19.7667 8.46611 19.2857 7.61161 18.4852 6.80458C17.6888 6.0015 16.8371 5.53865 15.7213 5.30128C15.1614 5.1826 14.1283 5.17073 13.6394 5.2815C12.2752 5.57821 11.2303 6.2626 10.2761 7.48106L10.1657 7.61952L10.0593 7.48106C9.1169 6.28634 8.0878 5.60194 6.77482 5.30128C6.38447 5.21029 5.48549 5.17073 5.04782 5.22612ZM6.36475 6.43271C7.48454 6.63051 8.45055 7.2793 9.21547 8.35139C9.34559 8.53732 9.50725 8.75886 9.57033 8.84985C9.86211 9.26128 10.4693 9.26128 10.7611 8.84985C10.8242 8.75886 10.9858 8.53732 11.116 8.35139C12.1608 6.88766 13.6158 6.1993 15.2008 6.41689C16.9593 6.65821 18.3315 7.89249 18.8559 9.70831C19.2699 11.1444 19.0885 12.6516 18.3354 14.0085C17.7045 15.1439 16.6518 16.3347 14.8183 17.9843C13.9312 18.7795 10.2012 21.9997 10.1657 21.9997C10.1263 21.9997 6.41207 18.7914 5.51309 17.9843C2.69391 15.4485 1.58201 13.8661 1.31389 12.0107C1.1404 10.812 1.38881 9.52238 1.99207 8.50567C2.89894 6.97469 4.66536 6.13601 6.36475 6.43271Z"
-                                                    fill="black"
-                                                />
-                                                <circle cx="20.9897" cy="7.20068" r="7" fill="#4C2C3B" />
-                                                <path
-                                                    d="M20.9933 10.3093C20.4884 10.3072 20.0569 10.1741 19.699 9.90985C19.341 9.64564 19.0672 9.26105 18.8776 8.75608C18.6879 8.25111 18.5931 7.6428 18.5931 6.93115C18.5931 6.22164 18.6879 5.61546 18.8776 5.11262C19.0693 4.60977 19.3442 4.22625 19.7021 3.96205C20.0622 3.69784 20.4926 3.56574 20.9933 3.56574C21.4941 3.56574 21.9234 3.69891 22.2813 3.96524C22.6393 4.22945 22.9131 4.61297 23.1027 5.11581C23.2945 5.61652 23.3904 6.22164 23.3904 6.93115C23.3904 7.64493 23.2955 8.25431 23.1059 8.75928C22.9163 9.26212 22.6425 9.64671 22.2845 9.91304C21.9266 10.1772 21.4962 10.3093 20.9933 10.3093ZM20.9933 9.45601C21.4365 9.45601 21.7828 9.23975 22.032 8.80722C22.2835 8.37469 22.4092 7.74933 22.4092 6.93115C22.4092 6.38783 22.3517 5.92867 22.2366 5.55367C22.1237 5.17654 21.9607 4.89102 21.7476 4.69713C21.5367 4.50111 21.2852 4.4031 20.9933 4.4031C20.5523 4.4031 20.2061 4.62043 19.9546 5.05509C19.7032 5.48975 19.5764 6.1151 19.5743 6.93115C19.5743 7.47661 19.6308 7.9379 19.7437 8.31503C19.8588 8.69003 20.0218 8.97448 20.2327 9.16837C20.4436 9.36013 20.6972 9.45601 20.9933 9.45601Z"
-                                                    fill="white"
+                                                    d="M11.6667 13.3333L15 9.99992M15 9.99992L11.6667 6.66658M15 9.99992L5 9.99992"
+                                                    stroke="white"
+                                                    stroke-width="1.5"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
                                                 />
                                             </svg>
                                         </span>
                                     </a>
                                 </div>
                             </div>
-                            <div class="shop-btn">
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                            </div>
                         </div>
-                        <div class="header-input">
-                            <input type="text" placeholder="Search...." />
-                            <span>
-                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M13.9708 16.4151C12.5227 17.4021 10.9758 17.9723 9.27353 18.0062C5.58462 18.0802 2.75802 16.483 1.05056 13.1945C-1.76315 7.77253 1.33485 1.37571 7.25086 0.167548C12.2281 -0.848249 17.2053 2.87895 17.7198 7.98579C17.9182 9.95558 17.5566 11.7939 16.5852 13.5061C16.4512 13.742 16.483 13.8725 16.6651 14.0553C18.2412 15.6386 19.8112 17.2272 21.3735 18.8244C22.1826 19.6513 22.2058 20.7559 21.456 21.4932C20.7697 22.1678 19.7047 22.1747 18.9764 21.4793C18.3623 20.8917 17.7774 20.2737 17.1796 19.6688C16.118 18.5929 15.0564 17.5153 13.9708 16.4151ZM2.89545 9.0364C2.91692 12.4172 5.59664 15.1164 8.91967 15.1042C12.2384 15.092 14.9138 12.3493 14.8889 8.98505C14.864 5.63213 12.1826 2.92508 8.89047 2.92857C5.58204 2.93118 2.87397 5.68958 2.89545 9.0364Z"
-                                        fill="black"
-                                    ></path>
-                                </svg>
-                            </span>
-                        </div>
-
-                        <div class="category-dropdown">
-                            <ul class="category-list">
-                                <li class="category-list-item">
-                                    <a href="product-sidebar.html">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/dresses.webp" alt="dress" />
-                                                </span>
-                                                <span class="dropdown-text"> Dresses </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="product-sidebar.html">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/bags.webp" alt="Bags" />
-                                                </span>
-                                                <span class="dropdown-text"> Bags </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="product-sidebar.html">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/sweaters.webp" alt="sweaters" />
-                                                </span>
-                                                <span class="dropdown-text"> Sweaters </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="product-sidebar.html">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/shoes.webp" alt="sweaters" />
-                                                </span>
-                                                <span class="dropdown-text"> Boots </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="product-sidebar.html">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/gift.webp" alt="gift" />
-                                                </span>
-                                                <span class="dropdown-text"> Gifts </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="product-sidebar.html">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/sneakers.webp" alt="sneakers" />
-                                                </span>
-                                                <span class="dropdown-text"> Sneakers </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="product-sidebar.html">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/watch.webp" alt="watch" />
-                                                </span>
-                                                <span class="dropdown-text"> Watches </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="product-sidebar.html">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/ring.webp" alt="ring" />
-                                                </span>
-                                                <span class="dropdown-text"> Gold Ring </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="product-sidebar.html">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/cap.webp" alt="cap" />
-                                                </span>
-                                                <span class="dropdown-text"> Cap </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="product-sidebar.html">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/glass.webp" alt="glass" />
-                                                </span>
-                                                <span class="dropdown-text"> Sunglasses </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="product-sidebar.html">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/baby.webp" alt="baby" />
-                                                </span>
-                                                <span class="dropdown-text"> Baby Shop </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-
-            <div class="header-bottom d-lg-block d-none">
-                <div class="container">
-                    <div class="header-nav">
-                        <div class="header-category-menu">
-                            <div class="category-menu-section position-relative">
-                                <div class="empty position-fixed" onclick="tooglmenu()"></div>
-                                <button class="dropdown-btn" onclick="tooglmenu()">
-                                    <div class="dropdown-btn-icon">
-                                        <span class="dropdown-icon">
-                                            <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <rect width="14" height="1" fill="#1D1D1D" />
-                                                <rect y="8" width="14" height="1" fill="#1D1D1D" />
-                                                <rect y="4" width="10" height="1" fill="#1D1D1D" />
+                        <div class="col-lg-5">
+                            <div class="hero-right hero-wrapper-two">
+                                <div class="wrapper-content" data-aos="zoom-in" data-aos-duration="500">
+                                    <h2 class="wrapper-title">30%</h2>
+                                    <h5 class="wrapper-details">Summer Sale</h5>
+                                    <a href="#" class="shop-btn"
+                                        >Shop Now
+                                        <span>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.6667 13.3333L15 9.99992M15 9.99992L11.6667 6.66658M15 9.99992L5 9.99992"
+                                                    stroke="white"
+                                                    stroke-width="1.5"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                />
                                             </svg>
                                         </span>
-                                        <span class="list-text"> All Categories </span>
-                                    </div>
-                                    <span>
-                                        <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <rect x="8.18359" y="0.910156" width="5.78538" height="1.28564" transform="rotate(135 8.18359 0.910156)" fill="#1D1D1D"></rect>
-                                            <rect x="4.08984" y="5" width="5.78538" height="1.28564" transform="rotate(-135 4.08984 5)" fill="#1D1D1D"></rect>
-                                        </svg>
-                                    </span>
-                                </button>
-                                <div class="category-dropdown position-absolute" id="subMenu">
-                                    <ul class="category-list">
-                                        <li class="category-list-item">
-                                            <a href="product-sidebar.html">
-                                                <div class="dropdown-item">
-                                                    <div class="dropdown-list-item">
-                                                        <span class="dropdown-img">
-                                                            <img src="assets/images/homepage-one/category-img/dresses.webp" alt="dress" />
-                                                        </span>
-                                                        <span class="dropdown-text"> Dresses </span>
-                                                    </div>
-                                                    <div class="drop-down-list-icon">
-                                                        <span>
-                                                            <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" fill="#1D1D1D" />
-                                                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" fill="#1D1D1D" />
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="category-list-item">
-                                            <a href="product-sidebar.html">
-                                                <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                                    <div class="dropdown-list-item d-flex">
-                                                        <span class="dropdown-img">
-                                                            <img src="assets/images/homepage-one/category-img/bags.webp" alt="Bags" />
-                                                        </span>
-                                                        <span class="dropdown-text"> Bags </span>
-                                                    </div>
-                                                    <div class="drop-down-list-icon">
-                                                        <span>
-                                                            <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="category-list-item">
-                                            <a href="product-sidebar.html">
-                                                <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                                    <div class="dropdown-list-item d-flex">
-                                                        <span class="dropdown-img">
-                                                            <img src="assets/images/homepage-one/category-img/sweaters.webp" alt="sweaters" />
-                                                        </span>
-                                                        <span class="dropdown-text"> Sweaters </span>
-                                                    </div>
-                                                    <div class="drop-down-list-icon">
-                                                        <span>
-                                                            <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="category-list-item">
-                                            <a href="product-sidebar.html">
-                                                <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                                    <div class="dropdown-list-item d-flex">
-                                                        <span class="dropdown-img">
-                                                            <img src="assets/images/homepage-one/category-img/shoes.webp" alt="sweaters" />
-                                                        </span>
-                                                        <span class="dropdown-text"> Boots </span>
-                                                    </div>
-                                                    <div class="drop-down-list-icon">
-                                                        <span>
-                                                            <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="category-list-item">
-                                            <a href="product-sidebar.html">
-                                                <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                                    <div class="dropdown-list-item d-flex">
-                                                        <span class="dropdown-img">
-                                                            <img src="assets/images/homepage-one/category-img/gift.webp" alt="gift" />
-                                                        </span>
-                                                        <span class="dropdown-text"> Gifts </span>
-                                                    </div>
-                                                    <div class="drop-down-list-icon">
-                                                        <span>
-                                                            <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="category-list-item">
-                                            <a href="product-sidebar.html">
-                                                <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                                    <div class="dropdown-list-item d-flex">
-                                                        <span class="dropdown-img">
-                                                            <img src="assets/images/homepage-one/category-img/sneakers.webp" alt="sneakers" />
-                                                        </span>
-                                                        <span class="dropdown-text"> Sneakers </span>
-                                                    </div>
-                                                    <div class="drop-down-list-icon">
-                                                        <span>
-                                                            <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" fill="#1D1D1D" />
-                                                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" fill="#1D1D1D" />
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="category-list-item">
-                                            <a href="product-sidebar.html">
-                                                <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                                    <div class="dropdown-list-item d-flex">
-                                                        <span class="dropdown-img">
-                                                            <img src="assets/images/homepage-one/category-img/watch.webp" alt="watch" />
-                                                        </span>
-                                                        <span class="dropdown-text"> Watches </span>
-                                                    </div>
-                                                    <div class="drop-down-list-icon">
-                                                        <span>
-                                                            <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="category-list-item">
-                                            <a href="product-sidebar.html">
-                                                <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                                    <div class="dropdown-list-item d-flex">
-                                                        <span class="dropdown-img">
-                                                            <img src="assets/images/homepage-one/category-img/ring.webp" alt="ring" />
-                                                        </span>
-                                                        <span class="dropdown-text"> Gold Ring </span>
-                                                    </div>
-                                                    <div class="drop-down-list-icon">
-                                                        <span>
-                                                            <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="category-list-item">
-                                            <a href="product-sidebar.html">
-                                                <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                                    <div class="dropdown-list-item d-flex">
-                                                        <span class="dropdown-img">
-                                                            <img src="assets/images/homepage-one/category-img/cap.webp" alt="cap" />
-                                                        </span>
-                                                        <span class="dropdown-text"> Cap </span>
-                                                    </div>
-                                                    <div class="drop-down-list-icon">
-                                                        <span>
-                                                            <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="category-list-item">
-                                            <a href="product-sidebar.html">
-                                                <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                                    <div class="dropdown-list-item d-flex">
-                                                        <span class="dropdown-img">
-                                                            <img src="assets/images/homepage-one/category-img/glass.webp" alt="glass" />
-                                                        </span>
-                                                        <span class="dropdown-text"> Sunglasses </span>
-                                                    </div>
-                                                    <div class="drop-down-list-icon">
-                                                        <span>
-                                                            <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="category-list-item">
-                                            <a href="product-sidebar.html">
-                                                <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                                    <div class="dropdown-list-item d-flex">
-                                                        <span class="dropdown-img">
-                                                            <img src="assets/images/homepage-one/category-img/baby.webp" alt="baby" />
-                                                        </span>
-                                                        <span class="dropdown-text"> Baby Shop </span>
-                                                    </div>
-                                                    <div class="drop-down-list-icon">
-                                                        <span>
-                                                            <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <rect x="1.5" y="0.818359" width="5.78538" height="1.28564" transform="rotate(45 1.5 0.818359)" />
-                                                                <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564" transform="rotate(135 5.58984 4.90918)" />
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="header-nav-menu">
-                                <ul class="menu-list">
-                                    <li>
-                                        <a href="index.html">
-                                            <span class="list-text">Home</span>
-                                        </a>
-                                        <ul class="header-sub-menu">
-                                            <li><a href="index.html">Home-1</a></li>
-                                            <li><a href="home-two.html">Home-2</a></li>
-                                            <li><a href="home-three.html">Home-3</a></li>
-                                            
-                                        </ul>
-                                    </li>
-                                    <li class="mega-menu">
-                                        <a href="product-sidebar.html">
-                                            <span class="list-text">Shop</span>
-                                            <span>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g clip-path="url(#clip0_1_183)">
-                                                        <path
-                                                            d="M2.37811 5.89491C1.88356 5.89491 1.38862 5.90351 0.894066 5.89218C0.443267 5.88202 0.108098 5.59451 0.0178597 5.17027C-0.0641747 4.7851 0.137786 4.36204 0.508895 4.20305C0.659291 4.13859 0.83586 4.11008 1.00071 4.10851C1.93786 4.09992 2.87539 4.10461 3.81254 4.10422C4.07075 4.10422 4.10357 4.07062 4.10396 3.80889C4.10474 2.85847 4.102 1.90843 4.10513 0.958001C4.10669 0.513061 4.336 0.177111 4.71218 0.0501527C5.30752 -0.151027 5.88567 0.278287 5.89387 0.937687C5.90168 1.56232 5.89582 2.18735 5.89582 2.81237C5.89582 3.14441 5.89504 3.47646 5.89621 3.80811C5.897 4.07023 5.92942 4.10422 6.18685 4.10422C7.13728 4.105 8.08732 4.10265 9.03774 4.10539C9.48503 4.10656 9.81941 4.33235 9.94872 4.70776C10.1534 5.30192 9.72605 5.88437 9.06782 5.89413C8.50803 5.90233 7.94825 5.89608 7.38846 5.89608C6.97829 5.89608 6.56851 5.89491 6.15833 5.89687C5.93918 5.89804 5.897 5.94023 5.8966 6.1625C5.89543 7.11918 5.89778 8.07625 5.89543 9.03293C5.89426 9.48216 5.67238 9.81577 5.29736 9.94741C4.70437 10.1552 4.11841 9.72983 4.10669 9.07316C4.09771 8.57861 4.10474 8.08367 4.10474 7.58912C4.10474 7.12035 4.10552 6.65197 4.10435 6.1832C4.10396 5.93398 4.06841 5.89726 3.82387 5.89687C3.34221 5.89569 2.86055 5.89647 2.37889 5.89647C2.37811 5.8953 2.37811 5.8953 2.37811 5.89491Z"
-                                                            fill="black"
-                                                        />
-                                                    </g>
-                                                    <defs>
-                                                        <clipPath id="clip0_1_185">
-                                                            <rect width="10" height="10" fill="white" />
-                                                        </clipPath>
-                                                    </defs>
-                                                </svg>
-                                            </span>
-                                        </a>
-                                        <div class="shop-menu">
-                                            <div class="menu-wrapper">
-                                                <div class="menu-list">
-                                                    <h5 class="menu-title">Dresses</h5>
-                                                    <ul>
-                                                        <li><a href="product-sidebar.html">Shirt</a></li>
-                                                        <li><a href="product-sidebar.html">Skart</a></li>
-                                                        <li><a href="product-sidebar.html"> T-Shirt</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="menu-list">
-                                                    <h5 class="menu-title">Bags</h5>
-                                                    <ul>
-                                                        <li><a href="product-sidebar.html">HandBags</a></li>
-                                                        <li><a href="product-sidebar.html">Mobile Bags</a></li>
-                                                        <li><a href="product-sidebar.html">School Bags</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="menu-list">
-                                                    <h5 class="menu-title">Cosmetics</h5>
-                                                    <ul>
-                                                        <li><a href="product-sidebar.html">Liptics</a></li>
-                                                        <li><a href="product-sidebar.html">Foundation</a></li>
-                                                        <li><a href="product-sidebar.html"> Eye Liner</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="shop-menu-img">
-                                                <img src="assets/images/homepage-one/empty-wishlist.webp" alt="img" />
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="list-text">Pages</span>
-                                            <span>
-                                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g clip-path="url(#clip0_1_183)">
-                                                        <path
-                                                            d="M2.37811 5.89491C1.88356 5.89491 1.38862 5.90351 0.894066 5.89218C0.443267 5.88202 0.108098 5.59451 0.0178597 5.17027C-0.0641747 4.7851 0.137786 4.36204 0.508895 4.20305C0.659291 4.13859 0.83586 4.11008 1.00071 4.10851C1.93786 4.09992 2.87539 4.10461 3.81254 4.10422C4.07075 4.10422 4.10357 4.07062 4.10396 3.80889C4.10474 2.85847 4.102 1.90843 4.10513 0.958001C4.10669 0.513061 4.336 0.177111 4.71218 0.0501527C5.30752 -0.151027 5.88567 0.278287 5.89387 0.937687C5.90168 1.56232 5.89582 2.18735 5.89582 2.81237C5.89582 3.14441 5.89504 3.47646 5.89621 3.80811C5.897 4.07023 5.92942 4.10422 6.18685 4.10422C7.13728 4.105 8.08732 4.10265 9.03774 4.10539C9.48503 4.10656 9.81941 4.33235 9.94872 4.70776C10.1534 5.30192 9.72605 5.88437 9.06782 5.89413C8.50803 5.90233 7.94825 5.89608 7.38846 5.89608C6.97829 5.89608 6.56851 5.89491 6.15833 5.89687C5.93918 5.89804 5.897 5.94023 5.8966 6.1625C5.89543 7.11918 5.89778 8.07625 5.89543 9.03293C5.89426 9.48216 5.67238 9.81577 5.29736 9.94741C4.70437 10.1552 4.11841 9.72983 4.10669 9.07316C4.09771 8.57861 4.10474 8.08367 4.10474 7.58912C4.10474 7.12035 4.10552 6.65197 4.10435 6.1832C4.10396 5.93398 4.06841 5.89726 3.82387 5.89687C3.34221 5.89569 2.86055 5.89647 2.37889 5.89647C2.37811 5.8953 2.37811 5.8953 2.37811 5.89491Z"
-                                                            fill="black"
-                                                        />
-                                                    </g>
-                                                    <defs>
-                                                        <clipPath id="clip0_1_18">
-                                                            <rect width="10" height="10" fill="white" />
-                                                        </clipPath>
-                                                    </defs>
-                                                </svg>
-                                            </span>
-                                        </a>
-                                        <ul class="header-sub-menu">
-                                            <li><a href="product-info.html">Product-details</a></li>
-                                            <li><a href="privacy.html">Privacy Policy</a></li>
-                                            <li><a href="terms.html">Terms & Condition</a></li>
-                                            <li><a href="faq.html">FAQ</a></li>
-                                            <li><a href="product-sidebar.html">Shop Category Icon</a></li>
-                                            <li><a href="product-sidebar.html">Shop List View</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="about.html">
-                                            <span class="list-text">About</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="blogs.html">
-                                            <span class="list-text">Blog</span>
-                                        </a>
-                                        <ul class="header-sub-menu">
-                                            <li><a href="blogs-details.html">Blog-details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="user-profile.html">
-                                            <span class="list-text">User Dashboard</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="contact-us.html">
-                                            <span class="list-text">Contact</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="header-vendor-btn">
-                            <a href="become-vendor.html" class="shop-btn">
-                                <span class="list-text shop-text">Become a Seller</span>
-                                <span class="icon">
-                                    <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <rect x="1.08981" width="6.94106" height="1.54246" transform="rotate(45 1.08981 0)" />
-                                        <rect x="5.99997" y="4.9082" width="6.94106" height="1.54246" transform="rotate(135 5.99997 4.9082)" />
-                                    </svg>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!--------------- header-section-end --------------->
-
-        <!--------------- hero-section --------------->
-        <section id="hero" class="hero hero-three">
-            <div class="swiper hero-swiper">
-                <div class="swiper-wrapper hero-wrapper">
-                    <div class="swiper-slide hero-slider-one">
-                        <div class="container">
-                            <div class="col-lg-6">
-                                <div class="wrapper-section" data-aos="fade-up">
-                                    <div class="wrapper-info">
-                                        <h5 class="wrapper-subtitle">Classic Exclusive</h5>
-                                        <h1 class="wrapper-title">Summer’s Collection</h1>
-                                        <h4 class="wrapper-details">Up to 40% OFF</h4>
-                                        <a href="product-sidebar.html" class="shop-btn"
-                                            >Go Shopping
-                                            <span>
-                                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M6.40029 4.88006L1.81029 0.29006C1.62293 0.103809 1.36948 -0.000732422 1.10529 -0.000732422C0.841105 -0.000732422 0.587653 0.103809 0.40029 0.29006C0.306562 0.383023 0.232168 0.493624 0.181399 0.615483C0.130631 0.737343 0.104492 0.868048 0.104492 1.00006C0.104492 1.13207 0.130631 1.26278 0.181399 1.38464C0.232168 1.5065 0.306562 1.6171 0.40029 1.71006L5.00029 6.29006C5.09402 6.38302 5.16841 6.49362 5.21918 6.61548C5.26995 6.73734 5.29609 6.86805 5.29609 7.00006C5.29609 7.13207 5.26995 7.26278 5.21918 7.38464C5.16841 7.5065 5.09402 7.6171 5.00029 7.71006L0.40029 12.2901C0.211987 12.477 0.105672 12.7312 0.104734 12.9965C0.103797 13.2619 0.208314 13.5168 0.395291 13.7051C0.582269 13.8934 0.836391 13.9997 1.10176 14.0006C1.36712 14.0016 1.62199 13.897 1.81029 13.7101L6.40029 9.12006C6.96209 8.55756 7.27765 7.79506 7.27765 7.00006C7.27765 6.20506 6.96209 5.44256 6.40029 4.88006Z"
-                                                        fill="#FFFAFE"
-                                                    />
-                                                </svg>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide hero-slider-two">
-                        <div class="container">
-                            <div class="col-lg-6">
-                                <div class="wrapper-section">
-                                    <div class="wrapper-info">
-                                        <h5 class="wrapper-subtitle">Classic Exclusive</h5>
-                                        <h1 class="wrapper-title">Summer’s Collection</h1>
-                                        <h4 class="wrapper-details">Up to 40% OFF</h4>
-                                        <a href="product-sidebar.html" class="shop-btn"
-                                            >Go Shopping
-                                            <span>
-                                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M6.40029 4.88006L1.81029 0.29006C1.62293 0.103809 1.36948 -0.000732422 1.10529 -0.000732422C0.841105 -0.000732422 0.587653 0.103809 0.40029 0.29006C0.306562 0.383023 0.232168 0.493624 0.181399 0.615483C0.130631 0.737343 0.104492 0.868048 0.104492 1.00006C0.104492 1.13207 0.130631 1.26278 0.181399 1.38464C0.232168 1.5065 0.306562 1.6171 0.40029 1.71006L5.00029 6.29006C5.09402 6.38302 5.16841 6.49362 5.21918 6.61548C5.26995 6.73734 5.29609 6.86805 5.29609 7.00006C5.29609 7.13207 5.26995 7.26278 5.21918 7.38464C5.16841 7.5065 5.09402 7.6171 5.00029 7.71006L0.40029 12.2901C0.211987 12.477 0.105672 12.7312 0.104734 12.9965C0.103797 13.2619 0.208314 13.5168 0.395291 13.7051C0.582269 13.8934 0.836391 13.9997 1.10176 14.0006C1.36712 14.0016 1.62199 13.897 1.81029 13.7101L6.40029 9.12006C6.96209 8.55756 7.27765 7.79506 7.27765 7.00006C7.27765 6.20506 6.96209 5.44256 6.40029 4.88006Z"
-                                                        fill="#FFFAFE"
-                                                    />
-                                                </svg>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide hero-slider-three">
-                        <div class="container">
-                            <div class="col-lg-6">
-                                <div class="wrapper-section">
-                                    <div class="wrapper-info">
-                                        <h5 class="wrapper-subtitle">Classic Exclusive</h5>
-                                        <h1 class="wrapper-title">Summer’s Collection</h1>
-                                        <h4 class="wrapper-details">Up to 40% OFF</h4>
-                                        <a href="product-sidebar.html" class="shop-btn"
-                                            >Go Shopping
-                                            <span>
-                                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M6.40029 4.88006L1.81029 0.29006C1.62293 0.103809 1.36948 -0.000732422 1.10529 -0.000732422C0.841105 -0.000732422 0.587653 0.103809 0.40029 0.29006C0.306562 0.383023 0.232168 0.493624 0.181399 0.615483C0.130631 0.737343 0.104492 0.868048 0.104492 1.00006C0.104492 1.13207 0.130631 1.26278 0.181399 1.38464C0.232168 1.5065 0.306562 1.6171 0.40029 1.71006L5.00029 6.29006C5.09402 6.38302 5.16841 6.49362 5.21918 6.61548C5.26995 6.73734 5.29609 6.86805 5.29609 7.00006C5.29609 7.13207 5.26995 7.26278 5.21918 7.38464C5.16841 7.5065 5.09402 7.6171 5.00029 7.71006L0.40029 12.2901C0.211987 12.477 0.105672 12.7312 0.104734 12.9965C0.103797 13.2619 0.208314 13.5168 0.395291 13.7051C0.582269 13.8934 0.836391 13.9997 1.10176 14.0006C1.36712 14.0016 1.62199 13.897 1.81029 13.7101L6.40029 9.12006C6.96209 8.55756 7.27765 7.79506 7.27765 7.00006C7.27765 6.20506 6.96209 5.44256 6.40029 4.88006Z"
-                                                        fill="#FFFAFE"
-                                                    />
-                                                </svg>
-                                            </span>
-                                        </a>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="hero-category-section">
+                    <div class="row g-5">
+                        <div class="col-lg-4">
+                            <div
+                                class="hero-wrapper"
+                                style="background: url(assets/images/homepage-two/h-3.webp) no-repeat center / cover"
+                                data-aos="fade-up"
+                                data-aos-delay="150"
+                                data-aos-duration="500"
+                            >
+                                <div class="wrapper-content" data-aos="zoom-in" data-aos-duration="700">
+                                    <h5 class="wrapper-details">Floral Dresses</h5>
+                                    <a href="#" class="shop-btn"
+                                        >Shop Now
+                                        <span>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.6667 13.3333L15 9.99992M15 9.99992L11.6667 6.66658M15 9.99992L5 9.99992"
+                                                    stroke="white"
+                                                    stroke-width="1.5"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div
+                                class="hero-wrapper"
+                                style="background: url(assets/images/homepage-two/h-4.webp) no-repeat center / cover"
+                                data-aos="fade-up"
+                                data-aos-delay="250"
+                                data-aos-duration="500"
+                            >
+                                <div class="wrapper-content" data-aos="zoom-in" data-aos-duration="700">
+                                    <h5 class="wrapper-details">Watch Collection</h5>
+                                    <a href="#" class="shop-btn"
+                                        >Shop Now
+                                        <span>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.6667 13.3333L15 9.99992M15 9.99992L11.6667 6.66658M15 9.99992L5 9.99992"
+                                                    stroke="white"
+                                                    stroke-width="1.5"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div
+                                class="hero-wrapper"
+                                style="background: url(assets/images/homepage-two/h-5.webp) no-repeat center / cover"
+                                data-aos="fade-up"
+                                data-aos-delay="350"
+                                data-aos-duration="500"
+                            >
+                                <div class="wrapper-content" data-aos="zoom-in" data-aos-duration="700">
+                                    <h5 class="wrapper-details">Men’s Sneakers</h5>
+                                    <a href="#" class="shop-btn"
+                                        >Shop Now
+                                        <span>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.6667 13.3333L15 9.99992M15 9.99992L11.6667 6.66658M15 9.99992L5 9.99992"
+                                                    stroke="white"
+                                                    stroke-width="1.5"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!--------------- hero-section-end --------------->
@@ -1140,7 +148,7 @@
             <div class="container">
                 <div class="section-title">
                     <h5>Our Categories</h5>
-                    <a href="product-sidebar.html" class="view">View All</a>
+                    <a href="/product-sidebar" class="view">View All</a>
                 </div>
                 <div class="category-section category-section-two">
                     <div class="product-wrapper" data-aos="fade-right" data-aos-duration="100">
@@ -1148,7 +156,7 @@
                             <img src="assets/images/homepage-two/cat-img-1.webp" alt="shoes" />
                         </div>
                         <div class="wrapper-info">
-                            <a href="product-sidebar.html" class="wrapper-details">Women Shoes</a>
+                            <a href="/product-sidebar" class="wrapper-details">Women Shoes</a>
                         </div>
                     </div>
                     <div class="product-wrapper" data-aos="fade-right" data-aos-duration="200">
@@ -1156,7 +164,7 @@
                             <img src="assets/images/homepage-two/cat-img-8.webp" alt="Bags" />
                         </div>
                         <div class="wrapper-info">
-                            <a href="product-sidebar.html" class="wrapper-details">Leather Bags</a>
+                            <a href="/product-sidebar" class="wrapper-details">Leather Bags</a>
                         </div>
                     </div>
                     <div class="product-wrapper" data-aos="fade-right" data-aos-duration="300">
@@ -1164,7 +172,7 @@
                             <img src="assets/images/homepage-two/cat-img-2.webp" alt="Sunglasses" />
                         </div>
                         <div class="wrapper-info">
-                            <a href="product-sidebar.html" class="wrapper-details">Sunglasses</a>
+                            <a href="/product-sidebar" class="wrapper-details">Sunglasses</a>
                         </div>
                     </div>
                     <div class="product-wrapper" data-aos="fade-right" data-aos-duration="400">
@@ -1172,7 +180,7 @@
                             <img src="assets/images/homepage-two/cat-img-3.webp" alt="Gold Ring" />
                         </div>
                         <div class="wrapper-info">
-                            <a href="product-sidebar.html" class="wrapper-details">Gold Ring</a>
+                            <a href="/product-sidebar" class="wrapper-details">Gold Ring</a>
                         </div>
                     </div>
                     <div class="product-wrapper" data-aos="fade-right" data-aos-duration="500">
@@ -1180,7 +188,7 @@
                             <img src="assets/images/homepage-two/cat-img-4.webp" alt="Makeup Box" />
                         </div>
                         <div class="wrapper-info">
-                            <a href="product-sidebar.html" class="wrapper-details">Makeup Box</a>
+                            <a href="/product-sidebar" class="wrapper-details">Makeup Box</a>
                         </div>
                     </div>
                     <div class="product-wrapper" data-aos="fade-right" data-aos-duration="600">
@@ -1188,7 +196,7 @@
                             <img src="assets/images/homepage-two/cat-img-5.webp" alt="Watches" />
                         </div>
                         <div class="wrapper-info">
-                            <a href="product-sidebar.html" class="wrapper-details">Watches</a>
+                            <a href="/product-sidebar" class="wrapper-details">Watches</a>
                         </div>
                     </div>
                     <div class="product-wrapper" data-aos="fade-right" data-aos-duration="100">
@@ -1196,7 +204,7 @@
                             <img src="assets/images/homepage-two/cat-img-6.webp" alt="Sweaters" />
                         </div>
                         <div class="wrapper-info">
-                            <a href="product-sidebar.html" class="wrapper-details">Sweaters</a>
+                            <a href="/product-sidebar" class="wrapper-details">Sweaters</a>
                         </div>
                     </div>
                     <div class="product-wrapper" data-aos="fade-right" data-aos-duration="200">
@@ -1204,7 +212,7 @@
                             <img src="assets/images/homepage-two/cat-img-3.webp" alt="Gold Rings" />
                         </div>
                         <div class="wrapper-info">
-                            <a href="product-sidebar.html" class="wrapper-details">Gold Rings</a>
+                            <a href="/product-sidebar" class="wrapper-details">Gold Rings</a>
                         </div>
                     </div>
                     <div class="product-wrapper" data-aos="fade-right" data-aos-duration="300">
@@ -1212,7 +220,7 @@
                             <img src="assets/images/homepage-two/cat-img-7.webp" alt="Shoes" />
                         </div>
                         <div class="wrapper-info">
-                            <a href="product-sidebar.html" class="wrapper-details">Shoes</a>
+                            <a href="/product-sidebar" class="wrapper-details">Shoes</a>
                         </div>
                     </div>
                     <div class="product-wrapper" data-aos="fade-right" data-aos-duration="400">
@@ -1220,7 +228,7 @@
                             <img src="assets/images/homepage-two/cat-img-5.webp" alt="Watches" />
                         </div>
                         <div class="wrapper-info">
-                            <a href="product-sidebar.html" class="wrapper-details">Watches</a>
+                            <a href="/product-sidebar" class="wrapper-details">Watches</a>
                         </div>
                     </div>
                     <div class="product-wrapper" data-aos="fade-right" data-aos-duration="500">
@@ -1228,7 +236,7 @@
                             <img src="assets/images/homepage-two/cat-img-8.webp" alt="Leather Bags" />
                         </div>
                         <div class="wrapper-info">
-                            <a href="product-sidebar.html" class="wrapper-details">Leather Bags</a>
+                            <a href="/product-sidebar" class="wrapper-details">Leather Bags</a>
                         </div>
                     </div>
                     <div class="product-wrapper" data-aos="fade-right" data-aos-duration="200">
@@ -1236,7 +244,7 @@
                             <img src="assets/images/homepage-two/cat-img-1.webp" alt="shoes" />
                         </div>
                         <div class="wrapper-info">
-                            <a href="product-sidebar.html" class="wrapper-details">Shoes</a>
+                            <a href="/product-sidebar" class="wrapper-details">Shoes</a>
                         </div>
                     </div>
                 </div>
@@ -1261,56 +269,56 @@
                             <div class="brand-grid-section">
                                 <div class="product-wrapper" data-aos="zoom-out" data-aos-delay="150" data-aos-duration="1000">
                                     <div class="wrapper-img">
-                                        <a href="product-sidebar.html">
+                                        <a href="/product-sidebar">
                                             <img src="assets/images/homepage-two/brand-img-1.webp" alt="img" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="product-wrapper" data-aos="zoom-out" data-aos-delay="250" data-aos-duration="1000">
                                     <div class="wrapper-img">
-                                        <a href="product-sidebar.html">
+                                        <a href="/product-sidebar">
                                             <img src="assets/images/homepage-two/brand-img-2.webp" alt="img" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="product-wrapper" data-aos="zoom-out" data-aos-delay="350" data-aos-duration="1000">
                                     <div class="wrapper-img">
-                                        <a href="product-sidebar.html">
+                                        <a href="/product-sidebar">
                                             <img src="assets/images/homepage-two/brand-img-3.webp" alt="img" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="product-wrapper" data-aos="zoom-out" data-aos-delay="450" data-aos-duration="1000">
                                     <div class="wrapper-img">
-                                        <a href="product-sidebar.html">
+                                        <a href="/product-sidebar">
                                             <img src="assets/images/homepage-two/brand-img-4.webp" alt="img" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="product-wrapper" data-aos="zoom-out" data-aos-delay="150" data-aos-duration="1000">
                                     <div class="wrapper-img">
-                                        <a href="product-sidebar.html">
+                                        <a href="/product-sidebar">
                                             <img src="assets/images/homepage-two/brand-img-5.webp" alt="img" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="product-wrapper" data-aos="zoom-out" data-aos-delay="250" data-aos-duration="1000">
                                     <div class="wrapper-img">
-                                        <a href="product-sidebar.html">
+                                        <a href="/product-sidebar">
                                             <img src="assets/images/homepage-two/brand-img-6.webp" alt="img" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="product-wrapper" data-aos="zoom-out" data-aos-delay="350" data-aos-duration="1000">
                                     <div class="wrapper-img">
-                                        <a href="product-sidebar.html">
+                                        <a href="/product-sidebar">
                                             <img src="assets/images/homepage-two/brand-img-7.webp" alt="img" />
                                         </a>
                                     </div>
                                 </div>
                                 <div class="product-wrapper" data-aos="zoom-out" data-aos-delay="450" data-aos-duration="1000">
                                     <div class="wrapper-img">
-                                        <a href="product-sidebar.html">
+                                        <a href="/product-sidebar">
                                             <img src="assets/images/homepage-two/brand-img-8.webp" alt="img" />
                                         </a>
                                     </div>
@@ -1328,12 +336,12 @@
             <div class="container">
                 <div class="section-title">
                     <h5>NEW ARRIVALS</h5>
-                    <a href="product-sidebar.html" class="view">View All</a>
+                    <a href="/product-sidebar" class="view">View All</a>
                 </div>
                 <div class="arrival-section">
                     <div class="row g-5">
                         <div class="col-lg-3 col-sm-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-1.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -1380,7 +388,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -1391,7 +399,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -1446,7 +454,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Rainbow Sequin Dress </a>
+                                        <a href="/product-info" class="product-details">Rainbow Sequin Dress </a>
                                         <div class="price">
                                             <span class="price-cut">$12.99</span>
                                             <span class="new-price">$6.99</span>
@@ -1454,12 +462,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-2.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -1506,7 +514,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -1517,7 +525,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -1572,7 +580,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Feminine Wrap Blouse </a>
+                                        <a href="/product-info" class="product-details">Feminine Wrap Blouse </a>
                                         <div class="price">
                                             <span class="price-cut">$9.99</span>
                                             <span class="new-price">$6.99</span>
@@ -1580,12 +588,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-3.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -1632,7 +640,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -1643,7 +651,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -1698,7 +706,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Trendy Bucket Hat </a>
+                                        <a href="/product-info" class="product-details">Trendy Bucket Hat </a>
                                         <div class="price">
                                             <span class="price-cut">$18.99</span>
                                             <span class="new-price">$10.99</span>
@@ -1706,12 +714,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-4.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -1758,7 +766,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -1769,7 +777,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -1824,7 +832,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Boho Maxi Dress </a>
+                                        <a href="/product-info" class="product-details">Boho Maxi Dress </a>
                                         <div class="price">
                                             <span class="price-cut">$20.99</span>
                                             <span class="new-price">$10.99</span>
@@ -1832,12 +840,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-5.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -1884,7 +892,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -1895,7 +903,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -1950,7 +958,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Casual Denim Jacket </a>
+                                        <a href="/product-info" class="product-details">Casual Denim Jacket </a>
                                         <div class="price">
                                             <span class="price-cut">$20.99</span>
                                             <span class="new-price">$10.99</span>
@@ -1958,12 +966,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-6.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -2010,7 +1018,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -2021,7 +1029,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -2076,7 +1084,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Stylish Statement Earrings </a>
+                                        <a href="/product-info" class="product-details">Stylish Statement Earrings </a>
                                         <div class="price">
                                             <span class="price-cut">$20.99</span>
                                             <span class="new-price">$9.99</span>
@@ -2084,12 +1092,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-7.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -2136,7 +1144,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -2147,7 +1155,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -2202,7 +1210,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Leather Dress Shoes </a>
+                                        <a href="/product-info" class="product-details">Leather Dress Shoes </a>
                                         <div class="price">
                                             <span class="price-cut">$19.99</span>
                                             <span class="new-price">$18.99</span>
@@ -2210,12 +1218,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-8.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -2262,7 +1270,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -2273,7 +1281,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -2328,7 +1336,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Wool Peacoat </a>
+                                        <a href="/product-info" class="product-details">Wool Peacoat </a>
                                         <div class="price">
                                             <span class="price-cut">$25.99</span>
                                             <span class="new-price">$13.99</span>
@@ -2336,7 +1344,7 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -2347,44 +1355,23 @@
         <!--------------- arrival-section-end--------------->
 
         <!--------------- arrival-section--------------->
-        <section class="product discount-two" data-aos="fade-right" data-aos-duration="600">
+        <section class="product discount" data-aos="zoom-in" data-aos-duration="600">
             <div class="container">
-                <div class="discount-section discount-section-two">
-                    <div class="row g-5">
-                        <div class="col-lg-6">
-                            <div class="section-content" style="background: url(assets/images/homepage-three/discount-img-1.webp) no-repeat center / cover;">
-                                <p class="subtitle">New Style</p>
-                                <h3 class="wrapper-title">Get <span class="inner-text">65% Offer</span> <br> & Make New <br> Fusion.</h3>
-                                <a href="#" class="shop-btn">
-                                    Shop Now
-                                    <span>
-                                        <svg width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M23.9184 5.44799L19.5004 1.08699C19.0024 0.594988 18.1504 0.943988 18.1504 1.63899V4.99999H1.15039C0.597391 4.99999 0.150391 5.44799 0.150391 5.99999C0.150391 6.55199 0.597391 6.99999 1.15039 6.99999H18.1504V10.361C18.1504 11.056 19.0024 11.405 19.5004 10.913L23.9184 6.55199C24.2274 6.24699 24.2274 5.75299 23.9184 5.44799Z"
-                                                fill="#F8FAFC"
-                                            />
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="section-content" style="background: url(assets/images/homepage-three/discount-img-2.webp) no-repeat center / cover;">
-                                <p class="subtitle">New Style</p>
-                                <h3 class="wrapper-title">Get  <span class="inner-text">65% Offer</span> <br> & Make New <br> Fusion.</h3>
-                                <a href="#" class="shop-btn">
-                                    Shop Now
-                                    <span>
-                                        <svg width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M23.9184 5.44799L19.5004 1.08699C19.0024 0.594988 18.1504 0.943988 18.1504 1.63899V4.99999H1.15039C0.597391 4.99999 0.150391 5.44799 0.150391 5.99999C0.150391 6.55199 0.597391 6.99999 1.15039 6.99999H18.1504V10.361C18.1504 11.056 19.0024 11.405 19.5004 10.913L23.9184 6.55199C24.2274 6.24699 24.2274 5.75299 23.9184 5.44799Z"
-                                                fill="#F8FAFC"
-                                            />
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
+                <div class="discount-section">
+                    <div class="section-content">
+                        <p class="subtitle">New Style</p>
+                        <h3 class="wrapper-title">Get 65% <span class="inner-text">Offer</span> <br> & Make New Fusion.</h3>
+                        <a href="#" class="shop-btn">
+                            Shop Now
+                            <span>
+                                <svg width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M23.9184 5.44799L19.5004 1.08699C19.0024 0.594988 18.1504 0.943988 18.1504 1.63899V4.99999H1.15039C0.597391 4.99999 0.150391 5.44799 0.150391 5.99999C0.150391 6.55199 0.597391 6.99999 1.15039 6.99999H18.1504V10.361C18.1504 11.056 19.0024 11.405 19.5004 10.913L23.9184 6.55199C24.2274 6.24699 24.2274 5.75299 23.9184 5.44799Z"
+                                        fill="#F8FAFC"
+                                    />
+                                </svg>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -2392,7 +1379,7 @@
         <!--------------- arrival-section-end--------------->
 
         <!--------------- flash-section--------------->
-        <section class="product flash-sale flash-sale-three">
+        <section class="product flash-sale flash-sale-two">
             <div class="container">
                 <div class="section-title">
                     <h5>Flash Sale</h5>
@@ -2414,12 +1401,12 @@
                             <span class="text">seconds</span>
                         </div>
                     </div>
-                    <a href="flash-sale.html" class="view">View All</a>
+                    <a href="/flash-sale" class="view">View All</a>
                 </div>
                 <div class="flash-sale-section">
                     <div class="row g-5">
                         <div class="col-lg-3 col-md-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-right" data-aos-duration="100">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-right" data-aos-duration="100">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-5.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -2466,7 +1453,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -2477,7 +1464,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -2532,7 +1519,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Leather Dress Shoes </a>
+                                        <a href="/product-info" class="product-details">Leather Dress Shoes </a>
                                         <div class="price">
                                             <span class="price-cut">$22.99</span>
                                             <span class="new-price">$13.99</span>
@@ -2540,12 +1527,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-right" data-aos-duration="200">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-right" data-aos-duration="200">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-3.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -2592,7 +1579,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -2603,7 +1590,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -2658,7 +1645,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Trendy Bucket Hat </a>
+                                        <a href="/product-info" class="product-details">Trendy Bucket Hat </a>
                                         <div class="price">
                                             <span class="price-cut">$39.99</span>
                                             <span class="new-price">$23.99</span>
@@ -2666,12 +1653,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-right" data-aos-duration="300">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-right" data-aos-duration="300">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-6.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -2718,7 +1705,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -2729,7 +1716,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -2784,7 +1771,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Stylish Statement Earrings </a>
+                                        <a href="/product-info" class="product-details">Stylish Statement Earrings </a>
                                         <div class="price">
                                             <span class="price-cut">$39.99</span>
                                             <span class="new-price">$26.99</span>
@@ -2792,12 +1779,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-right" data-aos-duration="400">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-right" data-aos-duration="400">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-9.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -2844,7 +1831,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -2855,7 +1842,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -2910,7 +1897,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Rainbow Sequin Dress </a>
+                                        <a href="/product-info" class="product-details">Rainbow Sequin Dress </a>
                                         <div class="price">
                                             <span class="price-cut">$29.99</span>
                                             <span class="new-price">$16.99</span>
@@ -2918,7 +1905,7 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -2933,12 +1920,12 @@
             <div class="container">
                 <div class="section-title">
                     <h5>Top Selling Prodcuts</h5>
-                    <a href="product-sidebar.html" class="view">View All</a>
+                    <a href="/product-sidebar" class="view">View All</a>
                 </div>
                 <div class="top-selling-section">
                     <div class="row g-5">
                         <div class="col-lg-4 col-md-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-right">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-right">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-5.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -2985,7 +1972,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -2996,7 +1983,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -3051,7 +2038,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Leather Dress Shoes </a>
+                                        <a href="/product-info" class="product-details">Leather Dress Shoes </a>
                                         <div class="price">
                                             <span class="price-cut">$19.99</span>
                                             <span class="new-price">$13.99</span>
@@ -3059,12 +2046,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-right">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-right">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-3.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -3111,7 +2098,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -3122,7 +2109,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -3177,7 +2164,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Wool Peacoat </a>
+                                        <a href="/product-info" class="product-details">Wool Peacoat </a>
                                         <div class="price">
                                             <span class="price-cut">$15.99</span>
                                             <span class="new-price">$8.99</span>
@@ -3185,12 +2172,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-right">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-right">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-6.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -3237,7 +2224,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -3248,7 +2235,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -3303,7 +2290,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Stylish Earrings </a>
+                                        <a href="/product-info" class="product-details">Stylish Earrings </a>
                                         <div class="price">
                                             <span class="price-cut">$17.99</span>
                                             <span class="new-price">$9.99</span>
@@ -3311,12 +2298,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-right">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-right">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-7.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -3363,7 +2350,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -3374,7 +2361,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -3429,7 +2416,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Leather Dress Shoes </a>
+                                        <a href="/product-info" class="product-details">Leather Dress Shoes </a>
                                         <div class="price">
                                             <span class="price-cut">$20.99</span>
                                             <span class="new-price">$8.99</span>
@@ -3437,12 +2424,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-right">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-right">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-8.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -3489,7 +2476,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -3500,7 +2487,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -3555,7 +2542,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Trendy Bucket Hat </a>
+                                        <a href="/product-info" class="product-details">Trendy Bucket Hat </a>
                                         <div class="price">
                                             <span class="price-cut">$13.99</span>
                                             <span class="new-price">$7.99</span>
@@ -3563,12 +2550,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-right">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-right">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-10.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -3615,7 +2602,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -3626,7 +2613,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -3681,7 +2668,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Rainbow Dress </a>
+                                        <a href="/product-info" class="product-details">Rainbow Dress </a>
                                         <div class="price">
                                             <span class="price-cut">$12.99</span>
                                             <span class="new-price">$6.99</span>
@@ -3689,7 +2676,7 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -3699,17 +2686,146 @@
         </section>
         <!--------------- top-sell-section-end--------------->
 
+        <!--------------- best-sell-section--------------->
+        <section class="product best-seller">
+            <div class="container">
+                <div class="best-selling-section best-selling-section-two">
+                    <div class="section-title">
+                        <h5>Best Sellers</h5>
+                        <a href="/sellers" class="view">View All</a>
+                    </div>
+                    <div class="best-selling-items">
+                        <div class="product-wrapper product-wrapper-two">
+                            <div class="wrapper-img">
+                                <span>
+                                    <svg width="94" height="82" viewBox="0 0 94 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M58.256 40.0336L70.0806 40.0336L46.9682 -2.64059e-05L29.516 30.2262C35.3719 40.3689 41.2279 50.5174 47.0898 60.663L47.2738 60.9804L70.3506 60.9804L76.2304 71.1617L64.5332 71.1617L53.1476 71.1617L59.0955 81.4616C70.7333 81.4615 82.3652 81.4615 94 81.4615L76.1799 50.5945C68.3393 50.5945 60.5016 50.5945 52.661 50.5945L41.1212 30.6059L46.9653 20.4751L58.256 40.0336Z"
+                                            fill="white"
+                                        />
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M35.3604 60.9805L29.4777 71.1647L17.7865 71.1647L23.6662 60.9805L29.6498 50.6243L26.7099 45.5307L23.7344 40.3808L23.5327 40.7308L0.0108757 81.4646L11.8356 81.4646L23.5327 81.4646L35.1586 81.4646L41.1036 71.1647L41.3053 70.8176L35.6303 60.9805L35.3604 60.9805Z"
+                                            fill="#F11921"
+                                        />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="wrapper-info">
+                                <a href="/seller-sidebar" class="wrapper-details">Jansjina</a>
+                            </div>
+                        </div>
+                        <div class="product-wrapper product-wrapper-two">
+                            <div class="wrapper-img">
+                                <span>
+                                    <svg width="96" height="68" viewBox="0 0 96 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M37.6636 5.93245C36.5229 5.77892 35.3657 5.84745 34.2721 6.14269C32.1462 6.71663 30.2372 8.08416 29.054 10.139L6.98447 48.4492H6.97742C5.80135 50.504 5.56801 52.8636 6.14073 55.0153C6.70873 57.1386 8.06393 59.04 10.0673 60.228C12.278 61.3169 14.7173 61.5412 16.8974 60.9531C18.9644 60.3957 20.7933 59.0942 21.9411 57.1102L31.6961 40.1636L35.0593 45.9904L26.9871 60.0178C25.0121 63.4402 21.901 65.6627 18.4058 66.6122C14.8729 67.5617 10.9299 67.1862 7.38515 65.41L7.13531 65.2848L7.06462 65.2423V65.2282H7.06934C3.70376 63.2158 1.43882 60.0437 0.496078 56.5245C-0.460804 52.9486 -0.0601474 48.9947 1.93139 45.5298V45.5157L24.001 7.20555C25.309 4.94284 27.1379 3.16663 29.2497 1.95261H29.245C32.6954 -0.0455656 36.6384 -0.463614 40.209 0.485873C43.7867 1.44953 46.9991 3.7548 48.9907 7.20555L58.9719 24.5301L58.9884 24.5018L60.9588 21.0794L62.3517 18.6631L68.9791 7.15117C70.9589 3.72877 74.0817 1.47792 77.584 0.528429C81.124 -0.43523 85.0717 -0.0856881 88.6141 1.6881L88.871 1.81329L88.937 1.86998H88.9323C92.2955 3.88232 94.5604 7.05433 95.5055 10.5736C96.46 14.1495 96.0594 18.1057 94.0702 21.5683V21.5824L71.4774 60.7878C69.5613 64.1133 66.5044 66.3902 63.0846 67.3964L63.0964 67.4672C61.8426 67.8026 60.5699 67.9703 59.3043 67.9987H59.2665H59.1793H59.0898H59.0497C58.0952 68.0128 57.1359 67.9136 56.1838 67.7341L56.1202 67.72L56.0612 67.7058L55.9481 67.6774H55.941L55.8185 67.6491C55.5734 67.5924 55.3353 67.5381 55.0926 67.4814C51.5856 66.5178 48.4675 64.281 46.4853 60.8444L39.8579 49.3325L38.465 46.9163L36.4994 43.4939H36.4946L32.5045 36.5782H32.4998L28.1231 28.9918C27.3241 27.6077 26.9093 26.1008 26.8386 24.6057C26.7726 23.0539 27.079 21.5045 27.7201 20.1063L27.7672 19.9953L27.845 19.8701L28.1561 19.3245H28.1608C28.6393 18.5001 29.2096 17.7727 29.8507 17.1586C30.5247 16.5303 31.2766 15.9847 32.0826 15.5809H32.0944C32.7732 15.2313 33.4826 14.9644 34.2132 14.7825V14.7683C34.9344 14.6006 35.6956 14.5038 36.4758 14.5038H36.497C37.4492 14.5038 38.3707 14.6432 39.2333 14.8959C40.1006 15.1604 40.9467 15.5525 41.7386 16.0697C42.3656 16.4736 42.9477 16.9649 43.4686 17.5082C43.98 18.0538 44.4372 18.6537 44.8214 19.3245L45.1349 19.8701L45.182 19.9551L45.2598 20.1228C45.9008 21.5211 46.2072 23.0563 46.1389 24.6081C46.0729 26.1032 45.6557 27.6124 44.8591 28.9941L41.3026 35.1705L37.9347 29.3153L39.8084 26.0583C40.1242 25.5268 40.2868 24.9269 40.3151 24.3553C40.3387 23.7814 40.2373 23.2098 40.0181 22.6784L39.7707 22.2603C39.6151 21.9816 39.4383 21.7431 39.2451 21.5352C39.0306 21.325 38.8044 21.1313 38.5616 20.9754C38.2623 20.7794 37.9229 20.6259 37.5646 20.5149C37.1993 20.4039 36.8364 20.3472 36.4946 20.3472H36.4852C36.2047 20.3472 35.9078 20.3897 35.6085 20.4582H35.5967C35.3044 20.5267 35.0216 20.6401 34.7529 20.7652L34.76 20.7794C34.4348 20.9471 34.1354 21.1573 33.8715 21.4077C33.6099 21.6604 33.3836 21.9391 33.2045 22.2462V22.2603L32.9782 22.6524C32.7449 23.1838 32.6412 23.7696 32.6648 24.3577C32.6883 24.9316 32.8533 25.5316 33.1668 26.0606L36.0846 31.1175L39.8602 37.6694L43.0184 43.1467L43.042 43.1183L51.5313 57.859C52.7168 59.9139 54.6235 61.2956 56.7494 61.8553L57.1124 61.938L57.1477 61.9522H57.1642L57.2184 61.9663H57.2231L57.2703 61.9805H57.2986H57.3245L57.3764 61.9947L57.4282 62.0088H57.4541L57.4824 62.023H57.5272H57.5343C57.7605 62.0655 57.9915 62.0939 58.2201 62.1081L58.3733 62.1222H58.3804L58.4534 62.1364H58.4841H58.5312H58.5359H58.5925H58.609L58.6443 62.1506H58.6868H58.6985H58.7527H58.7622C59.2218 62.1648 59.6861 62.1364 60.1433 62.0797C60.5062 62.023 60.8621 61.9545 61.2086 61.8553C63.3321 61.2956 65.2412 59.9139 66.4267 57.859L89.0147 18.6537H89.0195C90.2026 16.5988 90.4312 14.2393 89.8561 12.0876C89.2929 9.97841 87.9353 8.06288 85.932 6.87484C83.7307 5.80018 81.2984 5.58999 79.1136 6.18991C77.0254 6.74969 75.1777 8.06288 74.0252 10.0611L62.3493 30.3475L58.5736 36.8853L55.6606 41.9421C55.3424 42.4877 55.1774 43.0734 55.1538 43.6616C55.1303 44.2355 55.2387 44.8212 55.4697 45.3527L55.6959 45.7566V45.7707C55.8774 46.0778 56.0989 46.3589 56.3605 46.6092C56.6245 46.8619 56.9262 47.0698 57.2491 47.2375H57.2444C57.5083 47.3769 57.7912 47.4737 58.0881 47.5445H58.1022C58.3969 47.6295 58.6938 47.6697 58.9767 47.6697H58.9814C59.3231 47.6555 59.6861 47.5988 60.0537 47.4878C60.4143 47.391 60.7537 47.2375 61.053 47.0415C61.2934 46.8738 61.522 46.6919 61.7318 46.4675C61.9274 46.2573 62.1065 46.0211 62.2621 45.7542L62.5096 45.322C62.7241 44.8047 62.8254 44.2331 62.8018 43.6592C62.7783 43.0734 62.6133 42.4853 62.3022 41.9397L60.4214 38.685L63.7917 32.844L67.3482 39.0062C68.1448 40.3903 68.5643 41.8996 68.6256 43.4065C68.6963 44.9441 68.3899 46.4935 67.7465 47.8917L67.6734 48.0453L67.6216 48.1421L67.3081 48.6853C66.924 49.3419 66.4715 49.9419 65.9577 50.4875C65.4391 51.0331 64.857 51.522 64.2254 51.9259C63.4382 52.4431 62.5921 52.8328 61.72 53.0997C60.8598 53.3501 59.9359 53.4918 58.9884 53.5036H58.9672C58.1871 53.4894 57.4258 53.4068 56.7047 53.2249C55.974 53.0431 55.2623 52.7785 54.5835 52.429H54.5717C53.768 52.0109 53.0115 51.4795 52.3374 50.8371C51.694 50.2206 51.1236 49.4955 50.6499 48.6712L50.6452 48.6853L50.3341 48.1421L50.2539 48.0028L50.2044 47.9059C49.5634 46.4958 49.257 44.9582 49.3253 43.4065C49.3913 41.8972 49.8061 40.388 50.6051 39.0062L54.9818 31.4198L54.9889 31.434L55.5946 30.3876L43.9329 10.1437C42.7474 8.08889 40.8383 6.7213 38.7148 6.14736C38.3777 6.0458 38.0219 5.97496 37.6636 5.93245Z"
+                                            fill="#9B51E0"
+                                        />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="wrapper-info">
+                                <a href="/seller-sidebar" class="wrapper-details">Graoishta</a>
+                            </div>
+                        </div>
+                        <div class="product-wrapper product-wrapper-two">
+                            <div class="wrapper-img">
+                                <span>
+                                    <svg width="76" height="76" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M37.9118 67.6006L35.4435 70.0668L33.7605 71.7591L35.8762 73.8727L37.9989 76L40.1215 73.8727L42.2372 71.7591L37.9966 67.5204L37.9118 67.6006ZM2.12033 40.1193L29.5175 67.5204L31.2005 65.8282L33.6689 63.362L33.7559 63.2727L8.48363 37.9966L37.9989 8.47956L67.5141 37.9966L54.8791 50.6346L37.9989 33.7579L33.7582 37.9989L54.8768 59.1233H54.8791L59.1198 54.8824L73.8774 40.1216L76 37.9989L73.8774 35.8784L40.1238 2.11817L38.0011 0L35.8785 2.11817L2.12033 35.8761L0 37.9966L2.12033 40.1193Z"
+                                            fill="#FEBF1C"
+                                        />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="wrapper-info">
+                                <a href="/seller-sidebar" class="wrapper-details">Toaksiua</a>
+                            </div>
+                        </div>
+                        <div class="product-wrapper product-wrapper-two">
+                            <div class="wrapper-img">
+                                <span>
+                                    <svg width="76" height="79" viewBox="0 0 76 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M65.4838 78.9945H53.3666H42.8559V68.4116V60.2487H27.9269H22.6334V49.6659H42.8559H47.7403H48.1112H53.3666V60.2487V68.4116H65.4865V62.6496V40.496V25.3693L42.8559 12.2237V0.0027465L54.373 6.6894L76 19.2534V40.4987V44.3785V62.6551V68.4171V79H65.4838V78.9945ZM10.5135 25.3666L22.6334 18.3232V22.3649V28.5165V39.0829H27.8888H28.2597H33.1441H53.3666V28.5165H48.0758H33.1441V22.3649V12.2209C33.1441 8.14634 33.1441 4.07183 33.1441 0C29.6396 2.04414 26.1351 4.07457 22.6334 6.10225L21.6297 6.68665L0 19.2479V40.4932V44.373V62.6496V78.9945H10.5135V62.6496V40.496V25.3666Z"
+                                            fill="#3AB57F"
+                                        />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="wrapper-info">
+                                <a href="/seller-sidebar" class="wrapper-details">Rouaop</a>
+                            </div>
+                        </div>
+                        <div class="product-wrapper product-wrapper-two">
+                            <div class="wrapper-img">
+                                <span>
+                                    <svg width="78" height="79" viewBox="0 0 78 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M35.2249 0C44.9888 0.0598183 53.8176 4.04043 60.2181 10.4464C66.6758 16.9041 70.6727 25.8225 70.6727 35.6735C70.6727 36.8399 70.6156 37.9982 70.5041 39.1402H62.9697C63.1056 38.0064 63.1791 36.8481 63.1791 35.6735C63.1791 27.8889 60.0278 20.8494 54.9296 15.7458C49.8804 10.6993 42.9143 7.55613 35.2276 7.49903V0H35.2249Z"
+                                            fill="#98C73A"
+                                        />
+                                        <path
+                                            d="M0 39.143C0.932622 30.9071 4.66586 23.5168 10.229 17.951C16.6322 11.5477 25.4608 7.56433 35.2248 7.50452V15.0008C27.5381 15.0634 20.5721 18.2011 15.5202 23.2558C11.322 27.4539 8.44521 32.979 7.55881 39.143H0Z"
+                                            fill="#CC4645"
+                                        />
+                                        <path
+                                            d="M78.0001 39.1429C77.0729 47.3816 73.3451 54.7691 67.7793 60.3322C61.376 66.7328 52.5474 70.7216 42.7861 70.7868V63.2851C50.4728 63.228 57.4361 60.0848 62.4881 55.0356C66.6862 50.832 69.563 45.3124 70.4494 39.1429H78.0001Z"
+                                            fill="#F4C257"
+                                        />
+                                        <path
+                                            d="M7.33292 42.6124C7.33292 41.4378 7.38997 40.2849 7.4933 39.1429H15.0358C14.8917 40.2795 14.8264 41.4351 14.8264 42.6124C14.8264 50.3942 17.9778 57.4365 23.076 62.5374C28.1279 67.5866 35.0831 70.7243 42.7806 70.7868V78.2831C33.0166 78.2206 24.188 74.2454 17.7766 67.8285C11.3216 61.379 7.33292 52.4607 7.33292 42.6124Z"
+                                            fill="#2491EB"
+                                        />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="wrapper-info">
+                                <a href="/seller-sidebar" class="wrapper-details">Goloasx</a>
+                            </div>
+                        </div>
+                        <div class="product-wrapper product-wrapper-two">
+                            <div class="wrapper-img">
+                                <span>
+                                    <svg width="64" height="78" viewBox="0 0 64 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M32.0036 0C35.1725 0 38.2322 0.457315 41.1247 1.31632V11.8374V34.0093C40.2203 38.1035 36.5593 41.1814 32.1831 41.1814H33.8463H32.0036C30.8035 41.1814 29.6082 40.9661 28.4978 40.5087C27.397 40.0514 26.4079 39.3641 25.5641 38.5197C24.7156 37.6752 24.0294 36.6734 23.5712 35.57C23.1081 34.4545 22.8826 33.281 22.8826 32.0784C22.8826 30.8903 23.1081 29.7022 23.5615 28.6157C24.0246 27.4978 24.7131 26.496 25.5617 25.6516L25.6053 25.608C27.2443 23.9481 29.5282 22.9028 32.0521 22.9028C32.4352 22.9028 32.811 22.9318 33.1844 22.9753H33.4171V19.3554V10.567V9.96685L33.4656 9.98138C32.9831 9.93783 32.491 9.92331 31.9988 9.92331C19.5029 9.92331 9.37079 20.0426 9.37079 32.5115C9.37079 44.9804 19.5029 55.0972 31.9988 55.0972C44.4948 55.0972 54.6268 44.978 54.6268 32.5115C54.6268 31.1226 54.4983 29.7627 54.2607 28.4464V9.6378V9.00623C60.2638 14.8039 64 22.9342 64 31.938C64 52.3629 44.3081 64.1712 31.9988 78C19.6895 64.1737 0 52.3654 0 31.938C0.00484903 14.2982 14.3362 0 32.0036 0Z"
+                                            fill="#F58124"
+                                        />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="wrapper-info">
+                                <a href="/seller-sidebar" class="wrapper-details">Lkasafiak</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------- best-sell-section-end--------------->
+
         <!--------------- weekly-section--------------->
-        <section class="product weekly-sale weekly-sale-three">
+        <section class="product weekly-sale weekly-sale-two">
             <div class="container">
                 <div class="section-title">
                     <h5>Best Sell in this Week</h5>
-                    <a href="product-sidebar.html" class="view">View All</a>
+                    <a href="/product-sidebar" class="view">View All</a>
                 </div>
                 <div class="weekly-sale-section">
                     <div class="row g-5">
                         <div class="col-lg-3 col-md-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-5.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -3756,7 +2872,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -3767,7 +2883,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -3822,7 +2938,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Slim-Fit Shirt </a>
+                                        <a href="/product-info" class="product-details">Slim-Fit Shirt </a>
                                         <div class="price">
                                             <span class="price-cut">$14.99</span>
                                             <span class="new-price">$6.99</span>
@@ -3830,12 +2946,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-3.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -3882,7 +2998,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -3893,7 +3009,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -3948,7 +3064,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Sequin Dress </a>
+                                        <a href="/product-info" class="product-details">Sequin Dress </a>
                                         <div class="price">
                                             <span class="price-cut">$30.99</span>
                                             <span class="new-price">$15.99</span>
@@ -3956,12 +3072,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-6.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -4008,7 +3124,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -4019,7 +3135,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -4074,7 +3190,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Red Sequin Dress </a>
+                                        <a href="/product-info" class="product-details">Red Sequin Dress </a>
                                         <div class="price">
                                             <span class="price-cut">$20.99</span>
                                             <span class="new-price">$13.99</span>
@@ -4082,12 +3198,12 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-9.webp" alt="product-img" />
                                     <div class="product-cart-items">
@@ -4134,7 +3250,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="wishlist.html" class="favourite cart-item">
+                                        <a href="/wishlist" class="favourite cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="#AE1C9A" />
@@ -4145,7 +3261,7 @@
                                                 </svg>
                                             </span>
                                         </a>
-                                        <a href="compaire.html" class="compaire cart-item">
+                                        <a href="/compaire" class="compaire cart-item">
                                             <span>
                                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="40" height="40" rx="20" fill="white" />
@@ -4200,7 +3316,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Rainbow Sequin Dress </a>
+                                        <a href="/product-info" class="product-details">Rainbow Sequin Dress </a>
                                         <div class="price">
                                             <span class="price-cut">$19.99</span>
                                             <span class="new-price">$16.99</span>
@@ -4208,21 +3324,21 @@
                                     </div>
                                 </div>
                                 <div class="product-cart-btn">
-                                    <a href="cart.html" class="product-btn">Add To Cart</a>
+                                    <a href="/cart" class="product-btn">Add To Cart</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="style-section style-section-three">
+                <div class="style-section style-section-two">
                     <div class="row gy-4 gx-5 gy-lg-0">
                         <div class="col-lg-6">
                             <div class="product-wrapper wrapper-one" data-aos="fade-right">
                                 <div class="wrapper-info">
                                     <span class="wrapper-subtitle">NEW STYLE</span>
                                     <h4 class="wrapper-details">Get 65% Offer <span class="wrapper-inner-title">& Make New</span> Fusion.</h4>
-                                    <a href="product-sidebar.html" class="shop-btn"
+                                    <a href="/product-sidebar" class="shop-btn"
                                         >Shop Now
                                         <span>
                                             <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -4243,7 +3359,7 @@
                                         <span class="wrapper-inner-title">Styles with Our</span>
                                         Products
                                     </h4>
-                                    <a href="product-sidebar.html" class="shop-btn"
+                                    <a href="/product-sidebar" class="shop-btn"
                                         >Shop Now
                                         <span>
                                             <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -4266,12 +3382,12 @@
             <div class="container">
                 <div class="section-title">
                     <h5>Top Selling Prodcuts</h5>
-                    <a href="flash-sale.html" class="view">View All</a>
+                    <a href="/flash-sale" class="view">View All</a>
                 </div>
                 <div class="best-product-section">
                     <div class="row g-4">
                         <div class="col-xl-2 col-md-4">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-9.webp" alt="product-img" />
                                 </div>
@@ -4303,7 +3419,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Half Sleeve Dress </a>
+                                        <a href="/product-info" class="product-details">Half Sleeve Dress </a>
                                         <div class="price">
                                             <span class="price-cut">$12.99</span>
                                             <span class="new-price">$6.99</span>
@@ -4313,7 +3429,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-4">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-10.webp" alt="product-img" />
                                 </div>
@@ -4345,7 +3461,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Feminine Wrap coat </a>
+                                        <a href="/product-info" class="product-details">Feminine Wrap coat </a>
                                         <div class="price">
                                             <span class="price-cut">$18.99</span>
                                             <span class="new-price">$10.99</span>
@@ -4355,7 +3471,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-4">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-2.webp" alt="product-img" />
                                 </div>
@@ -4387,7 +3503,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Black suit </a>
+                                        <a href="/product-info" class="product-details">Black suit </a>
                                         <div class="price">
                                             <span class="price-cut">$10.99</span>
                                             <span class="new-price">$8.99</span>
@@ -4397,7 +3513,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-4">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-4.webp" alt="product-img" />
                                 </div>
@@ -4429,7 +3545,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Rainbow Party Dress </a>
+                                        <a href="/product-info" class="product-details">Rainbow Party Dress </a>
                                         <div class="price">
                                             <span class="price-cut">$19.99</span>
                                             <span class="new-price">$8.99</span>
@@ -4439,7 +3555,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-4">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-1.webp" alt="product-img" />
                                 </div>
@@ -4471,7 +3587,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Rainbow Sequin Skart </a>
+                                        <a href="/product-info" class="product-details">Rainbow Sequin Skart </a>
                                         <div class="price">
                                             <span class="price-cut">$15.99</span>
                                             <span class="new-price">$7.99</span>
@@ -4481,7 +3597,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-4">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-11.webp" alt="product-img" />
                                 </div>
@@ -4513,7 +3629,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Red Sequin Hat </a>
+                                        <a href="/product-info" class="product-details">Red Sequin Hat </a>
                                         <div class="price">
                                             <span class="price-cut">$13.99</span>
                                             <span class="new-price">$7.99</span>
@@ -4523,7 +3639,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-4">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-13.webp" alt="product-img" />
                                 </div>
@@ -4555,7 +3671,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Gradient Party Shirt </a>
+                                        <a href="/product-info" class="product-details">Gradient Party Shirt </a>
                                         <div class="price">
                                             <span class="price-cut">$19.99</span>
                                             <span class="new-price">$10.99</span>
@@ -4565,7 +3681,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-4">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-1.webp" alt="product-img" />
                                 </div>
@@ -4597,7 +3713,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Flower Design Dress </a>
+                                        <a href="/product-info" class="product-details">Flower Design Dress </a>
                                         <div class="price">
                                             <span class="price-cut">$19.99</span>
                                             <span class="new-price">$8.99</span>
@@ -4607,7 +3723,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-4">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-12.webp" alt="product-img" />
                                 </div>
@@ -4639,7 +3755,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Blue Suit </a>
+                                        <a href="/product-info" class="product-details">Blue Suit </a>
                                         <div class="price">
                                             <span class="price-cut">$10.99</span>
                                             <span class="new-price">$5.99</span>
@@ -4649,7 +3765,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-4">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-3.webp" alt="product-img" />
                                 </div>
@@ -4681,7 +3797,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">Blue Party Dress </a>
+                                        <a href="/product-info" class="product-details">Blue Party Dress </a>
                                         <div class="price">
                                             <span class="price-cut">$9.99</span>
                                             <span class="new-price">$6.99</span>
@@ -4691,7 +3807,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-4">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-6.webp" alt="product-img" />
                                 </div>
@@ -4723,7 +3839,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">White Hat </a>
+                                        <a href="/product-info" class="product-details">White Hat </a>
                                         <div class="price">
                                             <span class="price-cut">$29.99</span>
                                             <span class="new-price">$26.99</span>
@@ -4733,7 +3849,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-md-4">
-                            <div class="product-wrapper product-wrapper-three" data-aos="fade-up">
+                            <div class="product-wrapper product-wrapper-two" data-aos="fade-up">
                                 <div class="product-img">
                                     <img src="assets/images/homepage-one/product-img/product-img-5.webp" alt="product-img" />
                                 </div>
@@ -4765,7 +3881,7 @@
                                         </span>
                                     </div>
                                     <div class="product-description">
-                                        <a href="product-info.html" class="product-details">White Checked Shirt </a>
+                                        <a href="/product-info" class="product-details">White Checked Shirt </a>
                                         <div class="price">
                                             <span class="price-cut">$19.99</span>
                                             <span class="new-price">$16.99</span>
@@ -4779,240 +3895,4 @@
             </div>
         </section>
         <!--------------- flash-section-end--------------->
-
-        <!--------------- footer-section--------------->
-        <section class="product footer">
-            <div class="container">
-                <div class="footer-service-section footer-service-section-three">
-                    <div class="row gy-4">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="service-wrapper free-shipping">
-                                <div class="service-img">
-                                    <span>
-                                        <svg width="32" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1 1H5.63636V24.1818H35" stroke="#F9FFFB" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square" />
-                                            <path
-                                                d="M8.72763 35.0021C10.4347 35.0021 11.8185 33.6183 11.8185 31.9112C11.8185 30.2042 10.4347 28.8203 8.72763 28.8203C7.02057 28.8203 5.63672 30.2042 5.63672 31.9112C5.63672 33.6183 7.02057 35.0021 8.72763 35.0021Z"
-                                                stroke="#F9FFFB"
-                                                stroke-width="2"
-                                                stroke-miterlimit="10"
-                                                stroke-linecap="square"
-                                            />
-                                            <path
-                                                d="M31.9073 35.0021C33.6144 35.0021 34.9982 33.6183 34.9982 31.9112C34.9982 30.2042 33.6144 28.8203 31.9073 28.8203C30.2003 28.8203 28.8164 30.2042 28.8164 31.9112C28.8164 33.6183 30.2003 35.0021 31.9073 35.0021Z"
-                                                stroke="#F9FFFB"
-                                                stroke-width="2"
-                                                stroke-miterlimit="10"
-                                                stroke-linecap="square"
-                                            />
-                                            <path d="M34.9982 1H11.8164V18H34.9982V1Z" stroke="#F9FFFB" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square" />
-                                            <path d="M11.8164 7.17969H34.9982" stroke="#F9FFFB" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square" />
-                                        </svg>
-                                    </span>
-                                </div>
-                                <div class="service-content">
-                                    <h5 class="service-info service-title">Free Shipping</h5>
-                                    <p class="service-info service-details">When ordering over $100</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="service-wrapper free-shipping">
-                                <div class="service-img">
-                                    <span>
-                                        <svg width="32" height="37" viewBox="0 0 32 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M31 17.4492C31 25.6992 24.25 32.4492 16 32.4492C7.75 32.4492 1 25.6992 1 17.4492C1 9.19922 7.75 2.44922 16 2.44922C21.85 2.44922 26.95 5.74922 29.35 10.6992"
-                                                stroke="#F9FFFB"
-                                                stroke-width="2"
-                                                stroke-miterlimit="10"
-                                            />
-                                            <path d="M30.7 2L29.5 10.85L20.5 9.65" stroke="#F9FFFB" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square" />
-                                        </svg>
-                                    </span>
-                                </div>
-                                <div class="service-content">
-                                    <h5 class="service-info service-title">Free Return</h5>
-                                    <p class="service-info service-details">Get Return within 30 days</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="service-wrapper free-shipping">
-                                <div class="service-img">
-                                    <span>
-                                        <svg width="32" height="37" viewBox="0 0 32 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M22.6654 18.668H9.33203V27.0013H22.6654V18.668Z" stroke="#F9FFFB" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square" />
-                                            <path
-                                                d="M12.668 18.6654V13.6654C12.668 11.832 14.168 10.332 16.0013 10.332C17.8346 10.332 19.3346 11.832 19.3346 13.6654V18.6654"
-                                                stroke="#F9FFFB"
-                                                stroke-width="2"
-                                                stroke-miterlimit="10"
-                                                stroke-linecap="square"
-                                            />
-                                            <path
-                                                d="M31 22C31 30.3333 24.3333 37 16 37C7.66667 37 1 30.3333 1 22V5.33333L16 2L31 5.33333V22Z"
-                                                stroke="#F9FFFB"
-                                                stroke-width="2"
-                                                stroke-miterlimit="10"
-                                                stroke-linecap="square"
-                                            />
-                                        </svg>
-                                    </span>
-                                </div>
-                                <div class="service-content">
-                                    <h5 class="service-info service-title">Secure Payment</h5>
-                                    <p class="service-info service-details">100% Secure Online Payment</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="service-wrapper free-shipping">
-                                <div class="service-img">
-                                    <span>
-                                        <svg width="32" height="37" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M7 13H5.5C2.95 13 1 11.05 1 8.5V1H7" stroke="#F9FFFB" stroke-width="2" stroke-miterlimit="10" />
-                                            <path d="M25 13H26.5C29.05 13 31 11.05 31 8.5V1H25" stroke="#F9FFFB" stroke-width="2" stroke-miterlimit="10" />
-                                            <path d="M16 28V22" stroke="#F9FFFB" stroke-width="2" stroke-miterlimit="10" />
-                                            <path d="M16 22C11.05 22 7 17.95 7 13V1H25V13C25 17.95 20.95 22 16 22Z" stroke="#F9FFFB" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square" />
-                                            <path d="M25 34H7C7 30.7 9.7 28 13 28H19C22.3 28 25 30.7 25 34Z" stroke="#F9FFFB" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square" />
-                                        </svg>
-                                    </span>
-                                </div>
-                                <div class="service-content">
-                                    <h5 class="service-info service-title">Best Quality</h5>
-                                    <p class="service-info service-details">Original Product Guarenteed</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-section footer-section-three">
-                    <div class="row gy-5">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="footer-order">
-                                <div class="logo">
-                                    <img src="assets/images/logos/footer-logo.webp" alt="logo" />
-                                </div>
-                                <div class="footer-link order-link">
-                                    <ul>
-                                        <li><a href="order.html">Track Order</a></li>
-                                        <li><a href="cart.html">Delivery & Returns</a></li>
-                                        <li><a href="about.html">Warranty</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="about-us">
-                                <h4 class="footer-heading footer-title">About Us</h4>
-                                <div class="footer-link about-link">
-                                    <ul>
-                                        <li><a href="about.html">Rave’s Story</a></li>
-                                        <li><a href="about.html">Work With Us</a></li>
-                                        <li><a href="about.html">Coporate News</a></li>
-                                        <li><a href="about.html">Investors</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="links">
-                                <h4 class="footer-heading footer-title">Useful Links</h4>
-                                <div class="footer-link useful-link">
-                                    <ul>
-                                        <li><a href="about.html">Secure Payment</a></li>
-                                        <li><a href="privacy.html">Privacy Policy</a></li>
-                                        <li><a href="terms.html">Terms of Use</a></li>
-                                        <li><a href="product-sidebar.html">Archived Products</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="contact-info">
-                                <h4 class="footer-heading footer-title">Contact Info</h4>
-                                <div class="footer-link contact-link">
-                                    <div class="address">
-                                        <div class="icon">
-                                            <span>
-                                                <svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <circle cx="21.9995" cy="22.9961" r="21.5" stroke="#424242"></circle>
-                                                    <g clip-path="url(#clip0_2343_13859)">
-                                                        <path
-                                                            d="M22.0218 13.9961C26.4153 14.0049 29.7134 17.7202 28.8665 21.6964C28.4484 23.66 27.5123 25.4261 26.3138 27.0614C25.1774 28.6116 23.9185 30.0879 22.6867 31.5779C22.2178 32.1454 21.804 32.1262 21.3001 31.5795C19.1664 29.2642 17.2295 26.8278 15.9102 24.0253C15.3696 22.8757 14.9978 21.6836 14.9995 20.4176C15.003 16.8701 18.1568 13.9881 22.0218 13.9961ZM22.0297 30.36C22.9045 29.2763 23.7479 28.3049 24.5037 27.2782C25.8116 25.5008 26.9568 23.6407 27.4616 21.5142C28.0739 18.934 26.466 16.3499 23.7566 15.5367C21.0149 14.713 18.0326 15.9324 16.8743 18.344C16.1858 19.777 16.3188 21.2091 16.8647 22.6413C17.6756 24.7695 18.9512 26.6632 20.399 28.4655C20.8889 29.0764 21.4226 29.6576 22.0297 30.36Z"
-                                                            fill="white"
-                                                        ></path>
-                                                        <path
-                                                            d="M24.7977 20.4357C24.7916 21.8486 23.5204 22.9982 21.9728 22.9886C20.4567 22.9797 19.2005 21.8197 19.1987 20.4253C19.1961 19.0148 20.4664 17.85 22.0043 17.8516C23.5432 17.8532 24.8029 19.0188 24.7977 20.4357ZM23.3953 20.4213C23.3953 19.7156 22.7873 19.1481 22.021 19.1384C21.2371 19.128 20.6011 19.702 20.6011 20.4213C20.6011 21.1253 21.2109 21.6937 21.9772 21.7033C22.7663 21.7121 23.3953 21.143 23.3953 20.4213Z"
-                                                            fill="white"
-                                                        ></path>
-                                                    </g>
-                                                    <defs>
-                                                        <clipPath id="clip0_2343_13859">
-                                                            <rect width="14" height="18" fill="white" transform="translate(14.9995 13.9961)"></rect>
-                                                        </clipPath>
-                                                    </defs>
-                                                </svg>
-                                            </span>
-                                        </div>
-                                        <div class="details">
-                                            <h4 class="footer-heading">Address:</h4>
-                                            <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
-                                        </div>
-                                    </div>
-                                    <div class="phone address">
-                                        <div class="icon">
-                                            <span>
-                                                <svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <circle cx="21.9995" cy="22.9961" r="21.5" stroke="#424242"></circle>
-                                                    <g clip-path="url(#clip0_56_7)">
-                                                        <path
-                                                            d="M26.9779 30.9959C25.7937 30.9581 24.6221 30.5625 23.5005 30.0096C19.5679 28.0716 16.6582 25.1275 14.8109 21.1599C14.2944 20.0502 13.9265 18.8947 14.0112 17.6423C14.0558 16.9879 14.2937 16.4177 14.7489 15.9459C15.1954 15.4839 15.6439 15.0233 16.1124 14.5833C16.9448 13.8008 17.8545 13.7981 18.6795 14.5866C19.3846 15.2596 20.075 15.9492 20.7514 16.6514C21.5858 17.5175 21.5732 18.3743 20.7348 19.2431C20.3969 19.5935 20.051 19.9387 19.6925 20.2685C19.5419 20.4072 19.5299 20.5161 19.6205 20.692C20.257 21.9198 21.1526 22.9459 22.1916 23.8359C22.8434 24.3941 23.5884 24.8434 24.2909 25.3425C24.4555 25.46 24.5754 25.4295 24.7174 25.2814C25.1092 24.8753 25.5058 24.4704 25.9276 24.0954C26.6407 23.4616 27.5164 23.4689 28.2035 24.1259C28.9725 24.8607 29.7269 25.6113 30.4647 26.3772C31.1558 27.0953 31.1784 27.9907 30.5187 28.7333C30.0415 29.2709 29.5317 29.782 29.0105 30.2784C28.4727 30.7915 27.8003 30.9952 26.9779 30.9959ZM27.0239 30.1377C27.6637 30.1616 28.1902 29.9307 28.6247 29.4647C28.9645 29.1004 29.3198 28.7499 29.6703 28.3962C30.2688 27.7922 30.2734 27.4119 29.6796 26.8199C29.0365 26.1781 28.3921 25.5376 27.7463 24.8985C27.2265 24.3841 26.8546 24.3848 26.3241 24.9045C25.9203 25.3 25.5244 25.7036 25.1206 26.0985C24.7974 26.415 24.5148 26.4774 24.1316 26.2418C23.4165 25.8011 22.6768 25.3823 22.0303 24.8534C20.6835 23.7523 19.5132 22.4853 18.7561 20.8917C18.5062 20.3661 18.5576 20.1597 18.9861 19.7502C19.3706 19.3825 19.7545 19.0141 20.1243 18.6325C20.6122 18.1301 20.6115 17.7518 20.1237 17.2586C19.4472 16.5724 18.7641 15.8921 18.0764 15.2171C17.5952 14.7446 17.1827 14.7512 16.6922 15.2284C16.311 15.5994 15.9478 15.989 15.5586 16.3507C15.0221 16.8491 14.8255 17.4597 14.8695 18.1739C14.9275 19.117 15.2221 19.9964 15.6179 20.838C17.3853 24.5985 20.1457 27.402 23.8823 29.2424C24.8707 29.7302 25.9036 30.0959 27.0239 30.1377Z"
-                                                            fill="white"
-                                                        ></path>
-                                                    </g>
-                                                    <defs>
-                                                        <clipPath id="clip0_56_7">
-                                                            <rect width="17" height="17" fill="white" transform="translate(13.9995 13.9961)"></rect>
-                                                        </clipPath>
-                                                    </defs>
-                                                </svg>
-                                            </span>
-                                        </div>
-                                        <div class="details">
-                                            <h4 class="footer-heading">Phone:</h4>
-                                            <p>+880171889547</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr />
-            </div>
-        </section>
-        <!--------------- footer-section-end--------------->
-
-        <!--------------- jQuery ---------------->
-        <script src="assets/js/jquery_3.7.1.min.js"></script>
-
-        <!--------------- bootstrap-js ---------------->
-        <script src="assets/js/bootstrap_5.3.2.bundle.min.js"></script>
-
-        <!--------------- Range-Slider-js ---------------->
-        <script src="assets/js/nouislider.min.js"></script>
-
-        <!--------------- scroll-Animation-js ---------------->
-        <script src="assets/js/aos-3.0.0.js"></script>
-
-        <!--------------- swiper-js ---------------->
-        <script src="assets/js/swiper10-bundle.min.js"></script>
-
-        <!--------------- additional-js ---------------->
-        <script src="assets/js/shopus.js"></script>
-    </body>
-
-<!-- Mirrored from quomodothemes.website/html/shopus/home-three.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Dec 2024 13:16:23 GMT -->
-</html>
+@endsection
