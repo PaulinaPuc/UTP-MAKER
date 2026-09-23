@@ -8,52 +8,60 @@
                     <div class="sidebar" data-aos="fade-right">
                         <div class="sidebar-section">
                             <div class="sidebar-wrapper">
-                                <h5 class="wrapper-heading">Product Categories</h5>
+                                <h5 class="wrapper-heading">Categorías</h5>
                                 <div class="sidebar-item">
                                     <ul class="sidebar-list">
                                         <li>
-                                            <input type="checkbox" id="mobile" name="mobile">
-                                            <label for="mobile">Mobile & Laptops</label>
+                                            <input type="checkbox" id="impresion-3d" name="impresion-3d">
+                                            <label for="impresion-3d">Impresión 3D</label>
                                         </li>
                                         <li>
-                                            <input type="checkbox" id="bags" name="bags">
-                                            <label for="bags">Bags</label>
+                                            <input type="checkbox" id="cortadora-laser" name="cortadora-laser">
+                                            <label for="cortadora-laser">Cortadora Láser</label>
                                         </li>
                                         <li>
-                                            <input type="checkbox" id="sweatshirt" name="sweatshirt">
-                                            <label for="sweatshirt">Sweatshirt</label>
+                                            <input type="checkbox" id="playeras" name="playeras">
+                                            <label for="playeras">Playeras Personalizadas</label>
                                         </li>
                                         <li>
-                                            <input type="checkbox" id="boots" name="boots">
-                                            <label for="boots">Boots</label>
+                                            <input type="checkbox" id="fotografias" name="fotografias">
+                                            <label for="fotografias">Fotografías</label>
                                         </li>
                                         <li>
-                                            <input type="checkbox" id="accessories" name="accessories">
-                                            <label for="accessories">Accessories</label>
+                                            <input type="checkbox" id="cursos" name="cursos">
+                                            <label for="cursos">Cursos y Talleres</label>
                                         </li>
                                         <li>
-                                            <input type="checkbox" id="sneakers" name="sneakers">
-                                            <label for="sneakers">Sneakers</label>
+                                            <input type="checkbox" id="prototipado" name="prototipado">
+                                            <label for="prototipado">Prototipado Rápido</label>
                                         </li>
                                         <li>
-                                            <input type="checkbox" id="outerwear" name="outerwear">
-                                            <label for="outerwear">Outerwear</label>
+                                            <input type="checkbox" id="figuras" name="figuras">
+                                            <label for="figuras">Figuras y Coleccionables</label>
                                         </li>
                                         <li>
-                                            <input type="checkbox" id="activewear" name="activewear">
-                                            <label for="activewear">Activewear</label>
+                                            <input type="checkbox" id="grabado-madera" name="grabado-madera">
+                                            <label for="grabado-madera">Grabado en Madera</label>
                                         </li>
                                         <li>
-                                            <input type="checkbox" id="grooming" name="grooming">
-                                            <label for="grooming">Grooming</label>
+                                            <input type="checkbox" id="corte-acrilico" name="corte-acrilico">
+                                            <label for="corte-acrilico">Corte en Acrílico</label>
                                         </li>
                                         <li>
-                                            <input type="checkbox" id="cosmatics" name="cosmatics">
-                                            <label for="cosmatics">Cosmetics</label>
+                                            <input type="checkbox" id="dtf" name="dtf">
+                                            <label for="dtf">Estampado DTF</label>
                                         </li>
                                         <li>
-                                            <input type="checkbox" id="watch" name="watch">
-                                            <label for="watch">Watch</label>
+                                            <input type="checkbox" id="sublimacion" name="sublimacion">
+                                            <label for="sublimacion">Sublimación</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="foto-producto" name="foto-producto">
+                                            <label for="foto-producto">Fotografía de Producto</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="modelado-3d" name="modelado-3d">
+                                            <label for="modelado-3d">Modelado 3D</label>
                                         </li>
                                     </ul>
                                 </div>
