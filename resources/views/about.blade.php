@@ -4,12 +4,12 @@
     <section class="blog about-blog">
         <div class="container">
             <div class="blog-bradcrum">
-                <span><a href="/">Home</a></span>
+                <span><a href="/">inicio</a></span>
                 <span class="devider">/</span>
-                <span><a href="#">About Us</a></span>
+                <span><a href="/about">Conocenos</a></span>
             </div>
             <div class="blog-heading about-heading">
-                <h1 class="heading">About Us</h1>
+                <h1 class="heading text-3xl ">CONOCENOS</h1>
             </div>
         </div>
     </section>
@@ -27,12 +27,10 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="about-content" data-aos="fade-up">
-                            <h3 class="about-title">Know More About Us?</h3>
+                            <h3 class="about-title">Sobre Nosotros</h3>
                             <p class="about-info">
-                                It is a long established fact that a reader will be distracted by the readable
-                                content of a page when looking at its layout. It is a long established fact a
-                                that a reader will be distracted by the readable content of a page when our
-                                looking at its layout.</p>
+                                somos una empresa dedicada a la venta de objetos personalizados con tecnología de impresión 3D y sublimación.
+                             entre mas cosas para ofrcer calidad de productos con la facilidad de compra y venta</p
                             <div class="about-list">
                                 <ul>
                                     <li>
@@ -46,7 +44,7 @@
                                             </svg>
 
                                         </span>
-                                        <p>Complete Sanitization and cleaning of bathroom</p>
+                                        <p>objetos personalizados </p>
                                     </li>
                                     <li>
                                         <span>
@@ -59,7 +57,7 @@
                                             </svg>
 
                                         </span>
-                                        <p>when looking at its layout. It is a long established fact </p>
+                                        <p>facilidad de compra y venta</p>
                                     </li>
                                     <li>
                                         <span>
@@ -72,12 +70,12 @@
                                             </svg>
 
                                         </span>
-                                        <p>Complete Sanitization and cleaning of bathroom</p>
+                                        <p>rapidez en la entrega</p>
                                     </li>
                                 </ul>
                             </div>
                             <a href="/contact-us" class="shop-btn">
-                                Contact us
+                                Contactanos
                                 <span>
                                     <svg width="8" height="14" viewBox="0 0 8 14" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
