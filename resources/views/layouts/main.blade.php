@@ -41,14 +41,14 @@
             <div class="container">
                 <div class="header-top">
                     <div class="header-profile">
-                        <a href="/user-profile"><span>Account</span></a>
-                        <a href="/order"><span>Track Order</span></a>
-                        <a href="/faq"><span>Support</span></a>
+                        <a href="/user-profile"><span>Cuenta</span></a>
+                        <a href="/order"><span>Orden de Seguimiento</span></a>
+                        <a href="/faq"><span>Soporte</span></a>
                     </div>
                     <div class="header-contact d-none d-lg-block">
                         <a href="#">
-                            <span>Need help? Call us:</span>
-                            <span class="contact-number">+ 00645 4568</span>
+                            <span>¿necesitas ayuda? Llámanos: </span>
+                            <span class="contact-number">+52 123 456 789</span>
                         </a>
                     </div>
                 </div>
