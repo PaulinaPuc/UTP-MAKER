@@ -4823,23 +4823,22 @@
 
 
     <!--------------- jQuery ---------------->
-    <script src="assets/js/jquery_3.7.1.min.js"></script>
+    <script src="{{ asset('assets/js/jquery_3.7.1.min.js') }}"></script>
 
     <!--------------- bootstrap-js ---------------->
-    <script src="assets/js/bootstrap_5.3.2.bundle.min.js"></script>
+    <script src="{{ asset('assets/js/bootstrap_5.3.2.bundle.min.js') }}"></script>
 
     <!--------------- Range-Slider-js ---------------->
-    <script src="assets/js/nouislider.min.js"></script>
+    <script src="{{ asset('assets/js/nouislider.min.js') }}"></script>
 
     <!--------------- scroll-Animation-js ---------------->
-    <script src="assets/js/aos-3.0.0.js"></script>
+    <script src="{{ asset('assets/js/aos-3.0.0.js') }}"></script>
 
     <!--------------- swiper-js ---------------->
-    <script src="assets/js/swiper10-bundle.min.js"></script>
+    <script src="{{ asset('assets/js/swiper10-bundle.min.js') }}"></script>
 
     <!--------------- additional-js ---------------->
-    <script src="assets/js/shopus.js"></script>
-
+    <script src="{{ asset('assets/js/shopus.js') }}"></script>
 
 </body>
 
