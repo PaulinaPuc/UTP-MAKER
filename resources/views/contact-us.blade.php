@@ -118,35 +118,76 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="question-section login-section ">
-                            <div class="review-form">
-                                <h5 class="comment-title">Get In Touch</h5>
-                                <div class=" account-inner-form">
-                                    <div class="review-form-name">
-                                        <label for="fname" class="form-label">Name*</label>
-                                        <input type="text" id="fname" class="form-control" placeholder="Name">
-                                    </div>
-                                    <div class="review-form-name">
-                                        <label for="email" class="form-label">Email*</label>
-                                        <input type="email" id="email" class="form-control"
-                                            placeholder="user@gmail.com">
-                                    </div>
-                                    <div class="review-form-name">
-                                        <label for="subject" class="form-label">Subject*</label>
-                                        <input type="text" id="subject" class="form-control" placeholder="Subject">
-                                    </div>
+                    <div class="question-section login-section">
+                        <div class="review-form">
+                            <h5 class="comment-title">Ponte en Contacto</h5>
+                            <div class="account-inner-form">
+                                <div class="review-form-name">
+                                    <label for="fname" class="form-label">Nombre*</label>
+                                    <input type="text" id="fname" class="form-control" placeholder="Nombre">
                                 </div>
-                                <div class="review-textarea">
-                                    <label for="floatingTextarea">Massage*</label>
-                                    <textarea class="form-control" placeholder="Write Massage..........."
-                                        id="floatingTextarea" rows="3"></textarea>
+                                <div class="review-form-name">
+                                    <label for="email" class="form-label">Correo Electrónico*</label>
+                                    <input type="email" id="email" class="form-control" placeholder="usuario@gmail.com">
                                 </div>
-                                <div class="login-btn">
-                                    <a href="#" class="shop-btn">Send Now</a>
+                                <div class="review-form-name">
+                                    <label for="subject" class="form-label">Asunto*</label>
+                                    <input type="text" id="subject" class="form-control" placeholder="Asunto">
                                 </div>
+                            </div>
+                            <div class="review-textarea">
+                                <label for="floatingTextarea">Mensaje*</label>
+                                <textarea class="form-control" placeholder="Escribe tu mensaje..........."
+                                    id="floatingTextarea" rows="3"></textarea>
+                            </div>
+                            <div class="login-btn">
+                                <a href="#" class="shop-btn" id="whatsappBtn">Enviar Ahora</a>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <script>
+                document.getElementById('whatsappBtn').addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    // Obtener los valores de los campos
+                    const nombre = document.getElementById('fname').value.trim();
+                    const email = document.getElementById('email').value.trim();
+                    const asunto = document.getElementById('subject').value.trim();
+                    const mensaje = document.getElementById('floatingTextarea').value.trim();
+
+                    // Validación básica
+                    if (!nombre || !email || !asunto || !mensaje) {
+                        alert('Por favor, complete todos los campos antes de enviar.');
+                        return;
+                    }
+
+                    // Validación simple de correo
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!emailRegex.test(email)) {
+                        alert('Por favor, ingrese un correo electrónico válido.');
+                        return;
+                    }
+
+                    // Número de WhatsApp (código de país + número, sin espacios ni símbolos)
+                    const numeroWhatsApp = '529991527698';
+
+                    // Construir el mensaje
+                    const texto = 
+                        `*Nuevo mensaje de contacto*%0A%0A` +
+                        `*Nombre:* ${encodeURIComponent(nombre)}%0A` +
+                        `*Correo:* ${encodeURIComponent(email)}%0A` +
+                        `*Asunto:* ${encodeURIComponent(asunto)}%0A` +
+                        `*Mensaje:* ${encodeURIComponent(mensaje)}`;
+
+                    // Crear la URL de WhatsApp
+                    const url = `https://wa.me/${numeroWhatsApp}?text=${texto}`;
+
+                    // Abrir WhatsApp en una nueva pestaña
+                    window.open(url, '_blank');
+                });
+                </script>
                 </div>
             </div>
         </div>
