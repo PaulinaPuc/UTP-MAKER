@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', fn () => view('pages.dashboard.index'))->name('dashboard');
+// Route::get('/', fn () => view('pages.dashboard.index'))->name('dashboard');
+Route::get('/', function () {return view('index');});
 
 Route::prefix('productos')->name('productos.')->group(function () {
     Route::get('/', fn () => view('pages.productos.listado'))->name('index');
