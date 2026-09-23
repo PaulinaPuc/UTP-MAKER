@@ -23,9 +23,9 @@
                     <div class="col-lg-6">
                         <div class="contact-info-section">
                             <div class="contact-information">
-                                <h5 class="wrapper-heading">Contact Information</h5>
-                                <p class="paragraph">Fill the form below or write us .We will help you as soon as
-                                    possible.</p>
+                                <h5 class="wrapper-heading">Información de contacto</h5>
+                                <p class="paragraph">Completa el formulario a continuación o escríbenos. Te ayudaremos lo antes
+                                    posible.</p>
                                 <div class="contact-wrapper">
                                     <div class="row gy-5">
                                         <div class="col-sm-6">
