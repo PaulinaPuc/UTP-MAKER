@@ -195,11 +195,11 @@
                                     </svg>
                                 </span>
                             </div>
-                            <p class="testimonial-details">enean ullamcorper at magna et in to
+                            <p class="testimonial-details">Excelente pagina, con un diseño muy atractivo y facil de usar,
                                 <span class="testimonial-inner-text">
-                                    the a iaculis. Mauris
-                                    mattis ac diam
-                                </span> a ultricies. Sed pretium.
+                                    me ha encantado la experiencia y toda la informcaion,
+                                    sin duda volveré, para informarme mas.
+                                </span>
                             </p>
                             <div class="ratings">
                                 <span>
@@ -229,8 +229,8 @@
                                     <img src="assets/images/homepage-one/about/testimonial-img-1.webp" alt="img">
                                 </div>
                                 <div class="testimonial-info-details">
-                                    <h5 class="testimonial-name">Md Abdur Rahman</h5>
-                                    <p class="testimonial-title">Ceo of <span class="title-inner">DesginCraft</span></p>
+                                    <h5 class="testimonial-name">Juan Perez</h5>
+                                    <p class="testimonial-title">Director ejecutivo de <span class="title-inner">DesginCraft</span></p>
                                 </div>
                             </div>
                         </div>
@@ -248,9 +248,10 @@
                                     </svg>
                                 </span>
                             </div>
-                            <p class="testimonial-details">Almost every imaginable design is possible and customizations
-                                are allowed on every level. Some features could make use of better controls. If you know
-                                how to operate your mouse, then you are all set to use this pagebuilder.
+                            <p class="testimonial-details">Es posible crear prácticamente cualquier diseño imaginable y 
+                                se permiten personalizaciones a todos los niveles.
+                                Algunas funciones podrían beneficiarse de mejores controles.
+                                Si sabes manejar el ratón, ya estás listo para utilizar este constructor de páginas.
                             </p>
                             <div class="ratings">
                                 <span>
@@ -280,8 +281,8 @@
                                     <img src="assets/images/homepage-one/about/testimonial-img-2.webp" alt="img">
                                 </div>
                                 <div class="testimonial-info-details">
-                                    <h5 class="testimonial-name">Mohammad Sajjad Hossain</h5>
-                                    <p class="testimonial-title">Cfo of <span class="title-inner">DesginX</span></p>
+                                    <h5 class="testimonial-name">Yahir Peralta</h5>
+                                    <p class="testimonial-title">Director financiero de <span class="title-inner">DesginX</span></p>
                                 </div>
                             </div>
                         </div>
@@ -299,9 +300,9 @@
                                     </svg>
                                 </span>
                             </div>
-                            <p class="testimonial-details">As a digital marketing agency our team works day in and day
-                                out on websites of all kinds. Some of the most common errors we see are websites not
-                                optimized for SEO because of old, boring, or out of date website themes or designs.
+                            <p class="testimonial-details">Como agencia de marketing digital, nuestro equipo trabaja día tras día en sitios web de todo tipo.
+                                Algunos de los errores más frecuentes que observamos son sitios web no optimizados para SEO debido a temas o diseños antiguos, 
+                                monótonos o desactualizados.
                             </p>
                             <div class="ratings">
                                 <span>
@@ -331,8 +332,8 @@
                                     <img src="assets/images/homepage-one/about/testimonial-img-3.webp" alt="img">
                                 </div>
                                 <div class="testimonial-info-details">
-                                    <h5 class="testimonial-name">Stefhen Hoking</h5>
-                                    <p class="testimonial-title">HR of <span class="title-inner">Desgin360</span></p>
+                                    <h5 class="testimonial-name">Enrique García</h5>
+                                    <p class="testimonial-title">Recursos humanos de <span class="title-inner">Desgin360</span></p>
                                 </div>
                             </div>
                         </div>
@@ -350,10 +351,7 @@
                                     </svg>
                                 </span>
                             </div>
-                            <p class="testimonial-details">It is a long established fact that a reader will be
-                                distracted by the readable content of a page when looking at its layout. The point of
-                                using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-                                opposed to using 'Content here, content here', making it look like readable English
+                            <p class="testimonial-details">Es un hecho bien establecido que el contenido legible de una página distrae al lector cuando este observa su diseño. 
                             </p>
                             <div class="ratings">
                                 <span>
@@ -383,8 +381,8 @@
                                     <img src="assets/images/homepage-one/about/testimonial-img-1.webp" alt="img">
                                 </div>
                                 <div class="testimonial-info-details">
-                                    <h5 class="testimonial-name">Abdullah Al Mamun</h5>
-                                    <p class="testimonial-title">Designer of <span class="title-inner">DesginCode</span>
+                                    <h5 class="testimonial-name">Joaquin Martinez</h5>
+                                    <p class="testimonial-title">Diseñador de <span class="title-inner">DesginCode</span>
                                     </p>
                                 </div>
                             </div>
@@ -403,8 +401,8 @@
                                     </svg>
                                 </span>
                             </div>
-                            <p class="testimonial-details">Build the perfect online store using our high-converting
-                                Brandstore website template
+                            <p class="testimonial-details">Crea la tienda online perfecta con nuestra plantilla de 
+                                sitio web tipo «Brandstore» de alta conversión.
                             </p>
                             <div class="ratings">
                                 <span>
@@ -434,8 +432,8 @@
                                     <img src="assets/images/homepage-one/about/testimonial-img-1.webp" alt="img">
                                 </div>
                                 <div class="testimonial-info-details">
-                                    <h5 class="testimonial-name">Mohammad Rashed Khan</h5>
-                                    <p class="testimonial-title">Ceo of <span class="title-inner">DesginLab</span></p>
+                                    <h5 class="testimonial-name">Vicente Herrera</h5>
+                                    <p class="testimonial-title">Director ejecutivo de <span class="title-inner">DesginLab</span></p>
                                 </div>
                             </div>
                         </div>
@@ -453,9 +451,10 @@
                                     </svg>
                                 </span>
                             </div>
-                            <p class="testimonial-details">The lightweight and fully responsive eCommerce website
-                                templates are built for speed and conversion, helping you sell more with little extra
-                                effort.
+                            <p class="testimonial-details">Las plantillas de sitios web de comercio electrónico, 
+                                ligeras y totalmente adaptables, 
+                                están diseñadas para ofrecer velocidad y favorecer la conversión, 
+                                ayudándole a vender más con poco esfuerzo adicional.
                             </p>
                             <div class="ratings">
                                 <span>
@@ -485,8 +484,8 @@
                                     <img src="assets/images/homepage-one/about/testimonial-img-1.webp" alt="img">
                                 </div>
                                 <div class="testimonial-info-details">
-                                    <h5 class="testimonial-name">Shuvo Raihan</h5>
-                                    <p class="testimonial-title">Developer of <span class="title-inner">DesginUX</span>
+                                    <h5 class="testimonial-name">Santiago López</h5>
+                                    <p class="testimonial-title">Desarrollador de <span class="title-inner">DesginUX</span>
                                     </p>
                                 </div>
                             </div>
