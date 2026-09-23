@@ -6,10 +6,10 @@
             <div class="blog-bradcrum">
                 <span><a href="/">Home</a></span>
                 <span class="devider">/</span>
-                <span><a href="#">Contact</a></span>
+                <span><a href="#">Contacto</a></span>
             </div>
             <div class="blog-heading about-heading">
-                <h1 class="heading">Contact</h1>
+                <h1 class="heading">Contacto</h1>
             </div>
         </div>
     </section>
@@ -48,8 +48,8 @@
                                                     </span>
                                                 </div>
                                                 <div class="wrapper-content">
-                                                    <h5 class="wrapper-heading">Phone</h5>
-                                                    <p class="paragraph">+1347-430-9510</p>
+                                                    <h5 class="wrapper-heading">Telefono</h5>
+                                                    <p class="paragraph">+52 999 586 8286</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -77,10 +77,7 @@
                                                         </svg>
                                                     </span>
                                                 </div>
-                                                <div class="wrapper-content">
-                                                    <h5 class="wrapper-heading">Email</h5>
-                                                    <p class="paragraph"><a href="https://quomodothemes.website/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f2a7819780b2959f939b9edc919d9f">[email&#160;protected]</a></p>
-                                                </div>
+                                                <div class="wrapper-content"> <h5 class="wrapper-heading">Correo</h5> <p class="paragraph"> <a href="mailto:contacto@utpmaker.com"> contacto@utpmaker.com </a> </p> </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
@@ -108,7 +105,7 @@
                                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14940.382507459679!2d-90.00445396708719!3d20.584152053210918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85f89d851f5db031%3A0x88bb1c96205029da!2sUniversidad%20Tecnol%C3%B3gica%20del%20Poniente!5e0!3m2!1ses-419!2smx!4v1790177717728!5m2!1ses-419!2smx"
                                                         width="524" height="206" allowfullscreen="" loading="lazy"
                                                         referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                                        
+
                                                 </div>
                                             </div>
                                         </div>
@@ -174,7 +171,7 @@
                     const numeroWhatsApp = '529991527698';
 
                     // Construir el mensaje
-                    const texto = 
+                    const texto =
                         `*Nuevo mensaje de contacto*%0A%0A` +
                         `*Nombre:* ${encodeURIComponent(nombre)}%0A` +
                         `*Correo:* ${encodeURIComponent(email)}%0A` +
