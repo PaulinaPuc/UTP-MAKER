@@ -37,29 +37,12 @@
 
     <!--------------- header-section --------------->
     <header id="header" class="header">
-        <div class="header-top-section">
-            <div class="container">
-                <div class="header-top">
-                    <div class="header-profile">
-                        <a href="/user-profile"><span>Account</span></a>
-                        <a href="/order"><span>Track Order</span></a>
-                        <a href="/faq"><span>Support</span></a>
-                    </div>
-                    <div class="header-contact d-none d-lg-block">
-                        <a href="#">
-                            <span>Need help? Call us:</span>
-                            <span class="contact-number">+ 00645 4568</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="header-center-section d-none d-lg-block">
             <div class="container">
                 <div class="header-center">
                     <div class="logo">
                         <a href="/">
-                            <img src="assets/images/logos/logo.webp" alt="logo">
+                            <img src="{{ asset('assets/images/logos/logo.webp') }}" alt="logo">
                         </a>
                     </div>
                     <div class="header-cart-items">
@@ -92,7 +75,7 @@
                                         <div class="search-section">
                                             <input type="text" placeholder="Search Products.........">
                                             <div class="divider"></div>
-                                            <button type="button">All Categories</button>
+                                            <button type="button">Todas las Categorias</button>
                                             <a href="#" class="shop-btn">Search</a>
                                         </div>
                                     </div>
@@ -177,7 +160,7 @@
                                     <div class="wrapper">
                                         <div class="wrapper-item">
                                             <div class="wrapper-img">
-                                                <img src="assets/images/homepage-one/product-img/product-img-1.webp"
+                                                <img src="{{ asset('assets/images/homepage-one/product-img/product-img-1.webp') }}"
                                                     alt="img">
                                             </div>
                                             <div class="wrapper-content">
@@ -199,7 +182,7 @@
                                     <div class="wrapper">
                                         <div class="wrapper-item">
                                             <div class="wrapper-img">
-                                                <img src="assets/images/homepage-one/product-img/product-img-2.webp"
+                                                <img src="{{ asset('assets/images/homepage-one/product-img/product-img-2.webp') }}"
                                                     alt="img">
                                             </div>
                                             <div class="wrapper-content">
@@ -221,7 +204,7 @@
                                     <div class="wrapper">
                                         <div class="wrapper-item">
                                             <div class="wrapper-img">
-                                                <img src="assets/images/homepage-one/product-img/product-img-3.webp"
+                                                <img src="{{ asset('assets/images/homepage-one/product-img/product-img-3.webp') }}"
                                                     alt="img">
                                             </div>
                                             <div class="wrapper-content">
@@ -243,7 +226,7 @@
                                     <div class="wrapper">
                                         <div class="wrapper-item">
                                             <div class="wrapper-img">
-                                                <img src="assets/images/homepage-one/product-img/product-img-4.webp"
+                                                <img src="{{ asset('assets/images/homepage-one/product-img/product-img-4.webp') }}"
                                                     alt="img">
                                             </div>
                                             <div class="wrapper-content">
@@ -308,7 +291,7 @@
                     </span>
                 </button>
                 <a href="/" class="mobile-header-logo">
-                    <img src="assets/images/logos/logo.webp" alt="logo">
+                    <img src="{{ asset('assets/images/logos/logo.webp') }}" alt="logo">
                 </a>
                 <a href="/cart" class="header-cart cart-item">
                     <span>
@@ -402,7 +385,7 @@
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="assets/images/homepage-one/category-img/dresses.webp"
+                                                <img src="{{ asset('assets/images/homepage-one/category-img/dresses.webp') }}"
                                                     alt="dress">
                                             </span>
                                             <span class="dropdown-text">
@@ -428,7 +411,7 @@
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="assets/images/homepage-one/category-img/bags.webp"
+                                                <img src="{{ asset('assets/images/homepage-one/category-img/bags.webp') }}"
                                                     alt="Bags">
                                             </span>
                                             <span class="dropdown-text">
@@ -454,7 +437,7 @@
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="assets/images/homepage-one/category-img/sweaters.webp"
+                                                <img src="{{ asset('assets/images/homepage-one/category-img/sweaters.webp') }}"
                                                     alt="sweaters">
                                             </span>
                                             <span class="dropdown-text">
@@ -480,7 +463,7 @@
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="assets/images/homepage-one/category-img/shoes.webp"
+                                                <img src="{{ asset('assets/images/homepage-one/category-img/shoes.webp') }}"
                                                     alt="sweaters">
                                             </span>
                                             <span class="dropdown-text">
@@ -506,7 +489,7 @@
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="assets/images/homepage-one/category-img/gift.webp"
+                                                <img src="{{ asset('assets/images/homepage-one/category-img/gift.webp') }}"
                                                     alt="gift">
                                             </span>
                                             <span class="dropdown-text">
@@ -532,7 +515,7 @@
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="assets/images/homepage-one/category-img/sneakers.webp"
+                                                <img src="{{ asset('assets/images/homepage-one/category-img/sneakers.webp') }}"
                                                     alt="sneakers">
                                             </span>
                                             <span class="dropdown-text">
@@ -558,7 +541,7 @@
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="assets/images/homepage-one/category-img/watch.webp"
+                                                <img src="{{ asset('assets/images/homepage-one/category-img/watch.webp') }}"
                                                     alt="watch">
                                             </span>
                                             <span class="dropdown-text">
@@ -584,7 +567,7 @@
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="assets/images/homepage-one/category-img/ring.webp"
+                                                <img src="{{ asset('assets/images/homepage-one/category-img/ring.webp') }}"
                                                     alt="ring">
                                             </span>
                                             <span class="dropdown-text">
@@ -610,7 +593,7 @@
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="assets/images/homepage-one/category-img/cap.webp" alt="cap">
+                                                <img src="{{ asset('assets/images/homepage-one/category-img/cap.webp') }}" alt="cap">
                                             </span>
                                             <span class="dropdown-text">
                                                 Cap
@@ -635,7 +618,7 @@
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="assets/images/homepage-one/category-img/glass.webp"
+                                                <img src="{{ asset('assets/images/homepage-one/category-img/glass.webp') }}"
                                                     alt="glass">
                                             </span>
                                             <span class="dropdown-text">
@@ -661,7 +644,7 @@
                                     <div class="dropdown-item d-flex justify-content-between align-items-center">
                                         <div class="dropdown-list-item d-flex">
                                             <span class="dropdown-img">
-                                                <img src="assets/images/homepage-one/category-img/baby.webp"
+                                                <img src="{{ asset('assets/images/homepage-one/category-img/baby.webp') }}"
                                                     alt="baby">
                                             </span>
                                             <span class="dropdown-text">
@@ -703,7 +686,7 @@
                                 </svg>
                             </span>
                             <span class="list-text">
-                                All Categories
+                                Todas las categorias
                             </span>
                         </button>
                         <div class="category-dropdown position-absolute" id="subMenu">
@@ -713,11 +696,11 @@
                                         <div class="dropdown-item">
                                             <div class="dropdown-list-item">
                                                 <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/dresses.webp"
+                                                    <img src="{{ asset('assets/images/homepage-one/category-img/dresses.webp') }}"
                                                         alt="dress">
                                                 </span>
                                                 <span class="dropdown-text">
-                                                    Dresses
+                                                    Fotografia
                                                 </span>
                                             </div>
                                             <div class="drop-down-list-icon">
@@ -739,11 +722,11 @@
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/bags.webp"
+                                                    <img src="{{ asset('assets/img/categorias/3d.png') }}"
                                                         alt="Bags">
                                                 </span>
                                                 <span class="dropdown-text">
-                                                    Bags
+                                                    Impresion 3D
                                                 </span>
                                             </div>
                                             <div class="drop-down-list-icon">
@@ -765,11 +748,11 @@
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/sweaters.webp"
+                                                    <img src="{{ asset('assets/images/homepage-one/category-img/sweaters.webp') }}"
                                                         alt="sweaters">
                                                 </span>
                                                 <span class="dropdown-text">
-                                                    Sweaters
+                                                    Cursos
                                                 </span>
                                             </div>
                                             <div class="drop-down-list-icon">
@@ -791,193 +774,11 @@
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/shoes.webp"
+                                                    <img src="{{ asset('assets/images/homepage-one/category-img/shoes.webp') }}"
                                                         alt="sweaters">
                                                 </span>
                                                 <span class="dropdown-text">
-                                                    Boots
-                                                </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564"
-                                                            transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                                            transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="/product-sidebar">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/gift.webp"
-                                                        alt="gift">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Gifts
-                                                </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564"
-                                                            transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                                            transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="/product-sidebar">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/sneakers.webp"
-                                                        alt="sneakers">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Sneakers
-                                                </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564"
-                                                            transform="rotate(45 1.5 0.818359)" fill="#1D1D1D" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                                            transform="rotate(135 5.58984 4.90918)" fill="#1D1D1D" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="/product-sidebar">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/watch.webp"
-                                                        alt="watch">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Watches
-                                                </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564"
-                                                            transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                                            transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="/product-sidebar">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/ring.webp"
-                                                        alt="ring">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Gold Ring
-                                                </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564"
-                                                            transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                                            transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="/product-sidebar">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/cap.webp"
-                                                        alt="cap">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Cap
-                                                </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564"
-                                                            transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                                            transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="/product-sidebar">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/glass.webp"
-                                                        alt="glass">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Sunglasses
-                                                </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564"
-                                                            transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                                            transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="/product-sidebar">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/baby.webp"
-                                                        alt="baby">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Baby Shop
+                                                    Cortadora Laser
                                                 </span>
                                             </div>
                                             <div class="drop-down-list-icon">
@@ -1012,7 +813,7 @@
                             </li>
                             <li class="mega-menu">
                                 <a href="/product-sidebar">
-                                    <span class="list-text">Shop</span>
+                                    <span class="list-text">Servicios</span>
                                     <span>
                                         <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -1032,32 +833,54 @@
                                 <div class="shop-menu">
                                     <div class="menu-wrapper">
                                         <div class="menu-list">
-                                            <h5 class="menu-title">Dresses</h5>
+                                            <h5 class="menu-title">Impresión 3D</h5>
                                             <ul>
-                                                <li><a href="/product-sidebar">Shirt</a></li>
-                                                <li><a href="/product-sidebar">Skart</a></li>
-                                                <li><a href="/product-sidebar"> T-Shirt</a></li>
+                                                <li><a href="/product-sidebar">Prototipado Rápido</a></li>
+                                                <li><a href="/product-sidebar">Figuras y Coleccionables</a></li>
+                                                <li><a href="/product-sidebar">Refacciones y Piezas</a></li>
+                                                <li><a href="/product-sidebar">Filamentos y Resinas</a></li>
                                             </ul>
                                         </div>
                                         <div class="menu-list">
-                                            <h5 class="menu-title">Bags</h5>
+                                            <h5 class="menu-title">Cortadora Láser</h5>
                                             <ul>
-                                                <li><a href="/product-sidebar">HandBags</a></li>
-                                                <li><a href="/product-sidebar">Mobile Bags</a></li>
-                                                <li><a href="/product-sidebar">School Bags</a></li>
+                                                <li><a href="/product-sidebar">Grabado en Madera</a></li>
+                                                <li><a href="/product-sidebar">Corte en Acrílico</a></li>
+                                                <li><a href="/product-sidebar">Letreros y Señalética</a></li>
+                                                <li><a href="/product-sidebar">Reconocimientos y Trofeos</a></li>
                                             </ul>
                                         </div>
                                         <div class="menu-list">
-                                            <h5 class="menu-title">Cosmetics</h5>
+                                            <h5 class="menu-title">Playeras Personalizadas</h5>
                                             <ul>
-                                                <li><a href="/product-sidebar">Liptics</a></li>
-                                                <li><a href="/product-sidebar">Foundation</a></li>
-                                                <li><a href="/product-sidebar"> Eye Liner</a></li>
+                                                <li><a href="/product-sidebar">Estampado DTF</a></li>
+                                                <li><a href="/product-sidebar">Sublimación</a></li>
+                                                <li><a href="/product-sidebar">Vinil Textil</a></li>
+                                                <li><a href="/product-sidebar">Playeras para Eventos</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="menu-list">
+                                            <h5 class="menu-title">Fotografías</h5>
+                                            <ul>
+                                                <li><a href="/product-sidebar">Fotografía de Producto</a></li>
+                                                <li><a href="/product-sidebar">Sesiones de Estudio</a></li>
+                                                <li><a href="/product-sidebar">Impresión en Cuadros</a></li>
+                                                <li><a href="/product-sidebar">Restauración Digital</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="menu-list">
+                                            <h5 class="menu-title">Cursos</h5>
+                                            <ul>
+                                                <li><a href="/product-sidebar">Modelado 3D</a></li>
+                                                <li><a href="/product-sidebar">Manejo de Corte Láser</a></li>
+                                                <li><a href="/product-sidebar">Técnicas de Estampado</a></li>
+                                                <li><a href="/product-sidebar">Fotografía Básica</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="shop-menu-img">
-                                        <img src="assets/images/homepage-one/empty-wishlist.webp" alt="img">
+                                        <img src="{{ asset('assets/images/homepage-one/empty-wishlist.webp') }}" alt="img">
+
                                     </div>
                                 </div>
                             </li>
@@ -1246,7 +1069,7 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-order">
                             <div class="logo">
-                                <img src="assets/images/logos/footer-logo.webp" alt="logo">
+                                <img src="{{ asset('assets/images/logos/footer-logo.webp') }}" alt="logo">
                             </div>
                             <div class="footer-link order-link">
                                 <ul>
@@ -1357,19 +1180,6 @@
     </section>
     <!--------------- footer-section-end--------------->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--------------- jQuery ---------------->
     <script src="{{ asset('assets/js/jquery_3.7.1.min.js') }}"></script>
 
@@ -1389,7 +1199,6 @@
     <script src="{{ asset('assets/js/shopus.js') }}"></script>
 
 </body>
-
 
 <!-- Mirrored from quomodothemes.website/html/shopus/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Dec 2024 13:15:37 GMT -->
 </html>
