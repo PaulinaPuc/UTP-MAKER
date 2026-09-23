@@ -207,7 +207,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-wrapper" data-aos="fade-up">
                                     <div class="product-img">
-                                        <img src="assets/images/homepage-one/product-img/product-img-1.webp"
+                                        <img src="assets/images/homepage-one/product-img/product-img-2.jpeg"
                                             alt="product-img">
                                         <div class="product-cart-items">
                                     <a href="#" class="cart cart-item">
@@ -300,7 +300,7 @@
                                             </span>
                                         </div>
                                         <div class="product-description">
-                                            <a href="/product-info" class="product-details">Flower Design Skart
+                                            <a href="/product-info" class="product-details">Floppa
                                             </a>
                                             <div class="price">
                                                 <span class="price-cut">$31.99</span>
@@ -316,7 +316,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-wrapper" data-aos="fade-up">
                                     <div class="product-img">
-                                        <img src="assets/images/homepage-one/product-img/product-img-2.webp"
+                                        <img src="assets/images/homepage-one/product-img/product-img-1.jpeg"
                                             alt="product-img">
                                         <div class="product-cart-items">
                                     <a href="#" class="cart cart-item">
@@ -409,7 +409,7 @@
                                             </span>
                                         </div>
                                         <div class="product-description">
-                                            <a href="/product-info" class="product-details">Black Suit
+                                            <a href="/product-info" class="product-details">Dummy 13
                                             </a>
                                             <div class="price">
                                                 <span class="price-cut">$50.99</span>
@@ -425,7 +425,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-wrapper" data-aos="fade-up">
                                     <div class="product-img">
-                                        <img src="assets/images/homepage-one/product-img/product-img-3.webp"
+                                        <img src="assets/images/homepage-one/product-img/product-img-3.jpeg"
                                             alt="product-img">
                                         <div class="product-cart-items">
                                     <a href="#" class="cart cart-item">
@@ -518,7 +518,7 @@
                                             </span>
                                         </div>
                                         <div class="product-description">
-                                            <a href="/product-info" class="product-details">Blue Party Dress
+                                            <a href="/product-info" class="product-details">Anillo Green Lanter
                                             </a>
                                             <div class="price">
                                                 <span class="price-cut">$25.99</span>
