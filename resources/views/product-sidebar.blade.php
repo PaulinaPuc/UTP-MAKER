@@ -177,7 +177,7 @@
                         </div>
                         <div class="sidebar-shop-section">
                             <span class="wrapper-subtitle">TRENDY</span>
-                            <h5 class="wrapper-heading">Best wireless Shoes</h5>
+                            <h5 class="wrapper-heading">Los mejores productos los encuentras aquí</h5>
                             <a href="/seller-sidebar" class="shop-btn deal-btn">Shop Now </a>
                         </div>
                     </div>
@@ -976,7 +976,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-wrapper" data-aos="fade-up">
                                     <div class="product-img">
-                                        <img src="assets/images/homepage-one/product-img/product-img-2.webp"
+                                        <img src="/assets/img/products/WhatsApp Image 2026-09-23 at 9.44.31 AM.jpeg"
                                             alt="product-img">
                                         <div class="product-cart-items">
                                     <a href="#" class="cart cart-item">
@@ -1069,11 +1069,11 @@
                                             </span>
                                         </div>
                                         <div class="product-description">
-                                            <a href="/product-info" class="product-details">White T-Shirt
+                                            <a href="/product-info" class="product-details">Portacelulares
                                             </a>
                                             <div class="price">
                                                 <span class="price-cut">$39.99</span>
-                                                <span class="new-price">$20.99</span>
+                                                <span class="new-price">$40</span>
                                             </div>
                                         </div>
                                     </div>
