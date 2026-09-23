@@ -194,23 +194,13 @@
                     <div class="product-sidebar-section" data-aos="fade-up">
                         <div class="row g-5">
                             <div class="col-lg-12">
-                                <div class="product-sorting-section">
-                                    <div class="result">
-                                        <p>Showing <span>1–16 of 66 results</span></p>
-                                    </div>
-                                    <div class="product-sorting">
-                                        <span class="product-sort">Sort by:</span>
-                                        <div class="product-list">
-                                            <span class="default">Default</span>
-                                            <span>
-                                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 1L5 5L9 1" stroke="#9A9A9A" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </div>
+                            <div class="col-lg-12">
+                                <div class="product-deal-section" data-aos="fade-up">
+                                    <h5 class="wrapper-heading" style="color: black;">Apartado de cursos</h5>
+                                    <a href="/seller-sidebar" class="shop-btn">Ver mas</a>
                                 </div>
+                            </div> 
+
                             </div>
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-wrapper" data-aos="fade-up">
@@ -311,13 +301,12 @@
                                             <a href="/product-info" class="product-details">Floppa
                                             </a>
                                             <div class="price">
-                                                <span class="price-cut">$31.99</span>
-                                                <span class="new-price">$15.99</span>
+                                                <span class="new-price">$20.00</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="product-cart-btn">
-                                        <a href="/cart" class="product-btn">Add To Cart</a>
+                                        <a href="/cart" class="product-btn">Me interesa</a>
                                     </div>
                                 </div>
                             </div>
@@ -420,13 +409,12 @@
                                             <a href="/product-info" class="product-details">Dummy 13
                                             </a>
                                             <div class="price">
-                                                <span class="price-cut">$50.99</span>
-                                                <span class="new-price">$22.99</span>
+                                                <span class="new-price">$50.00</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="product-cart-btn">
-                                        <a href="/cart" class="product-btn">Add To Cart</a>
+                                        <a href="/cart" class="product-btn">Me interesa</a>
                                     </div>
                                 </div>
                             </div>
@@ -529,13 +517,12 @@
                                             <a href="/product-info" class="product-details">Anillo Green Lanter
                                             </a>
                                             <div class="price">
-                                                <span class="price-cut">$25.99</span>
-                                                <span class="new-price">$11.99</span>
+                                                <span class="new-price">$70.00</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="product-cart-btn">
-                                        <a href="/cart" class="product-btn">Add To Cart</a>
+                                        <a href="/cart" class="product-btn">Me interesa</a>
                                     </div>
                                 </div>
                             </div>
@@ -635,23 +622,22 @@
                                             </span>
                                         </div>
                                         <div class="product-description">
-                                            <a href="/product-info" class="product-details">Red Party Dress
+                                            <a href="/product-info" class="product-details">Cursos de IoT
                                             </a>
                                             <div class="price">
-                                                <span class="price-cut">$22.99</span>
-                                                <span class="new-price">$11.99</span>
+                                                <span class="new-price">$100.00</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="product-cart-btn">
-                                        <a href="/cart" class="product-btn">Add To Cart</a>
+                                        <a href="/cart" class="product-btn">Me interesa</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-wrapper" data-aos="fade-up">
                                     <div class="product-img">
-                                        <img src="assets/images/homepage-one/product-img/product-img-5.webp"
+                                        <img src="assets/images/homepage-one/product-img/product-img-5.jpg"
                                             alt="product-img">
                                         <div class="product-cart-items">
                                     <a href="#" class="cart cart-item">
@@ -744,23 +730,22 @@
                                             </span>
                                         </div>
                                         <div class="product-description">
-                                            <a href="/product-info" class="product-details">White Checked Shirt
+                                            <a href="/product-info" class="product-details">Cursos de Python
                                             </a>
                                             <div class="price">
-                                                <span class="price-cut">$18.99</span>
-                                                <span class="new-price">$8.99</span>
+                                                <span class="new-price">$200.00</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="product-cart-btn">
-                                        <a href="/cart" class="product-btn">Add To Cart</a>
+                                        <a href="/cart" class="product-btn">Me interesa</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-wrapper" data-aos="fade-up">
                                     <div class="product-img">
-                                        <img src="assets/images/homepage-one/product-img/product-img-6.webp"
+                                        <img src="assets/images/homepage-one/product-img/product-img-6.jpg"
                                             alt="product-img">
                                         <div class="product-cart-items">
                                     <a href="#" class="cart cart-item">
@@ -853,16 +838,15 @@
                                             </span>
                                         </div>
                                         <div class="product-description">
-                                            <a href="/product-info" class="product-details">White Hat
+                                            <a href="/product-info" class="product-details">Cursos de JavaScript
                                             </a>
                                             <div class="price">
-                                                <span class="price-cut">$33.99</span>
-                                                <span class="new-price">$16.99</span>
+                                                <span class="new-price">$40.00</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="product-cart-btn">
-                                        <a href="/cart" class="product-btn">Add To Cart</a>
+                                        <a href="/cart" class="product-btn">Me interesa</a>
                                     </div>
                                 </div>
                             </div>
