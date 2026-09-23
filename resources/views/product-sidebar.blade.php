@@ -859,7 +859,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-wrapper" data-aos="fade-up">
                                     <div class="product-img">
-                                        <img src="assets/images/homepage-one/product-img/product-img-1.webp"
+                                        <img src="assets/img/products/cuaderno.jpeg"
                                             alt="product-img">
                                         <div class="product-cart-items">
                                     <a href="#" class="cart cart-item">
@@ -952,11 +952,10 @@
                                             </span>
                                         </div>
                                         <div class="product-description">
-                                            <a href="/product-info" class="product-details">Rainbow Sequin Skart
+                                            <a href="/product-info" class="product-details">Cuaderno Aniversario UTP
                                             </a>
                                             <div class="price">
-                                                <span class="price-cut">$36.99</span>
-                                                <span class="new-price">$16.99</span>
+                                                <span class="new-price">$50</span>
                                             </div>
                                         </div>
                                     </div>
@@ -1077,7 +1076,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-wrapper" data-aos="fade-up">
                                     <div class="product-img">
-                                        <img src="assets/images/homepage-one/product-img/product-img-3.webp"
+                                        <img src="assets/img/products/cartel.jpeg"
                                             alt="product-img">
                                         <div class="product-cart-items">
                                     <a href="#" class="cart cart-item">
@@ -1170,11 +1169,10 @@
                                             </span>
                                         </div>
                                         <div class="product-description">
-                                            <a href="/product-info" class="product-details">Sleeveless Dress
+                                            <a href="/product-info" class="product-details">Carteles Personalizados
                                             </a>
                                             <div class="price">
-                                                <span class="price-cut">$29.99</span>
-                                                <span class="new-price">$16.99</span>
+                                                <span class="new-price">$50</span>
                                             </div>
                                         </div>
                                     </div>
