@@ -1194,7 +1194,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-wrapper" data-aos="fade-up">
                                     <div class="product-img">
-                                        <img src="assets/images/homepage-one/product-img/product-img-4.webp"
+                                        <img src="assets/images/homepage-one/product-img/playeras.jpg"
                                             alt="product-img">
                                         <div class="product-cart-items">
                                     <a href="#" class="cart cart-item">
@@ -1287,7 +1287,7 @@
                                             </span>
                                         </div>
                                         <div class="product-description">
-                                            <a href="/product-info" class="product-details">Rainbow Sequin Shirt
+                                            <a href="/product-info" class="product-details">Playeras personalizadas
                                             </a>
                                             <div class="price">
                                                 <span class="price-cut">$9.99</span>
@@ -1303,7 +1303,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-wrapper" data-aos="fade-up">
                                     <div class="product-img">
-                                        <img src="assets/images/homepage-one/product-img/product-img-5.webp"
+                                        <img src="assets/images/homepage-one/product-img/tazas.jpg"
                                             alt="product-img">
                                         <div class="product-cart-items">
                                     <a href="#" class="cart cart-item">
@@ -1396,7 +1396,7 @@
                                             </span>
                                         </div>
                                         <div class="product-description">
-                                            <a href="/product-info" class="product-details">Tom Checked shirt
+                                            <a href="/product-info" class="product-details">Tazas personalizadas
                                             </a>
                                             <div class="price">
                                                 <span class="price-cut">$46.99</span>
@@ -1412,7 +1412,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="product-wrapper" data-aos="fade-up">
                                     <div class="product-img">
-                                        <img src="assets/images/homepage-one/product-img/product-img-6.webp"
+                                        <img src="assets/images/homepage-one/product-img/stikers.jpg"
                                             alt="product-img">
                                         <div class="product-cart-items">
                                     <a href="#" class="cart cart-item">
@@ -1505,7 +1505,7 @@
                                             </span>
                                         </div>
                                         <div class="product-description">
-                                            <a href="/product-info" class="product-details">Rainbow Baby Dress
+                                            <a href="/product-info" class="product-details">Stikers personalizadas
                                             </a>
                                             <div class="price">
                                                 <span class="price-cut">$29.99</span>
