@@ -1,58 +1,134 @@
 @extends('layouts.main')
 @section('content')
 <!--------------- hero-section --------------->
-    <section id="hero" class="hero">
-        <div class="swiper hero-swiper">
-            <div class="swiper-wrapper hero-wrapper">
-                <div class="swiper-slide hero-slider-one">
-                    <div class="container">
-                        <div class="col-lg-6">
-                            <div class="wrapper-section" data-aos="fade-up">
-                                <div class="wrapper-info">
-                                    <h5 class="wrapper-subtitle">UP TO <span class="wrapper-inner-title">70%</span> OFF
-                                    </h5>
-                                    <h1 class="wrapper-details">Fashion Collection
-                                        Summer Sale</h1>
-                                    <a href="/product-sidebar" class="shop-btn">Shop Now</a>
-                                </div>
+<section id="hero" class="hero">
+    <div class="swiper hero-swiper">
+
+        <div class="swiper-wrapper hero-wrapper">
+
+            <!-- SLIDE 1 - GRABADO Y CORTE LÁSER -->
+            <div class="swiper-slide hero-slider-one">
+                <div class="container">
+                    <div class="col-lg-6">
+
+                        <div class="wrapper-section" data-aos="fade-up">
+
+                            <div class="wrapper-info">
+
+                                <h5 class="wrapper-subtitle">
+                                    SERVICIOS DE
+                                    <span class="wrapper-inner-title">
+                                        FABRICACIÓN
+                                    </span>
+                                </h5>
+
+                                <h1 class="wrapper-details">
+                                    Grabado y Corte Láser
+                                </h1>
+
+                                <p>
+                                    Creamos productos personalizados mediante
+                                    tecnología de corte y grabado láser,
+                                    trabajando con diferentes materiales y diseños.
+                                </p>
+
+                                <a href="/product-sidebar" class="shop-btn">
+                                    Conocer servicios
+                                </a>
+
                             </div>
+
                         </div>
-                    </div>
-                </div>
-                <div class="swiper-slide hero-slider-two">
-                    <div class="container">
-                        <div class="col-lg-6">
-                            <div class="wrapper-section">
-                                <div class="wrapper-info">
-                                    <h5 class="wrapper-subtitle">UP TO <span class="wrapper-inner-title">70%</span> OFF
-                                    </h5>
-                                    <h1 class="wrapper-details">Fashion Collection
-                                        Summer Sale</h1>
-                                    <a href="#" class="shop-btn">Shop Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide hero-slider-three">
-                    <div class="container">
-                        <div class="col-lg-6">
-                            <div class="wrapper-section">
-                                <div class="wrapper-info">
-                                    <h5 class="wrapper-subtitle">UP TO <span class="wrapper-inner-title">70%</span> OFF
-                                    </h5>
-                                    <h1 class="wrapper-details">Fashion Collection
-                                        Summer Sale</h1>
-                                    <a href="#" class="shop-btn">Shop Now</a>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
+
+
+            <!-- SLIDE 2 - FOTOGRAFÍA Y SUBLIMADO -->
+            <div class="swiper-slide hero-slider-two">
+                <div class="container">
+                    <div class="col-lg-6">
+
+                        <div class="wrapper-section">
+
+                            <div class="wrapper-info">
+
+                                <h5 class="wrapper-subtitle">
+                                    CREATIVIDAD Y
+                                    <span class="wrapper-inner-title">
+                                        DISEÑO
+                                    </span>
+                                </h5>
+
+                                <h1 class="wrapper-details">
+                                    Fotografía y Sublimado
+                                </h1>
+
+                                <p>
+                                    Capturamos momentos y personalizamos
+                                    productos como playeras, tazas y
+                                    diferentes artículos mediante sublimación.
+                                </p>
+
+                                <a href="/product-sidebar" class="shop-btn">
+                                    Ver servicios
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- SLIDE 3 - ROBÓTICA E IMPRESIÓN 3D -->
+            <div class="swiper-slide hero-slider-three">
+                <div class="container">
+                    <div class="col-lg-6">
+
+                        <div class="wrapper-section">
+
+                            <div class="wrapper-info">
+
+                                <h5 class="wrapper-subtitle">
+                                    TECNOLOGÍA E
+                                    <span class="wrapper-inner-title">
+                                        INNOVACIÓN
+                                    </span>
+                                </h5>
+
+                                <h1 class="wrapper-details">
+                                    Robótica e Impresión 3D
+                                </h1>
+
+                                <p>
+                                    Desarrollamos prototipos, proyectos
+                                    tecnológicos y soluciones mediante
+                                    robótica, diseño e impresión 3D.
+                                </p>
+
+                                <a href="/product-sidebar" class="shop-btn">
+                                    Conocer proyectos
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </section>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+</section>
+
     <!--------------- hero-section-end --------------->
 
     <!--------------- style-section --------------->
