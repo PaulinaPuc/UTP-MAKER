@@ -99,16 +99,16 @@
                                                         </span>
                                                     </div>
                                                     <div class="address-content">
-                                                        <h5 class="wrapper-heading">Address</h5>
-                                                        <p class="paragraph">2140 W Thunderbird Rd, Phoenix, Arkansas
-                                                            85023, United States</p>
+                                                        <h5 class="wrapper-heading">Dirección</h5>
+                                                        <p class="paragraph">Universidad Tecnológica del Poniente, Centro, 97800 Maxcanú, Yuc.</p>
                                                     </div>
                                                 </div>
                                                 <div class="contact-map">
                                                     <iframe
-                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.2527999867!2d-74.14448761897569!3d40.6976312333577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1691924335610!5m2!1sen!2sbd"
+                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14940.382507459679!2d-90.00445396708719!3d20.584152053210918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85f89d851f5db031%3A0x88bb1c96205029da!2sUniversidad%20Tecnol%C3%B3gica%20del%20Poniente!5e0!3m2!1ses-419!2smx!4v1790177717728!5m2!1ses-419!2smx"
                                                         width="524" height="206" allowfullscreen="" loading="lazy"
                                                         referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        
                                                 </div>
                                             </div>
                                         </div>
