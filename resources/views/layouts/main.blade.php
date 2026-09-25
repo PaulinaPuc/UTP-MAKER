@@ -823,7 +823,6 @@
                                         </div>
                                     </a>
                                 </li>
-<<<<<<< HEAD
                                 <li class="category-list-item">
                                     <a href="/product-sidebar">
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
@@ -852,8 +851,6 @@
                             
                                 <li class="category-list-item">
                                  
-=======
->>>>>>> 2a56ae130dbce44a85a84f3d3169cf62c712e98f
                             </ul>
                         </div>
                     </div>
