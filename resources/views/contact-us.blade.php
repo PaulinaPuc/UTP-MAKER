@@ -6,10 +6,10 @@
             <div class="blog-bradcrum">
                 <span><a href="/">Home</a></span>
                 <span class="devider">/</span>
-                <span><a href="#">Contact</a></span>
+                <span><a href="#">Contacto</a></span>
             </div>
             <div class="blog-heading about-heading">
-                <h1 class="heading">Contact</h1>
+                <h1 class="heading">Contacto</h1>
             </div>
         </div>
     </section>
@@ -23,9 +23,9 @@
                     <div class="col-lg-6">
                         <div class="contact-info-section">
                             <div class="contact-information">
-                                <h5 class="wrapper-heading">Contact Information</h5>
-                                <p class="paragraph">Fill the form below or write us .We will help you as soon as
-                                    possible.</p>
+                                <h5 class="wrapper-heading">Información de contacto</h5>
+                                <p class="paragraph">Completa el formulario a continuación o escríbenos. Te ayudaremos lo antes
+                                    posible.</p>
                                 <div class="contact-wrapper">
                                     <div class="row gy-5">
                                         <div class="col-sm-6">
@@ -48,8 +48,8 @@
                                                     </span>
                                                 </div>
                                                 <div class="wrapper-content">
-                                                    <h5 class="wrapper-heading">Phone</h5>
-                                                    <p class="paragraph">+1347-430-9510</p>
+                                                    <h5 class="wrapper-heading">Telefono</h5>
+                                                    <p class="paragraph">+52 999 586 8286</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -77,10 +77,7 @@
                                                         </svg>
                                                     </span>
                                                 </div>
-                                                <div class="wrapper-content">
-                                                    <h5 class="wrapper-heading">Email</h5>
-                                                    <p class="paragraph"><a href="https://quomodothemes.website/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f2a7819780b2959f939b9edc919d9f">[email&#160;protected]</a></p>
-                                                </div>
+                                                <div class="wrapper-content"> <h5 class="wrapper-heading">Correo</h5> <p class="paragraph"> <a href="mailto:contacto@utpmaker.com"> contacto@utpmaker.com </a> </p> </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
@@ -99,16 +96,16 @@
                                                         </span>
                                                     </div>
                                                     <div class="address-content">
-                                                        <h5 class="wrapper-heading">Address</h5>
-                                                        <p class="paragraph">2140 W Thunderbird Rd, Phoenix, Arkansas
-                                                            85023, United States</p>
+                                                        <h5 class="wrapper-heading">Dirección</h5>
+                                                        <p class="paragraph">Universidad Tecnológica del Poniente, Centro, 97800 Maxcanú, Yuc.</p>
                                                     </div>
                                                 </div>
                                                 <div class="contact-map">
                                                     <iframe
-                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.2527999867!2d-74.14448761897569!3d40.6976312333577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1691924335610!5m2!1sen!2sbd"
+                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14940.382507459679!2d-90.00445396708719!3d20.584152053210918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85f89d851f5db031%3A0x88bb1c96205029da!2sUniversidad%20Tecnol%C3%B3gica%20del%20Poniente!5e0!3m2!1ses-419!2smx!4v1790177717728!5m2!1ses-419!2smx"
                                                         width="524" height="206" allowfullscreen="" loading="lazy"
                                                         referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -118,35 +115,76 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="question-section login-section ">
-                            <div class="review-form">
-                                <h5 class="comment-title">Get In Touch</h5>
-                                <div class=" account-inner-form">
-                                    <div class="review-form-name">
-                                        <label for="fname" class="form-label">Name*</label>
-                                        <input type="text" id="fname" class="form-control" placeholder="Name">
-                                    </div>
-                                    <div class="review-form-name">
-                                        <label for="email" class="form-label">Email*</label>
-                                        <input type="email" id="email" class="form-control"
-                                            placeholder="user@gmail.com">
-                                    </div>
-                                    <div class="review-form-name">
-                                        <label for="subject" class="form-label">Subject*</label>
-                                        <input type="text" id="subject" class="form-control" placeholder="Subject">
-                                    </div>
+                    <div class="question-section login-section">
+                        <div class="review-form">
+                            <h5 class="comment-title">Ponte en Contacto</h5>
+                            <div class="account-inner-form">
+                                <div class="review-form-name">
+                                    <label for="fname" class="form-label">Nombre*</label>
+                                    <input type="text" id="fname" class="form-control" placeholder="Nombre">
                                 </div>
-                                <div class="review-textarea">
-                                    <label for="floatingTextarea">Massage*</label>
-                                    <textarea class="form-control" placeholder="Write Massage..........."
-                                        id="floatingTextarea" rows="3"></textarea>
+                                <div class="review-form-name">
+                                    <label for="email" class="form-label">Correo Electrónico*</label>
+                                    <input type="email" id="email" class="form-control" placeholder="usuario@gmail.com">
                                 </div>
-                                <div class="login-btn">
-                                    <a href="#" class="shop-btn">Send Now</a>
+                                <div class="review-form-name">
+                                    <label for="subject" class="form-label">Asunto*</label>
+                                    <input type="text" id="subject" class="form-control" placeholder="Asunto">
                                 </div>
+                            </div>
+                            <div class="review-textarea">
+                                <label for="floatingTextarea">Mensaje*</label>
+                                <textarea class="form-control" placeholder="Escribe tu mensaje..........."
+                                    id="floatingTextarea" rows="3"></textarea>
+                            </div>
+                            <div class="login-btn">
+                                <a href="#" class="shop-btn" id="whatsappBtn">Enviar Ahora</a>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <script>
+                document.getElementById('whatsappBtn').addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    // Obtener los valores de los campos
+                    const nombre = document.getElementById('fname').value.trim();
+                    const email = document.getElementById('email').value.trim();
+                    const asunto = document.getElementById('subject').value.trim();
+                    const mensaje = document.getElementById('floatingTextarea').value.trim();
+
+                    // Validación básica
+                    if (!nombre || !email || !asunto || !mensaje) {
+                        alert('Por favor, complete todos los campos antes de enviar.');
+                        return;
+                    }
+
+                    // Validación simple de correo
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!emailRegex.test(email)) {
+                        alert('Por favor, ingrese un correo electrónico válido.');
+                        return;
+                    }
+
+                    // Número de WhatsApp (código de país + número, sin espacios ni símbolos)
+                    const numeroWhatsApp = '529991527698';
+
+                    // Construir el mensaje
+                    const texto =
+                        `*Nuevo mensaje de contacto*%0A%0A` +
+                        `*Nombre:* ${encodeURIComponent(nombre)}%0A` +
+                        `*Correo:* ${encodeURIComponent(email)}%0A` +
+                        `*Asunto:* ${encodeURIComponent(asunto)}%0A` +
+                        `*Mensaje:* ${encodeURIComponent(mensaje)}`;
+
+                    // Crear la URL de WhatsApp
+                    const url = `https://wa.me/${numeroWhatsApp}?text=${texto}`;
+
+                    // Abrir WhatsApp en una nueva pestaña
+                    window.open(url, '_blank');
+                });
+                </script>
                 </div>
             </div>
         </div>
