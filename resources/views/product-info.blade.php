@@ -20,7 +20,7 @@
                                 </div>
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide slider-top-img">
-                                        <img src="assets/images/homepage-one/product-img/product-img-14.webp"
+                                        <img src="assets/images/homepage-one/product-img/product-img-1.jpg"
                                             alt="img">
                                     </div>
                                     <div class="swiper-slide slider-top-img">
@@ -82,8 +82,8 @@
                     </div>
                     <div class="col-md-6">
                         <div class="product-info-content" data-aos="fade-left">
-                            <span class="wrapper-subtitle">BOY'S FASHION</span>
-                            <h5>Rainbow Sequin Profresonal Coat
+                            <span class="wrapper-subtitle">CURSOS</span>
+                            <h5>Cursos de IA
                             </h5>
                             <div class="ratings">
                                 <span>
@@ -109,20 +109,19 @@
                                 <span class="text">6 Reviews</span>
                             </div>
                             <div class="price">
-                                <span class="price-cut">$9.99</span>
-                                <span class="new-price">$6.99</span>
+                                <span class="new-price">$20.00</span>
                             </div>
-                            <p class="content-paragraph">It is a long established fact that a reader will be distracted
-                                by <span class="inner-text">the readable there content of a page.</span></p>
+                            <p class="content-paragraph">Este curso te ayuda a saber mas de la tecnologia moderna
+                                by <span class="inner-text">No te qudes con las ganas de saber mas sobre eso.</span></p>
                             <hr>
                             <div class="product-availability">
-                                <span>Availabillity : </span>
-                                <span class="inner-text">132 Products Available</span>
+                                <span>Disponible : </span>
+                                <span class="inner-text">10 Asientos</span>
                             </div>
                             <div class="product-size">
-                                <P class="size-title">Size</P>
+                                <P class="size-title">Lugares</P>
                                 <div class="size-section">
-                                    <span class="size-text">Select your size</span>
+                                    <span class="size-text">Selecciona el lugar de tu preferencia</span>
                                     <div class="toggle-btn">
                                         <span class="toggle-btn2"></span>
                                         <span class="chevron">
@@ -136,24 +135,24 @@
                                 </div>
                                 <ul class="size-option">
                                     <li class="option">
-                                        <span class="option-text">Small</span>
-                                        <span class="option-measure">3”W x 3”D x 5”H</span>
+                                        <span class="option-text">Curso + Dinamica</span>
+                                        <span class="option-measure">$1000</span>
                                     </li>
                                     <li class="option">
-                                        <span class="option-text">Medium</span>
-                                        <span class="option-measure">3”W x 3”D x 6”H</span>
+                                        <span class="option-text">Dinamica + Regalo</span>
+                                        <span class="option-measure">$1500</span>
                                     </li>
                                     <li class="option">
-                                        <span class="option-text">Large</span>
-                                        <span class="option-measure">6”W x 3”D x 7”H</span>
+                                        <span class="option-text">Regalo + Curso</span>
+                                        <span class="option-measure">$2000</span>
                                     </li>
                                     <li class="option">
-                                        <span class="option-text">Extra Large</span>
-                                        <span class="option-measure">8”W x 4”D x 8”H</span>
+                                        <span class="option-text">Regalo</span>
+                                        <span class="option-measure">$2500</span>
                                     </li>
                                     <li class="option">
-                                        <span class="option-text">2XL</span>
-                                        <span class="option-measure">10”W x 5”D x 9”H</span>
+                                        <span class="option-text">Dinamica</span>
+                                        <span class="option-measure">$3000</span>
                                     </li>
                                 </ul>
                             </div>
@@ -189,13 +188,13 @@
                                                 fill="white" />
                                         </svg>
                                     </span>
-                                    <span>Add to Cart</span>
+                                    <span>Reserva</span>
                                 </a>
                             </div>
                             <hr>
                             <div class="product-details">
-                                <p class="category">Category : <span class="inner-text">Kitchen</span></p>
-                                <p class="tags">Tags : <span class="inner-text">Beer, Foamer</span></p>
+                                <p class="category">Categoria : <span class="inner-text">Cursos Y Talleres</span></p>
+                                <p class="tags">Tags : <span class="inner-text">IA, Talleres</span></p>
                                 <p class="sku">SKU : <span class="inner-text">KE-91039</span></p>
                             </div>
                             <hr>
@@ -209,7 +208,7 @@
                                                 fill="#EB5757" />
                                         </svg>
                                     </span>
-                                    <span>Report This Item</span>
+                                    <span>Reporta un problema</span>
                                 </a>
                                 <!-- modal -->
                                 <div class="modal-wrapper action">
@@ -219,25 +218,25 @@
                                     <div class="login-section account-section modal-main">
                                         <div class="review-form">
                                             <div class="review-content">
-                                                <h5 class="comment-title">Report Products</h5>
+                                                <h5 class="comment-title">¿Tuviste algun problema?</h5>
                                                 <div class="close-btn">
                                                     <img src="assets/images/homepage-one/close-btn.png"
                                                         onclick="modalAction('.action')" alt="close-btn">
                                                 </div>
                                             </div>
                                             <div class="review-form-name address-form">
-                                                <label for="reporttitle" class="form-label">Enter Report Ttile*</label>
+                                                <label for="reporttitle" class="form-label">Titulo del reporte*</label>
                                                 <input type="text" id="reporttitle" class="form-control"
                                                     placeholder="Reports Headline here">
                                             </div>
                                             <div class="review-form-name address-form">
-                                                <label for="reportnote" class="form-label">Enter Report Note*</label>
+                                                <label for="reportnote" class="form-label">Describe tu reporte*</label>
                                                 <textarea name="ticketmassage" id="reportnote" cols="40" rows="3"
                                                     class="form-control" placeholder="Type Here"></textarea>
                                             </div>
                                             <div class="login-btn text-center">
-                                                <a href="#" onclick="modalAction('.action')" class="shop-btn">Submit
-                                                    Report</a>
+                                                <a href="#" onclick="modalAction('.action')" class="shop-btn">Enviar
+                                                    Reporte</a>
                                             </div>
                                         </div>
                                     </div>
@@ -310,33 +309,22 @@
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
                         tabindex="0" data-aos="fade-up">
                         <div class="product-intro-section">
-                            <h5 class="intro-heading">Introduction</h5>
+                            <h5 class="intro-heading">Introducción</h5>
                             <p class="product-details">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley of type and scrambled it to make a type specimen book. It has
-                                survived not only five centuries but also the on leap into electronic typesetting,
-                                remaining essentially unchanged. It wasn’t popularised in the 1960s with the release of
-                                Letraset sheets containing Lorem Ipsum passages, andei more recently with desktop
-                                publishing software like Aldus PageMaker including versions of Lorem Ipsum to make a
-                                type specimen book.
+Un curso de inteligencia artificial aborda los fundamentos y aplicaciones prácticas de la tecnología, desde conceptos básicos de machine learning y redes neuronales hasta el uso avanzado de herramientas de prompt engineering y modelos de lenguaje. Su objetivo es enseñarte a diseñar, entrenar y aplicar algoritmos inteligentes para automatizar tareas, analizar datos complejos y resolver problemas reales en el desarrollo de software u otras áreas.
                             </p>
                         </div>
                         <div class="product-feature">
-                            <h5 class="intro-heading">Features :</h5>
+                            <h5 class="intro-heading">Características :</h5>
                             <ul>
                                 <li>
-                                    <p>slim body with metal cover</p>
+                                    <p>Alta demanda laboral: Las empresas buscan perfiles que sepan integrar y aprovechar la IA para optimizar procesos.</p>
                                 </li>
                                 <li>
-                                    <p>latest Intel Core i5-1135G7 processor (4 cores / 8 threads)</p>
+                                    <p>Mayor eficiencia: Te permite automatizar tareas repetitivas y acelerar el desarrollo de software.</p>
                                 </li>
                                 <li>
-                                    <p>8GB DDR4 RAM and fast 512GB PCIe SSD</p>
-                                </li>
-                                <li>
-                                    <p>NVIDIA GeForce MX350 2GB GDDR5 graphics card backlit keyboard, touchpad with
-                                        gesture support</p>
+                                    <p>Resolución avanzada: Facilita la creación de soluciones inteligentes, desde análisis de datos hasta experiencias de usuario personalizadas.</p>
                                 </li>
                             </ul>
                         </div>
