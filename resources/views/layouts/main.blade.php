@@ -13,7 +13,7 @@
     <link rel="icon" href="{{ asset('assets/images/homepage-one/icon.png') }}">
 
     <!--title  -->
-    <title>Shopus: Your One-Stop Destination for Fashion and Style</title>
+    <title>UTP-Market</title>
 
 
     <link rel="stylesheet" href="{{ asset('assets/css/swiper10-bundle.min.css') }}">
@@ -59,8 +59,8 @@
                 <div class="header-center">
                     <div class="logo">
                         <a href="/">
-                            <img src="assets/images/logos/logo.webp" alt="logo">
-                        </a>
+    <img src="assets/images/logos/logou.png" alt="logo" width="180">
+</a>
                     </div>
                     <div class="header-cart-items">
                         <div class="header-search">
@@ -703,7 +703,7 @@
                                 </svg>
                             </span>
                             <span class="list-text">
-                                All Categories
+                                Categorias
                             </span>
                         </button>
                         <div class="category-dropdown position-absolute" id="subMenu">
@@ -713,11 +713,9 @@
                                         <div class="dropdown-item">
                                             <div class="dropdown-list-item">
                                                 <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/dresses.webp"
-                                                        alt="dress">
                                                 </span>
                                                 <span class="dropdown-text">
-                                                    Dresses
+                                                    Fotografia
                                                 </span>
                                             </div>
                                             <div class="drop-down-list-icon">
@@ -739,11 +737,9 @@
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/bags.webp"
-                                                        alt="Bags">
                                                 </span>
                                                 <span class="dropdown-text">
-                                                    Bags
+                                                    Sublimación
                                                 </span>
                                             </div>
                                             <div class="drop-down-list-icon">
@@ -765,11 +761,10 @@
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/sweaters.webp"
-                                                        alt="sweaters">
+                                            
                                                 </span>
                                                 <span class="dropdown-text">
-                                                    Sweaters
+                                                    Corte y grabado láser
                                                 </span>
                                             </div>
                                             <div class="drop-down-list-icon">
@@ -791,11 +786,11 @@
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/shoes.webp"
-                                                        alt="sweaters">
+                                            
+                            
                                                 </span>
                                                 <span class="dropdown-text">
-                                                    Boots
+                                                    Cursos
                                                 </span>
                                             </div>
                                             <div class="drop-down-list-icon">
@@ -817,11 +812,10 @@
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/gift.webp"
-                                                        alt="gift">
+                                                    
                                                 </span>
                                                 <span class="dropdown-text">
-                                                    Gifts
+                                                    Impresión 3D
                                                 </span>
                                             </div>
                                             <div class="drop-down-list-icon">
@@ -837,163 +831,10 @@
                                             </div>
                                         </div>
                                     </a>
-                                </li>
+                                </li>      
+                            
                                 <li class="category-list-item">
-                                    <a href="/product-sidebar">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/sneakers.webp"
-                                                        alt="sneakers">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Sneakers
-                                                </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564"
-                                                            transform="rotate(45 1.5 0.818359)" fill="#1D1D1D" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                                            transform="rotate(135 5.58984 4.90918)" fill="#1D1D1D" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="/product-sidebar">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/watch.webp"
-                                                        alt="watch">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Watches
-                                                </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564"
-                                                            transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                                            transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="/product-sidebar">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/ring.webp"
-                                                        alt="ring">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Gold Ring
-                                                </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564"
-                                                            transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                                            transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="/product-sidebar">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/cap.webp"
-                                                        alt="cap">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Cap
-                                                </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564"
-                                                            transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                                            transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="/product-sidebar">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/glass.webp"
-                                                        alt="glass">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Sunglasses
-                                                </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564"
-                                                            transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                                            transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="category-list-item">
-                                    <a href="/product-sidebar">
-                                        <div class="dropdown-item d-flex justify-content-between align-items-center">
-                                            <div class="dropdown-list-item d-flex">
-                                                <span class="dropdown-img">
-                                                    <img src="assets/images/homepage-one/category-img/baby.webp"
-                                                        alt="baby">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Baby Shop
-                                                </span>
-                                            </div>
-                                            <div class="drop-down-list-icon">
-                                                <span>
-                                                    <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="0.818359" width="5.78538" height="1.28564"
-                                                            transform="rotate(45 1.5 0.818359)" />
-                                                        <rect x="5.58984" y="4.90918" width="5.78538" height="1.28564"
-                                                            transform="rotate(135 5.58984 4.90918)" />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
+                                 
                             </ul>
                         </div>
                     </div>
@@ -1002,17 +843,17 @@
                             <li>
                                 <a href="/">
                                     <span class="list-text">Home</span>
-                                </a>
+                                <!--</a>  
                                 <ul class="header-sub-menu">
                                     <li><a href="/">Home-1</a></li>
                                     <li><a href="/home-two">Home-2</a></li>
                                     <li><a href="/home-three">Home-3</a></li>
 
-                                </ul>
+                                </ul>-->
                             </li>
                             <li class="mega-menu">
                                 <a href="/product-sidebar">
-                                    <span class="list-text">Shop</span>
+                                    <span class="list-text">Servicios</span>
                                     <span>
                                         <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -1061,7 +902,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li>
+                           <!-- <li>
                                 <a href="#">
                                     <span class="list-text">Pages</span>
                                     <span>
@@ -1088,28 +929,28 @@
                                     <li><a href="/product-sidebar">Shop Category Icon</a></li>
                                     <li><a href="/product-sidebar">Shop List View</a></li>
                                 </ul>
-                            </li>
+                            </li>-->
                             <li>
                                 <a href="/about">
-                                    <span class="list-text">About</span>
+                                    <span class="list-text">Conocenos</span>
                                 </a>
                             </li>
-                            <li>
+                           <!-- <li>
                                 <a href="/blogs">
                                     <span class="list-text">Blog</span>
                                 </a>
                                 <ul class="header-sub-menu">
                                     <li><a href="/blogs-details">Blog-details</a></li>
                                 </ul>
-                            </li>
-                            <li>
+                            </li>-->
+                            <!--<li>
                                 <a href="/user-profile">
                                     <span class="list-text">User Dashboard</span>
                                 </a>
-                            </li>
+                            </li>-->
                             <li>
                                 <a href="/contact-us">
-                                    <span class="list-text">Contact</span>
+                                    <span class="list-text">Contacto</span>
                                 </a>
                             </li>
                         </ul>
