@@ -686,11 +686,7 @@
                                 </svg>
                             </span>
                             <span class="list-text">
-<<<<<<< HEAD
                                 Categorias
-=======
-                                Todas las categorias
->>>>>>> 2a56ae130dbce44a85a84f3d3169cf62c712e98f
                             </span>
                         </button>
                         <div class="category-dropdown position-absolute" id="subMenu">
@@ -700,11 +696,6 @@
                                         <div class="dropdown-item">
                                             <div class="dropdown-list-item">
                                                 <span class="dropdown-img">
-<<<<<<< HEAD
-=======
-                                                    <img src="{{ asset('assets/images/homepage-one/category-img/dresses.webp') }}"
-                                                        alt="dress">
->>>>>>> 2a56ae130dbce44a85a84f3d3169cf62c712e98f
                                                 </span>
                                                 <span class="dropdown-text">
                                                     Fotografia
@@ -729,17 +720,9 @@
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-<<<<<<< HEAD
                                                 </span>
                                                 <span class="dropdown-text">
                                                     Sublimación
-=======
-                                                    <img src="{{ asset('assets/img/categorias/3d.png') }}"
-                                                        alt="Bags">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Impresion 3D
->>>>>>> 2a56ae130dbce44a85a84f3d3169cf62c712e98f
                                                 </span>
                                             </div>
                                             <div class="drop-down-list-icon">
@@ -761,18 +744,10 @@
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-<<<<<<< HEAD
                                             
                                                 </span>
                                                 <span class="dropdown-text">
                                                     Corte y grabado láser
-=======
-                                                    <img src="{{ asset('assets/images/homepage-one/category-img/sweaters.webp') }}"
-                                                        alt="sweaters">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Cursos
->>>>>>> 2a56ae130dbce44a85a84f3d3169cf62c712e98f
                                                 </span>
                                             </div>
                                             <div class="drop-down-list-icon">
@@ -794,19 +769,11 @@
                                         <div class="dropdown-item d-flex justify-content-between align-items-center">
                                             <div class="dropdown-list-item d-flex">
                                                 <span class="dropdown-img">
-<<<<<<< HEAD
                                             
                             
                                                 </span>
                                                 <span class="dropdown-text">
                                                     Cursos
-=======
-                                                    <img src="{{ asset('assets/images/homepage-one/category-img/shoes.webp') }}"
-                                                        alt="sweaters">
-                                                </span>
-                                                <span class="dropdown-text">
-                                                    Cortadora Laser
->>>>>>> 2a56ae130dbce44a85a84f3d3169cf62c712e98f
                                                 </span>
                                             </div>
                                             <div class="drop-down-list-icon">
