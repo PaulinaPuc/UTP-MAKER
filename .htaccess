@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+    # Evitar listar el directorio si no hay index.php
+    Options -MultiViews -Indexes
+    
+    RewriteEngine On
+
+    # Si tu proyecto está en una subcarpeta y el servidor pierde la ruta,
+    # DESCOMENTA la siguiente línea y pon el nombre de tu subcarpeta:
+    # RewriteBase /utp_market/
+
+    # Si el archivo o directorio existe físicamente, servirlo directamente
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    # Enviar todo lo demás al index.php de ESTE mismo directorio
+    RewriteRule ^ index.php [L]
+
+</IfModule>
